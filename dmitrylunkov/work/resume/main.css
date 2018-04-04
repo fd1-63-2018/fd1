@@ -1,0 +1,17 @@
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    font-size: 14px;
+    color: darkgreen;
+}
+
+div.image {
+    position: relative;
+    left: 30px;
+    width: 200px;
+    box-shadow: 5px 5px 25px grey;
+}
+
