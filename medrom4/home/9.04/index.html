@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DZ9.04</title>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="CSS/mystyle.css" type="text/css">
+</head>
+
+<body>
+    <form method="get" action="Vote.jsp">
+        <label>Имя:</label><input type="text" name="myname" placeholder="Введите имя" required>
+        <br>
+        <label>Фамилия:</label><input type="text" name="myfam" placeholder="Введите фамилию" required>
+        <br>
+        <label>Образование:</label>
+        <select name="raznobraz">
+                    <option value="1"></option>
+                    <option value="2">Базовое</option> 
+                    <option value="3">Среднее</option> 
+                    <option value="4">Высшее</option>
+                    <option value="5">Средне-специальное</option>
+                    <option value="6">Церковно-приходское</option> 
+                </select>
+        <br>
+        <label>Пол: </label>
+        <label>М: </label><input type="radio" name="pol" value="m">
+        <label>Ж: </label><input type="radio" name="pol" value="f">
+        <br>
+        <label>Согласен на обработку данных:</label>
+        <input type="checkbox" name="yes">
+        <br>
+        <button type="reset" class="radius">Rezet</button>
+        <button type="submit" class="radius">Submit</button>
+    </form>
+</body>
+
+</html>
