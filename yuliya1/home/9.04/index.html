@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <title>Form</title>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <form action="https://echo.htmlacademy.ru" method="get">
+        <div>
+            <label>Имя:</label>
+            <input required id="name" name="name" placeholder="Введите имя" />
+        </div>
+        <div>
+            <label>Фамилия:</label>
+            <input required id="surname" name="surname" placeholder="Введите фамилию" />
+        </div>
+        <div>
+            <label>Образование:</label>
+            <select class="education">
+                        <option value="none"> </option>
+                        <option value="secondary">Среднее</option>
+                        <option value="vocational">Средне-специальное</option>
+                        <option value="higher">Высшее</option>
+            </select>
+        </div>
+        <div>
+            <label>Пол:</label>
+            <label for="radio_button">М:</label>
+            <input type="radio" id="radio_button" name="gender" />
+            <label for="radio_button2">Ж:</label>
+            <input type="radio" id="radio_button2" name="gender" />
+        </div>
+        <div>
+            <label for="yes">Согласен на обработку личных данных:</label>
+            <input type="checkbox" id="yes" name="personal_date" />
+        </div>
+        <div>
+            <input type="reset" name="reset1" value="Reset" class="radius_button" />
+            <input type="submit" name="submit1" value="Submit" class="radius_button" />
+        </div>
+
+    </form>
+
+</body>
+
+</html>
