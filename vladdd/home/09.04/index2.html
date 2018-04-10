@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Формы и CSS </title>
+        <link rel="stylesheet" href="index2.css" type="text/css" />
+    </head>
+    <body>
+       <form action="" method="get">
+           <div>
+               <label  for="1">Имя:</label>
+               <input class="myclass"  placeholder="Введите Имя" name="name" required>
+           </div>
+           <div>
+               <label for="2">Фамилия:</label>
+               <input class="myclass" placeholder="Введите Фамилию" name="surname" required>
+            </div>
+            <div>
+                <label for="3">Образование:</label>
+                <select class="myclass2">
+                    <option></option>
+                    <option>Среднее</option>
+                    <option>Средне-специальное</option>
+                    <option>Высшее образование</option>
+                </select>
+            </div>
+            <div>
+               <label for="4">Пол:</label>
+               <label for="5">М:</label>
+               <input id="1" type="radio" name="pol" >
+               <label for="6">Ж:</label>
+               <input id="2" type="radio" name="pol" >
+            </div>
+            <div>
+               <label for="7">Согласен на обработку личных данных:</label>
+               <input id="3" type="checkbox" name="galka">
+            </div>
+            <div>
+               <button id="brd1" type="reset">Reset</button>
+               <input id="brd1" type="submit" value="Submit">
+            </div>
+       </form>
+    </body>
+</html>
