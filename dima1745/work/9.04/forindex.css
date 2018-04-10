@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+    }
+
+.form {
+    border:2px solid #003153;
+    background-color: #AFDAFC;
+    color: 	#003153;
+}
+.button {
+    background-color: #FBEC5D;
+    border-radius: 10px;
+}
+.button:hover {
+  background-color: #FFDC33;
+  color: #0A0A0A;
+}
