@@ -8,15 +8,15 @@
     <body>
         <form class="form" action="" method="get" autocomplete="on">
             <!--Работа с именем-->
-            <label for="#name">Имя:</label>
+            <label for="name">Имя:</label>
             <input id="name" type="text" name="guestname" required placeholder="Введите имя">
             <br>
             <!--Работа с фамилией-->
-            <label for="#surname">Фамилия:</label>
+            <label for="surname">Фамилия:</label>
             <input id="surname" type="text" name="guestsurname" required placeholder="Введите фамилию">
             <br>
             <!--Образование-->
-            <label for="#education">Образование:</label>
+            <label for="education">Образование:</label>
             <select id="eduction">
                 <option></option>
                 <option>Среднее базовое</option>
@@ -27,17 +27,16 @@
             </select>
             <br>
             <!--Пол-->
-            <label for="#sex">Пол:</label>
-            <div id="sex">
-                <label for="#man">Мужчина:</label>
+            <label for="guestsex">Пол:</label>
+                <label for="man">Мужчина:</label>
                 <input id="man" type="radio" name="guestsex" >
-                <label for="#woman">Женщина:</label>
+                <label for="woman">Женщина:</label>
                 <input id="woman" type="radio" name="guestsex" >
-                <label for="#nosex">Не поддерживаю нормы гендерной бинарности:</label>
+                <label for="nosex">Не поддерживаю нормы гендерной бинарности:</label>
                 <input id="nosex" type="radio" name="guestsex" checked >
-            </div>
+                <br>
             <!--Кнопки-->
-            <label for="#agreement">Согласен на обработку личных данных:</label>
+            <label for="agreement">Согласен на обработку личных данных:</label>
                 <input id="agreement" type="checkbox" name="guestagreement" required>
                 <br>
                 <button class="button" type="submit">submit</button>
