@@ -2,13 +2,9 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
     <title>Forma </title>
-    <style>
-        button {
-            border-radius: 30px/10px;
-        }
-    </style>
-
+    <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
 <body>
@@ -17,7 +13,8 @@
         <input type="text" name="name" placeholder="Введите имя" required><br>
         <label>Фамилия:</label>
         <input type="text" name="family" placeholder="Введите фамилию" required><br>
-        <label>Образование:</label><select>
+        <label>Образование:</label>
+        <select name="sel">
         <option></option>
         <option>Базовое</option>
         <option>Среднее</option>
@@ -30,10 +27,10 @@
         <label>Ж:</label>
         <input type="radio" name="pol" /><br>
         <label>Согласен на обработку личных данных:</label>
-        <input type="checkbox" name="" /><br>
+        <input type="checkbox" name="check" /><br>
 
         <button type="reset">Reset</button>
-        <button>Submit</button>
+        <input type="submit" name="sent" value="Submit" border-radius: 30px>
 
     </form>
 </body>
