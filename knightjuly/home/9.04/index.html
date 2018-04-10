@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <link rel="stylesheet" type="text/css" href="/knightjuly/home/9.04/main.css">
+ <title>FORM</title>
+</head>
+
+<body>
+ <form action="" method="get" action="mailto:buba@tut.by" enctype="text/plain">
+  <fieldset>
+   <legend>Форма ввода&#58;</legend>
+   <div>
+    <label for="#name">Имя&#58;</label>
+    <input autocomplete requred id="name" placeholder="Введите имя" type="text" name="Имя">
+   </div>
+   <div>
+    <label for="#surname">Фамилия&#58;</label>
+    <input autocomplete requred id="surname" placeholder="Введите фамилию" type="text" name="Фамилия">
+   </div>
+   <div>
+    <label for="#education">Образование&#58;</label>
+    <select id="education">
+     <optgroup label="Школа">
+      <option value="Школа Монстров">Школа Монстров</option>
+      <option value="Школа Танцев">Школа Танцев</option>
+      <option value="Школа Жизни">Школа Жизни</option>
+      <option value="Общеобразовательная школа">Общеобразовательная школа</option>
+     </optgroup>
+      <optgroup label="Академия">
+      <option value="Академия Ситхов">Академия Ситхов на Коррибане</option>
+      <option value="Академия МВД РБ">Академия МВД РБ</option>
+      <option value="Академия Принцесс">Академия Принцесс</option>
+      <option value="IT-Academy">IT-Academy</option>
+     </optgroup>
+    </select>
+    </div>
+    <div>
+     <div>Пол&#58;</div>
+     <label for="#sex_male">Мужской</label>
+     <input id="sex_male" type="radio" name="sex" value="male" checked/>
+     <label for="#sex_female">Женский</label>
+     <input id="sex_female" type="radio" name="sex" value="female"/>
+    </div>
+    <div>
+     <label for='#agree'>Согласие на обработку персональных данных</label>
+     <input requred id='agree' type='checkbox' checked>
+    </div>
+    <div>
+     <input class='button' type="submit" name="submit" value="Отправить">
+     <input class='button' type="reset" name='reset' value="Сбросить">
+    </div>
+    </fieldset>
+    </form>
+</body>
+
+</html>
