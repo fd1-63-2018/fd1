@@ -1,9 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> </title>
-    </head>
-    <body>
 
-    </body>
+<head>
+    <title>Forma </title>
+    <style>
+        button {
+            border-radius: 30px/10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form method="get">
+        <label>Имя:</label>
+        <input type="text" name="name" placeholder="Введите имя" required><br>
+        <label>Фамилия:</label>
+        <input type="text" name="family" placeholder="Введите фамилию" required><br>
+        <label>Образование:</label><select>
+        <option></option>
+        <option>Базовое</option>
+        <option>Среднее</option>
+        <option>Средне&ndash;специальное</option>
+        <option>Высшее</option>
+    </select><br>
+        <label>Пол:</label>
+        <label>М:</label>
+        <input type="radio" name="pol">
+        <label>Ж:</label>
+        <input type="radio" name="pol" /><br>
+        <label>Согласен на обработку личных данных:</label>
+        <input type="checkbox" name="" /><br>
+
+        <button type="reset">Reset</button>
+        <button>Submit</button>
+
+    </form>
+</body>
+
 </html>
