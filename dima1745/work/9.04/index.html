@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Форма</title>
+        <link rel="stylesheet" href="forindex.css">
+    </head>
+    <body>
+        <form class="form" action="" method="get" autocomplete="on">
+            <!--Работа с именем-->
+            <label for="name">Имя:</label>
+            <input id="name" type="text" name="guestname" required placeholder="Введите имя">
+            <br>
+            <!--Работа с фамилией-->
+            <label for="surname">Фамилия:</label>
+            <input id="surname" type="text" name="guestsurname" required placeholder="Введите фамилию">
+            <br>
+            <!--Образование-->
+            <label for="education">Образование:</label>
+            <select id="eduction">
+                <option></option>
+                <option>Среднее базовое</option>
+                <option>Среднее полное</option>
+                <option>Среднее специальное</option>
+                <option>Высшее</option>
+                <option>Магистратура+</option>
+            </select>
+            <br>
+            <!--Пол-->
+            <label>Пол:</label>
+            <label>Мужчина:<input type="radio" name="guestsex"></label>
+            <label>Женщина:<input  type="radio" name="guestsex" ></label>
+            <label>Не поддерживаю нормы гендерной бинарности:
+                <input type="radio" name="guestsex" checked >
+            </label>
+            <br>
+            <!--Кнопки-->
+            <label for="agreement">Согласен на обработку личных данных:</label>
+            <input id="agreement" type="checkbox" name="guestagreement" required>
+            <br>
+            <button class="button" type="submit">submit</button>
+            <button class="button" type="reset">reset</button>
+        </form>
+    </body>
+</html>
