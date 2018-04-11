@@ -1,0 +1,40 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Forms</title>
+        <meta charset='utf-8'>
+        <link rel='stylesheet' href='index.css'>
+    </head>
+    <body>
+        <form method='get'>
+            <div> 
+                <label class='name'>Name:</label>
+                <input type='text' placeholder='enter name*' required><br>
+                <label class='surname'>Surname:</label>
+                <input type='text' placeholder='enter surname*' required><br>
+                <label>Education:</label>
+                    <select>
+                        <option>Asociate Bachelor's Degree</option>
+                        <option>Bachelor's Degree</option> 
+                        <option>Master's Degree</option> 
+                        <option>Doctorate or Professional Degree</option>
+                    </select>
+                <div> 
+                <label>Gender:</label>
+                    <label for="male">Male</label>
+                    <input id="male" type="radio" name="gender">
+                    <label for="female">Female</label>
+                    <input id="female" type="radio" name="gender">
+                </div>
+                <div>
+                    <label>I agree to have my personal data processed:</label>
+                    <input type="checkbox">
+                </div>
+                <div>
+                    <button class='button1' type='reset'>Reset</button>
+                    <button class='button2' type='submit'>Submit</button>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
