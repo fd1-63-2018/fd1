@@ -1,0 +1,36 @@
+.form {
+    width: 350px;
+    height: 250px;
+    background-color: #427ac2;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+}
+
+form label {
+    color: #ffffff;
+}
+
+input[type='text'], select {
+    position: absolute;
+    left: 120px;
+}
+
+.button {
+    padding: 12px;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #427ac2;
+    border: 1px solid #ffffff;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.button:hover {
+    color: #427ac2;
+    background-color: #ffffff;
+}
+
+.button:focus {
+    outline: none;
+}
+
