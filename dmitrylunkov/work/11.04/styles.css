@@ -1,0 +1,12 @@
+.grad1 {
+    height: 150px;
+    background: linear-gradient(to right, #f00, #fa0, #ff0, #0f0, #0af, #00f, #f0f);
+}
+
+.grad2 {
+    margin-top: 25px;
+    height: 150px;
+    background: linear-gradient(to right, #f00 13.99%, #fa0 14%, #fa0 27.99%, #ff0 28%, #ff0 41.99%, #0f0 42%, #0f0 55.99%, #0af 56%, #0af 69.99%, #00f 70%, #00f 83.99%, #f0f 84%);
+}
+
+
