@@ -1,0 +1,18 @@
+body,
+input,
+select {
+    background: #EEEEF2;
+
+}
+
+form {
+    max-width: 500px;
+    margin: 200px auto;
+}
+
+button {
+    width: 70px;
+    margin: 5px;
+    border-radius: 60px/20px;
+    background: #BABAC2;
+}

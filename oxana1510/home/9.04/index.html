@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,35 +8,33 @@
 </head>
 
 <body>
-    <div>
-        <form method="get" action="#">
-            <ul>
+    <form method="get" action="#">
 
-                <li><label for="name">Имя:</label>
-                    <input type="text" name="name" placeholder="Введите имя" required></li>
-                <li><label for="surname">Фамилия</label>
-                    <input type="text" name="surname" placeholder="Введите фамилию" required></li>
+        <label for="name">Имя:</label>
+        <input id="name" type="text" name="name" placeholder="Введите имя" required><br>
+        <label for="surname">Фамилия</label>
+        <input id="surname" type="text" name="surname" placeholder="Введите фамилию" required><br>
 
-                <label for="education">Образование:</label>
-                <select>
+        <label for="education">Образование:</label>
+        <select name="education">
 				<option disabled selected></option>
-				<option>Среднее</option>
-				<option>Среднее специальное</option>
-				<option>Высшее</option>
-				<option>Без образования</option>
-			</select></li>
-                <li><span> Пол:</span>
-                    <label for="m">М</label>
-                    <input type="radio" id="m" name="radio">
-                    <label for="m">Ж</label>
-                    <input type="radio" id="m" name="radio"></li>
-                <li><label>Согласен на обработку данных:</label>
-                    <input type="checkbox" name="button"></li>
-                <li><button type="reset">Reset</button>
-                    <button type="submit">Submit</button></li>
+				<option value="mid">Среднее</option>
+				<option value="special">Среднее специальное</option>
+				<option value="high">Высшее</option>
+				<option value="no">Без образования</option>
+			</select><br>
+        <span> Пол:</span>
+        <label for="m">М</label>
+        <input type="radio" id="m" name="radio">
+        <label for="m">Ж</label>
+        <input type="radio" id="m" name="radio"><br>
+        <label for="check">Согласен на обработку данных:</label>
+        <input id="check" type="checkbox" name="button"><br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
 
-        </form>
-        </ul>
+    </form>
+
 
 </body>
 
