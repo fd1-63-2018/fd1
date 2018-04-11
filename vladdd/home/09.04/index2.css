@@ -1,0 +1,20 @@
+ .myclass {
+     color:#808080;
+     background-color:#F5F5F5;} 
+#brd1 {
+     border-width:2px;
+     border-radius: 50%;}
+ .myclass2 {
+     background-color:#DCDCDC;}
+ body {
+     background-color:#F5F5F5;}
+ form {
+     width: 300px;
+    height: 200px;
+     position: absolute;
+    top: 0;
+    right: 0;
+     bottom: 0;
+     left: 0;
+     margin: auto;
+     }
