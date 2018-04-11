@@ -1,3 +1,9 @@
 .but {
-    border-radius: 30px;
+    border-radius: 100%;
+}
+div {
+    width: 300px;	height: 300x; /* Размеры */
+    background: #fc0; /* Цвет фона */
+    outline: 2px solid #000; /* Чёрная рамка */
+    
 }
