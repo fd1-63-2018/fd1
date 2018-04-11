@@ -1,0 +1,9 @@
+.First {
+    background:linear-gradient(to right, #F00,#FA0,#FF0,#0F0,#0AF,#00F,#F0F);
+    height: 100px;
+}
+.Second {
+    background:linear-gradient(to right, #F00 14%, #FA0 14%, 26%, #FF0 26%, 
+    39%, #0F0 39%, 52%, #0AF 52%, 65%, #00F 65%, 80%,#F0F 80%);
+    height: 100px;
+}
