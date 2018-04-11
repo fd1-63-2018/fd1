@@ -1,0 +1,13 @@
+div {
+    height: 50px;
+    width: 400px;
+    background-position: left top;
+    background-size: 100px 100px;}
+    
+.ab {
+    background: linear-gradient(to right, white 50px, black 50px, black 100px);
+    background-size: 100px 100px;}
+
+.ba {
+    background: linear-gradient(to right, black 50px, white 50px, white 100px);
+    background-size: 100px 100px;}
