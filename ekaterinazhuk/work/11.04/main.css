@@ -1,0 +1,11 @@
+.firstGrad {
+    background-image: linear-gradient( to right, #FF0000 14%, #FF4500 14%, #FF4500 28%, 
+    #FFFF00 28%,  #FFFF00 42%,  #008000 42%, #008000 56%, #00BFFF 56%, #00BFFF 71%, 
+     #0000FF 71%, #0000FF 86%, #9400D3 86%);
+    height: 200px;
+}
+.secGrad {
+height: 200px;
+background-image: linear-gradient(to right, #FF0000,  #FF4500, #FFFF00, #008000, #00BFFF,
+#0000FF, #9400D3);
+}
