@@ -1,0 +1,15 @@
+.odd {
+    background: linear-gradient(to right, #000 12.49%, #fff 12.50%, #fff 24.99%, #000 25%, #000 37.49%, #fff 37.50%, #fff 49.99%,
+    #000 50%, #000 62.49%, #fff 62.50%, #fff 74.99%, #000 75%, #000 87.49%, #fff 87.50%);
+}
+
+.even {
+    background: linear-gradient(to right, #fff 12.49%, #000 12.50%, #000 24.99%, #fff 25%, #fff 37.49%, #000 37.50%, #000 49.99%,
+    #fff 50%, #fff 62.49%, #000 62.50%, #000 74.99%, #fff 75%, #fff 87.49%, #000 87.50%);
+}
+
+div {
+    width: 96vmin;
+    height: 12vmin;
+    border: 1px solid black;
+}
