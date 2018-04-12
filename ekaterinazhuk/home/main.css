@@ -1,0 +1,19 @@
+ .container{
+     width: 64vw;
+     border: 4px double black;
+ }
+ .chess1,
+ .chess2{
+     width: 64vw;
+     height: 8vw;
+}
+.chess1{
+     background-image: linear-gradient(to right, #000, #000 12.5%, #FFF 12.5%, #FFF 25%, #000 25%,
+     #000 37.5%, #FFF 37.5%, #FFF 50%, #000 50%, #000 62.5%, #FFF 62.5%, #FFF 75%, #000 75%, #000 87.5%, #FFF 87.5%, #FFF 100%); 
+ }
+ .chess2{
+     background-image: linear-gradient(to right,  #FFF, #FFF 12.5%, #000 12.5%, #000 25%, #FFF 25%,
+     #FFF 37.5%, #000 37.5%, #000 50%, #FFF 50%, #FFF 62.5%, #000 62.5%, #000 75%, #FFF 75%, #FFF 87.5%, #000 87.5%, #000 100%);
+ }
+ 
+  
