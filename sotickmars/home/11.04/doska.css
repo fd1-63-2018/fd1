@@ -1,0 +1,17 @@
+.one, .two{
+    width: 80vh;
+    height:8vh;
+    border:2px solid #000;
+    }
+
+.one {
+    background:linear-gradient(to right, #000,#000 12.5%, #fff 12.5%, #fff 25%, 
+    #000 25%, #000 37.5%, #fff 37.5%, #fff 50%, #000 50%, #000 62.5%, #fff 62.5%,
+    #fff 75%, #000 75%, #000 87.5%, #fff 87.5%, #fff 100% );
+    }
+
+.two {
+    background:linear-gradient(to right, #fff,#fff 12.5%, #000 12.5%, #000 25%, 
+    #fff 25%, #fff 37.5%, #000 37.5%, #000 50%, #fff 50%, #fff 62.5%, #000 62.5%,
+    #000 75%, #fff 75%, #fff 87.5%, #000 87.5%, #000 100% );
+    }
