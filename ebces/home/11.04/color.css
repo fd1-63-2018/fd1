@@ -1,0 +1,15 @@
+.right {
+    background: linear-gradient(to right, #000 12.5%, #fff 12.5%, #fff 25%, #000 25%,
+    #000 37.5%, #fff 37.5%, #fff 50%, #000 50%,
+    #000 62.5%, #fff 62.5%, #fff 75%, #000 75%, #000 87.5%, #fff 87.5%);
+    height: 10vmin;
+    width: 100vmin;
+}
+
+.left {
+    background: linear-gradient(to left, #000 12.5%, #fff 12.5%, #fff 25%, #000 25%,
+    #000 37.5%, #fff 37.5%, #fff 50%, #000 50%,
+    #000 62.5%, #fff 62.5%, #fff 75%, #000 75%, #000 87.5%, #fff 87.5%);
+    height: 10vmin;
+    width: 100vmin;
+}

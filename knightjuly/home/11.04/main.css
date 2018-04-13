@@ -1,0 +1,21 @@
+body {
+    height: 100%;
+}
+.even {
+
+width: 80vmin;
+height: 10vmin;
+    background-image: linear-gradient(to right,black 12.5%, white 12.5%, 25%, black 25%, 37.5%, white 37.5%, 50%, black 50%, 62.5%, white 62.5%, 75%, black 75%, 87.5%,white 87.5%);
+}
+.odd {
+
+width: 80vmin;
+height: 10vmin;
+    background-image: linear-gradient(to left,black 12.5%, white 12.5%, 25%, black 25%, 37.5%, white 37.5%, 50%, black 50%, 62.5%, white 62.5%, 75%, black 75%, 87.5%,white 87.5%);
+}
+.checker {
+    width: 80vmin;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}

@@ -1,0 +1,19 @@
+div {
+    border: solid #8258FA 1px;
+    background: linear-gradient(to right bottom, #FF0000, #FE642E, #F3F781, #82FA58, #58FAF4, #8181F7, #9A2EFE);
+    padding: 50px;
+    width: 50%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+p {
+    border: solid #8258FA 1px;
+    background: linear-gradient(to right, #FF0000 14%, #FE642E 14%, 28%, #F3F781 28%, 42%, #82FA58 42%, 56%, #58FAF4 56%, 70%, #8181F7 70%, 82%, #9A2EFE 82%);
+    padding: 50px; 
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
