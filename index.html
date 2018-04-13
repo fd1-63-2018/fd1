@@ -1,40 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css" type="text/css" />
-</head>
-<body>
-    <form action='#' method='GET'>
-        <label for="">Имя: </label>
-            <input type="text" required name="" placeholder='Введите имя'/> 
-            <br>
-        <label for="">Фамилия: </label>
-            <input type="text" required name='' placeholder='Введите фамилию'/> 
-            <br>
-        <label for="">Образование: </label>
-            <select name="" id="">
-                <option></option>
-                <option>Высшее</option>
-                <option>Средне-специальное</option>
-                <option>Базовое</option>
-            </select> 
-            <br>
-            <label for="man">Пол: </label>
-                <label for="">M: </label>
-                    <input id='man' type="radio" name="gender"/>
-                <label for="woman">Ж: </label>    
-                    <input id='woman' type="radio" name="gender"/> 
-                    <br>
-            <label for="">Согласен на обработку личных данных: </label>
-                <input type="checkbox" name=""/>
-                <br>
-                <button type='reset' class='button'>Reset</button>
-                <button type='submit' class='button'>Submit</button>
-    </form>
-    
-</body>
+<!Doctype html>
+<html>
+    <head>
+        <title>Forms</title>
+        <meta charset='utf-8'>
+        <link rel='stylesheet' href='styles.css'>
+    </head>
+    <body>
+        <form method='get'>
+            <div> 
+                <label class='name'>Name:</label>
+                <input type='text' placeholder='enter name*' required><br>
+                <label class='surname'>Surname:</label>
+                <input type='text' placeholder='enter surname*' required><br>
+                <label>Education:</label>
+                    <select>
+                        <option>Asociate Bachelor's Degree</option>
+                        <option>Bachelor's Degree</option> 
+                        <option>Master's Degree</option> 
+                        <option>Doctorate or Professional Degree</option>
+                    </select>
+                <div> 
+                <label>Gender:</label>
+                    <label for="male">Male</label>
+                    <input id="male" type="radio" name="gender">
+                    <label for="female">Female</label>
+                    <input id="female" type="radio" name="gender">
+                </div>
+                <div>
+                    <label>I agree to have my personal data processed:</label>
+                    <input type="checkbox">
+                </div>
+                <div>
+                    <button class='button1' type='reset'>Reset</button>
+                    <button class='button2' type='submit'>Submit</button>
+                </div>
+            </div>
+        </form>
+    </body>
 </html>
