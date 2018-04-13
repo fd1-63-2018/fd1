@@ -1,0 +1,27 @@
+.min_width {
+    width: 100px;
+    min-width: 200px;
+    background: red;
+}
+
+.max_width {
+    width: 100px;
+    max-width: 50px;
+    background: yellow;
+}
+
+.width {
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+    width: 100px;
+    min-width: 200px;
+    max-width: 50px;
+    background: blue;
+}
+
+.min_max {
+    min-width: 200px;
+    max-width: 50px;
+    background: orange;
+}
