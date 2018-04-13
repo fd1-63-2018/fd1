@@ -1,0 +1,13 @@
+div {
+    height: 50px;
+    width: 400px;
+    background-position: left top;
+}
+
+.classa {
+    background: linear-gradient(to right, white, 50px, black 50px, 100px, white 100px, 150px, black 150px, 200px, white 200px, 250px, black 250px, 300px, white 300px, 350px, black 350px);
+}
+
+.classb {
+    background: linear-gradient(to right, black, 50px, white 50px, 100px, black 100px, 150px, white 150px, 200px, black 200px, 250px, white 250px, 300px, black 300px, 350px, white 350px);
+}
