@@ -1,0 +1,36 @@
+div {
+    height: 100px;
+
+}
+
+.one {
+    background-color: #FE6F5E;
+    width: 100px;
+    min-width: 200px;
+
+}
+
+.two {
+    background-color: #FDE910;
+    width: 100px;
+    max-width: 50px;
+   
+
+}
+
+.three {
+    background-color: #9966CC;
+    width: 100px;
+    min-width: 200px;
+    max-width: 50px;
+
+
+}
+
+.four {
+    background-color: #66FF00;
+    min-width: 200px;
+    max-width: 50px;
+
+
+}
