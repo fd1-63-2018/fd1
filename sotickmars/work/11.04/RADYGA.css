@@ -1,0 +1,10 @@
+.radyga {
+         height: 100px;    
+         background: linear-gradient(to right,#F00,#fa0,#ff0,#0f0,#0af,#00f,#f0f);
+     }
+.line {
+         height: 100px;   
+         background: linear-gradient(to right,#F00,#F00 14%,#fa0 14%, #fa0 28%,#ff0 28%,
+         #ff0 42%, #0f0 42%, #0f0 58%,#0af 58%, #0af 72%, #00f 72%, #00f 86%,#f0f 86%, #f0f 100%);
+         
+}
