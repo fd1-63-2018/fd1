@@ -1,0 +1,10 @@
+.black{width: 40vmax; height: 5vmax; 
+    background:linear-gradient(to right,#000000 5vmax ,#ffffff 5vmax, 10vmax,
+    #000000 10vmax, 15vmax ,#ffffff 15vmax,20vmax,#000000 20vmax,25vmax ,
+    #ffffff 25vmax,30vmax,#000000 30vmax, 35vmax,#ffffff 35vmax);
+}
+.white{width: 40vmax; height: 5vmax; 
+    background:linear-gradient(to right,#ffffff 5vmax ,#000000 5vmax, 10vmax,
+    #ffffff 10vmax, 15vmax ,#000000 15vmax,20vmax,#ffffff 20vmax,25vmax ,
+    #000000 25vmax,30vmax,#ffffff 30vmax, 35vmax,#000000 35vmax);
+}
