@@ -1,0 +1,21 @@
+.one {
+    background: linear-gradient(to right, #000 12.5%, #FFF 12.5%, 25%, #000 25%, 37.5%, #FFF 37.5%, 50%, #000 50%, 62.5%, #FFF 62.5%, 75%, #000 75%, 87.5%, #FFF 87.5%);
+}
+
+.two {
+    background: linear-gradient(to right, #FFF 12.5%, #000 12.5%, 25%, #FFF 25%, 37.5%, #000 37.5%, 50%, #FFF 50%, 62.5%, #000 62.5%, 75%, #FFF 75%, 87.5%, #000 87.5%);
+}
+
+div {
+    border: solid 0.5px black;
+    width: 64vmin;
+    height: 8vmin;
+    max-width: 100%;
+    max-height: 100%; 
+}
+
+
+
+
+
+
