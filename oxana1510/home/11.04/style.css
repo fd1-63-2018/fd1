@@ -1,0 +1,15 @@
+
+.blackwhite {
+    height: 50px;
+    width: 400px;
+    background: linear-gradient(to right, #FFF, 12.5%, #000 12.5%, 25%, #FFF 25%, 37.5%, #000 37.5%, 50%, #FFF 50%, 62.5%, #000 62.5%, 75%, #FFF 75%, 87.5%, #000 87.5%);
+
+}
+
+.whiteblack {
+    height: 50px;
+    width: 400px;
+    background: linear-gradient(to right, #000, 12.5%, #FFF 12.5%, 25%, #000 25%, 37.5%, #FFF 37.5%, 50%, #000 50%, 62.5%, #FFF 62.5%, 75%, #000 75%, 87.5%, #FFF 87.5%);
+    background-position: right;
+
+}

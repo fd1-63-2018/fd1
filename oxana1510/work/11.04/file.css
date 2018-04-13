@@ -1,0 +1,10 @@
+
+.colorgradient {    height: 200px;
+background: linear-gradient(to right, #E82C0C, #FF530D, #FFDE0D, #066118, #0C9EE8, #063575, #770ACF);
+    
+}
+
+.colorline {    height: 200px;
+background-image: linear-gradient(to right, #E82C0C, 14%, #FF530D 14%, 28%, #FFDE0D 28%, 42%, #066118 42%, 56%, #0C9EE8 56%, 70%, #063575 70%, 85%, #770ACF 85% );
+    
+}
