@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Anketa</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS.css" type="text/css">
+</head>
+
+<body>
+    <form action="https://preview.c9users.io/sotickmars/fd1/sotickmars/home/9.04/" metod="get" name="FIO" autocomplete="on">
+        <div>
+            <label for="name">Имя:</label>
+            <input type="text" name="name" placeholder="Введите имя" requred class="fio" id="name"><br>
+            <label for="family">Фамилия:</label>
+            <input type="text" name="family" placeholder="Введите фамилию" requred class="fio" id="family">
+        </div>
+
+        <div>
+            <label for="obraz">Образование:</label>
+            <select name="obrazovanie" class="gradient">
+                <option value="Pynkt Menu1"></option>
+                <option value="Pynkt Menu2"></option>
+                <option value="Pynkt Menu3"></option>
+            </select>
+        </div>
+
+        <div>
+            <label>Пол:</label>
+            <label for="Men">М:</label>
+            <input type="radio" name="Men" value="M" id="Men">
+            <label for="women">Ж:</label>
+            <input type="radio" name="Men" value="F" id="women"><br>
+            <label for="soglasien">Согласен на обработку личных данных:</label>
+            <input type="checkbox" name="soglasie" id="soglasien">
+        </div>
+
+        <div>
+            <input type="reset" value="Reset" class="reset">
+            <button type="post" class="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
