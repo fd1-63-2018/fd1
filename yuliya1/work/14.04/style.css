@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+.chess>div {
+  float: left;
+  outline: 1px solid black;
+  width: 12.5vmin;
+}
+
+.chess>div>div {
+  height: 12.5vmin;
+}
+
+.painted1 {
+  background-color: black;
+}
+
+/* второй сбособ решения
+.chess_desk>div:nth-of-type(2n)>div:nth-of-type(2n-1) {
+  background-color: black;
+}
+*/
+
+/*
+.chess_desk>div:nth-of-type(2n-1)>div:nth-of-type(2n) {
+  background-color: black;
+}
+*/
