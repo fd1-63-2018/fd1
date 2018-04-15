@@ -1,0 +1,104 @@
+.table {
+    width: 96vmin;
+}
+
+.table>div>div {
+    width: 12vmin;
+    height: 12vmin;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    float: left;
+}
+
+.table div:nth-of-type(2n)>div:nth-of-type(2n-1) {
+    background-color: #8b4513;
+
+}
+
+.table div:nth-of-type(2n-1)>div:nth-of-type(2n) {
+    background-color: #8b4513;
+}
+
+.table div :nth-of-type(2) {
+    background-image: url(figyrki/peshka-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.table div :nth-of-type(7) {
+    background-image: url(figyrki/peshka-black.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+._1 :nth-of-type(1),
+._8 :nth-of-type(1) {
+    background-image: url(figyrki/ladia-w.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+._2 :nth-of-type(1),
+._7 :nth-of-type(1) {
+    background-image: url(figyrki/kon-w.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+._3 :nth-of-type(1),
+._6 :nth-of-type(1) {
+    background-image: url(figyrki/slon-w.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+._4 :nth-of-type(1) {
+    background-image: url(figyrki/king-w.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+._5 :nth-of-type(1) {
+    background-image: url(figyrki/ferz-w.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+._1 :nth-of-type(8),
+._8 :nth-of-type(8) {
+    background-image: url(figyrki/ladia-b.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+._2 :nth-of-type(8),
+._7 :nth-of-type(8) {
+    background-image: url(figyrki/kon-b.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+._3 :nth-of-type(8),
+._6 :nth-of-type(8) {
+    background-image: url(figyrki/slon-b.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+._4 :nth-of-type(8) {
+    background-image: url(figyrki/king-b.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+._5 :nth-of-type(8) {
+    background-image: url(figyrki/ferz-b.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
