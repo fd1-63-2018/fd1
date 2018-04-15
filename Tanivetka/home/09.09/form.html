@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Форма</title>
+    <meta charset='utf-8'>
+    <link rel='stylesheet' href='form.css'>
+    <style>
+        button {
+            border-radius: 50px/15px;
+            width: 100px;
+            height: 30px;
+            background: radial-gradient(circle, #0f0, #090);
+        }
+    </style>
+</head>
+
+<body>
+    <form method=post action='http://fe.it-academy.by/TestForm.php'>
+        <p>Фамилия: <input type='text' name='surname' required></p>
+        <p>Имя: <input type='text' name='name' required></p>
+        <p><label for="my-radio">Пол: </label><br> женский
+            <input id="my-radio" name="radio" type="radio" value="женский"><br> 
+            мужской <input name="radio" type="radio" value="мужской"></p>
+        <p><label for="my-select">Образование: </label>
+            <select id="my-select" size="1" name="obraz" required>
+<option selected disabled>выберите вариант</option>
+<option value="1">среднее</option>
+<option value="2">среднее специальное</option>
+<option value="3">среднее техническое</option>
+<option value="4">высшее</option>
+</select></p>
+        <p>Согласен с обработкой личных даных:
+            <input type='checkbox' name='agree' checked></p>
+        <button type='submit' value='Регистрация'>Отправить</button>
+        <button type='reset' value='Сброс'>Очистить</button>
+    </form>
+
+</body>
+
+</html>
