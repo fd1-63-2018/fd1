@@ -1,0 +1,23 @@
+.table>div>div {
+    width: 12.5vmin;
+    height: 12.5vmin;
+}
+
+.colorblack {background-color: black;
+    
+}
+.colorwhite {background-color: black;
+}
+.first {
+    float: left;
+}
+.second {
+    float: left;
+}
+body{
+    margin: 0;
+}
+.table {
+    float: left;
+    outline: 2px solid black;
+}
