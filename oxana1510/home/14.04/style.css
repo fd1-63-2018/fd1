@@ -1,0 +1,140 @@
+	body {
+		margin: 0;
+	}
+
+	div {
+		max-width: 400px;
+		outline: 1px solid #008060;
+	}
+
+
+	.chessTable>div {
+		height: 50px;
+	}
+
+	.chessTable>div>div {
+		width: 50px;
+		height: 50px;
+		float: left;
+	}
+
+
+	.chessTable>div:nth-of-type(2n-1)>div:nth-of-type(2n) {
+		background-color: #008060;
+	}
+
+	.chessTable>div:nth-of-type(2n)>div:nth-of-type(2n-1) {
+		background-color: #008060;
+	}
+
+	.chessTable>div:nth-of-type(2n) {
+		background-color: #b3ffec;
+	}
+
+	.chessTable>div:nth-of-type(2n-1) {
+		background-color: #b3ffec;
+	}
+
+	.boatwhite {
+		background-image: url(chess.png);
+		background-repeat: no-repeat;
+		background-position: -106px -50px;
+		width: 46px;
+		height: 46px;
+	}
+
+	.horsewhite {
+		background-image: url(chess.png);
+		background-repeat: no-repeat;
+		background-position: -212px -50px;
+		width: 46px;
+		height: 46px;
+	}
+
+	.elephantwhite {
+		background-image: url(chess.png);
+		background-repeat: no-repeat;
+		background-position: -156px -50px;
+		width: 46px;
+		height: 46px;
+	}
+
+	.kingwhite {
+		background-image: url(chess.png);
+		background-repeat: no-repeat;
+		background-position: right -257px top -50px;
+		width: 46px;
+		height: 46px;
+	}
+
+	.queenwhite {
+		background-image: url(chess.png);
+		background-repeat: no-repeat;
+		background-position: -47px -50px;
+		width: 46px;
+		height: 46px;
+
+	}
+
+	.pawnwhite {
+		background-image: url(chess.png);
+		background-repeat: no-repeat;
+		background-position: -262px -50px;
+		width: 46px;
+		height: 46px;
+
+	}
+
+	.boatblack {
+		background-image: url(chess.png);
+		background-repeat: no-repeat;
+		background-position: -100px 0;
+		width: 46px;
+		height: 46px;
+
+	}
+
+	.horseblack {
+		background-image: url(chess.png);
+		background-repeat: no-repeat;
+		background-position: -208px 0;
+		width: 46px;
+		height: 46px;
+
+	}
+
+	.elepfantblack {
+		background-image: url(chess.png);
+		background-repeat: no-repeat;
+		background-position: -156px 0;
+		width: 46px;
+		height: 46px;
+
+	}
+
+	.kingblack {
+		background-image: url(chess.png);
+		background-repeat: no-repeat;
+		background-position: right -258px top 0;
+		width: 46px;
+		height: 46px;
+
+	}
+
+	.queenblack {
+		background-image: url(chess.png);
+		background-repeat: no-repeat;
+		background-position: -46px 0;
+		width: 46px;
+		height: 46px;
+
+	}
+
+	.pawnblack {
+		background-image: url(chess.png);
+		background-repeat: no-repeat;
+		background-position: -260px 0;
+		width: 46px;
+		height: 46px;
+
+	}
