@@ -1,0 +1,111 @@
+body {
+    margin: 0
+}
+
+.board>div>div {
+    float: left;
+    height: 12.5vmin;
+    width: 12.5vmin;
+}
+
+.board>div:nth-of-type(2n-1)>div:nth-of-type(2n) {
+    background-color: #427af4;
+}
+
+.board>div:nth-of-type(2n)>div:nth-of-type(2n-1) {
+    background-color: #427af4;
+}
+
+.board {
+    height: 100vmin;
+    width: 100vmin;
+    outline: 2px solid #4147f4;
+}
+
+/*Фигуры*/
+
+.board>div:nth-child(1)>div,
+.board>div:nth-child(2)>div,
+.board>div:nth-child(7)>div,
+.board>div:nth-child(8)>div {
+    background-image: url("forindex.png");
+    background-repeat: no-repeat;
+    background-size: 75vmin;
+    width: 12.5vmin;
+    height: 12.5vmin;
+}
+
+/*черные фигуры*/
+
+/*Слон*/
+
+.board>div:nth-child(1)>div:nth-child(7n+1) {
+    background-position: 40% 0%;
+}
+
+/*Конь*/
+
+.board>div:nth-child(1)>div:nth-child(5n+2) {
+    background-position: 83% 0%;
+}
+
+/*Ладья*/
+
+.board>div:nth-child(1)>div:nth-child(3n+3) {
+    background-position: 61% 0%;
+}
+
+/*Королева*/
+
+.board>div:nth-child(1)>div:nth-child(4) {
+    background-position: 19% 0%;
+}
+
+/*Король*/
+
+.board>div:nth-child(1)>div:nth-child(5) {
+    background-position: -2% 0%;
+}
+
+/*Пешки*/
+
+.board>div:nth-child(2)>div {
+    background-position: 104% 0%;
+}
+
+/*белые фигуры*/
+/*Слон*/
+
+.board>div:nth-child(8)>div:nth-child(7n+1) {
+    background-position: 40% 110%;
+}
+
+/*Конь*/
+
+.board>div:nth-child(8)>div:nth-child(5n+2) {
+    background-position: 83% 110%;
+}
+
+/*Ладья*/
+
+.board>div:nth-child(8)>div:nth-child(3n+3) {
+    background-position: 61% 110%;
+}
+
+/*Королева*/
+
+.board>div:nth-child(8)>div:nth-child(4) {
+    background-position: 19% 110%;
+}
+
+/*Король*/
+
+.board>div:nth-child(8)>div:nth-child(5) {
+    background-position: -2% 110%;
+}
+
+/*Пешки*/
+
+.board>div:nth-child(7)>div {
+    background-position: 104% 110%;
+}
