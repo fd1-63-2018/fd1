@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+}
+
+
+.one>div{
+    float: left;
+    width: 12.5vmin;
+    outline: 1px solid grey;
+    
+}
+
+.one>div>div{
+     height: 12.5vmin;
+}
+
+
+.even>div:nth-child(even){
+    background-color: grey;
+}
+
+.odd>div:nth-child(odd){
+    background-color: grey;
+}
+
+.castleBlack{
+    background: url(chess.png) no-repeat;
+    background-size: 75vmin;
+    width: 12.5vmin;
+    height: 12.5vmin;
+    background-position: 40% 0;
+    
+}
+
+.castleWhite{
+    background: url(chess.png) no-repeat;
+    background-size: 75vmin;
+    width: 12.5vmin;
+    height: 12.5vmin;
+    background-position: 40% 100%;
+    
+}
+
+.knightBlack{
+    background: url(chess.png) no-repeat;
+    background-size: 75vmin;
+    width: 12.5vmin;
+    height: 12.5vmin;
+    background-position: 83% 0;
+    
+}
+
+.knightWhite{
+    background: url(chess.png) no-repeat;
+    background-size: 75vmin;
+    width: 12.5vmin;
+    height: 12.5vmin;
+    background-position: 83% 100%;
+    
+}
+
+.bishopBlack{
+    background: url(chess.png) no-repeat;
+    background-size: 75vmin;
+    width: 12.5vmin;
+    height: 12.5vmin;
+    background-position: 62% 0;
+    
+}
+
+.bishopWhite{
+    background: url(chess.png) no-repeat;
+    background-size: 75vmin;
+    width: 12.5vmin;
+    height: 12.5vmin;
+    background-position: 62% 100%;
+    
+}
+
+.queenBlack{
+    background: url(chess.png) no-repeat;
+    background-size: 75vmin;
+    width: 12.5vmin;
+    height: 12.5vmin;
+    background-position: 19% 0;
+}
+
+.queenWhite{
+    background: url(chess.png) no-repeat;
+    background-size: 75vmin;
+    width: 12.5vmin;
+    height: 12.5vmin;
+    background-position: 19% 100%;
+}
+
+.kingBlack{
+    background: url(chess.png) no-repeat;
+    background-size: 75vmin;
+    width: 12.5vmin;
+    height: 12.5vmin;
+    background-position: -2% 0;
+}
+
+.kingWhite{
+    background: url(chess.png) no-repeat;
+    background-size: 75vmin;
+    width: 12.5vmin;
+    height: 12.5vmin;
+    background-position: -2% 100%;
+}
+
+.pawnBlack{
+    background: url(chess.png) no-repeat;
+    background-size: 75vmin;
+    width: 12.5vmin;
+    height: 12.5vmin;
+    background-position: 104% 0;
+}
+
+.pawnWhite{
+    background: url(chess.png) no-repeat;
+    background-size: 75vmin;
+    width: 12.5vmin;
+    height: 12.5vmin;
+    background-position: 104% 100%;
+}
+
+
+
+
+
+
+
