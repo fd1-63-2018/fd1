@@ -1,0 +1,45 @@
+p {
+    font-family: verdana;
+}
+
+div>p {
+    font-family: monospace;
+}
+
+div>h2 {
+    font-family: Italic;
+}
+
+p,
+.h2 {
+    color: green;
+}
+
+div>h2,
+div>p {
+    color: blue;
+}
+
+#test {
+    text-decoration: underline;
+}
+
+#test>p {
+    border: 1px solid red;
+}
+
+.test {
+    color: black;
+}
+
+.test>p {
+    font-family: Italic;
+}
+
+.helo p.test {
+    font-weight: bold;
+}
+
+div.hello p.test {
+    font-weight: normal;
+}
