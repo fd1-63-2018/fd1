@@ -1,0 +1,121 @@
+        body {
+            margin:0px;
+        }
+        .chess>div {
+                width:12vmin;
+                height:12vmin;
+                outline:0.3px solid silver;
+                }
+        .chess>div:nth-of-type(8n) {
+            position: absolute;
+            left:0vmin;
+            clear: left;
+            
+        }
+        .chess>div:nth-of-type(8n-1){
+            position: absolute;
+            left:12vmin;
+            clear: left;
+        }
+        .chess>div:nth-of-type(8n-2) {
+            position: absolute;
+            left:24vmin;
+            clear: left;
+        }
+        .chess>div:nth-of-type(8n-3) {
+            position: absolute;
+            left:36vmin;
+            clear: left;
+        }
+        .chess>div:nth-of-type(8n-4) {
+            position: absolute;
+            left:48vmin;
+            clear: left;
+        }
+        .chess>div:nth-of-type(8n-5) {
+            position: absolute;
+            left:60vmin;
+            clear: left;
+        }
+        .chess>div:nth-of-type(8n-6) {
+            position: absolute;
+            left:72vmin;
+            clear: left;
+        }
+        .chess>div:nth-of-type(8n-7) {
+            position: absolute;
+            left:84vmin;
+            clear: left;
+        }
+        .chess>div:nth-of-type(even):nth-of-type(-n+16):nth-of-type(n+10) {
+            background-color: silver;
+        }
+        .chess>div:nth-of-type(even):nth-of-type(-n+32):nth-of-type(n+26) {
+            background-color: silver;
+        }
+        .chess>div:nth-of-type(even):nth-of-type(-n+48):nth-of-type(n+42) {
+            background-color: silver;
+        }
+         .chess>div:nth-of-type(even):nth-of-type(-n+64):nth-of-type(n+58) {
+            background-color: silver;
+        }
+        
+        
+        .chess>div:nth-of-type(odd):nth-of-type(-n+8) {
+            background-color: silver;
+        }
+        .chess>div:nth-of-type(odd):nth-of-type(-n+24):nth-of-type(n+16) {
+            background-color: silver;
+        }
+        .chess>div:nth-of-type(odd):nth-of-type(-n+40):nth-of-type(n+32) {
+            background-color: silver;
+        }
+        .chess>div:nth-of-type(odd):nth-of-type(-n+56):nth-of-type(n+48) {
+            background-color: silver;
+        }
+        .chess>div:nth-of-type(n):nth-of-type(-n+16),
+        .chess>div:nth-of-type(n):nth-of-type(-n+64):nth-of-type(n+49) {
+        background-image: url(chess.png);
+        background-size: 600% 200%;
+        background-repeat:no-repeat;
+        }
+
+        /*черные фигуры*/
+        .chess>div:nth-of-type(n):nth-of-type(-n+56):nth-of-type(n+48) {
+            background-position:104% 0vmin;
+        }
+        .chess>div:nth-of-type(64),.chess>div:nth-of-type(57){
+            background-position:40% 0vmin;
+        }
+        .chess>div:nth-of-type(63),.chess>div:nth-of-type(58){
+            background-position:83% 0vmin;
+        }
+        .chess>div:nth-of-type(62),.chess>div:nth-of-type(59){
+            background-position:62% 0vmin;
+        }
+        .chess>div:nth-of-type(61){
+            background-position:-2% 0vmin;
+        }
+        .chess>div:nth-of-type(60){
+            background-position: 19% 0vmin;
+        }
+        
+        /*белые фигуры*/
+        .chess>div:nth-of-type(n):nth-of-type(-n+18):nth-of-type(n+9) {
+            background-position:104% -12vmin;
+        }
+        .chess>div:nth-of-type(8),.chess>div:nth-of-type(1){
+            background-position:40% -12vmin;
+        }
+        .chess>div:nth-of-type(7),.chess>div:nth-of-type(2){
+            background-position:83% -12vmin;
+        }
+        .chess>div:nth-of-type(6),.chess>div:nth-of-type(3){
+            background-position:62% -12vmin;
+        }
+        .chess>div:nth-of-type(5){
+            background-position:-2% -12vmin;
+        }
+        .chess>div:nth-of-type(4){
+            background-position: 19% -12vmin;
+        }
