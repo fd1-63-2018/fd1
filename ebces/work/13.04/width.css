@@ -1,0 +1,4 @@
+.width1 {width: 100px; min-width: 200px; background-color: red;height: 30px;}
+.width2 {width: 100px; max-width: 50px;background-color: green;}
+.width3 {width: 100px; min-width: 200px; max-width: 50;background-color: blue;}
+.width4 {min-width: 200px; max-width: 50px;background-color: black;}
