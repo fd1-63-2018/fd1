@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+}
+div{
+  max-width: 400px;
+  outline: 0.5px solid brown;
+   }
+.chessTable>div {
+  height: 50px;
+}
+.chessTable>div>div{
+  width:50px; height:50px;
+  float: left;
+}
+.chessTable>div:nth-of-type(2n)>div:nth-of-type(2n-1) {
+  background-color: brown;
+}
+
+.chessTable>div:nth-of-type(2n-1)>div:nth-of-type(2n) {
+  background-color: brown;
+}
+.chessTable>div:nth-of-type(2n){
+  background-color:#FFFF00;
+}
+.chessTable>div:nth-of-type(2n-1){
+ background-color:#FFFF00; 
+}
+.boatwhite {
+  background:url("chess.png");
+  background-repeat: no-repeat;
+  background-position: -106px -50px;
+  width: 46px;
+  height: 46px;
+   /*пешка белая*/
+     }
+.horsewhite {     
+  background:url("chess.png");
+  background-repeat: no-repeat;
+  background-position: -212px -50px;
+  width: 46px;
+  height: 46px;
+}
+.elephantwhite {
+  background:url("chess.png");
+  background-repeat: no-repeat;
+  background-position: -156px -50px;
+  width: 46px;
+  height: 46px;
+}
+.kingwhite {
+  background:url("chess.png");
+  background-repeat: no-repeat;
+  background-position:right -257px top -50px;
+  width: 46px;
+  height: 46px;
+}
+.queenwhite {
+ background:url("chess.png");
+  background-repeat: no-repeat;
+  background-position: -47px -50px;
+   width: 46px;
+  height: 46px;
+
+}
+.pawnwhite {
+  background:url("chess.png");
+  background-repeat: no-repeat;
+  background-position: -262px -50px;
+  width: 46px;
+  height: 46px;
+}
+.pawnblack {
+  background:url("chess.png");
+  background-repeat: no-repeat;
+  background-position:-260px 0px;
+  width: 46px;
+  height: 46px;
+}
+.boatblack {
+  background:url("chess.png");
+  background-repeat: no-repeat;
+  background-position: -100px 0px;
+  width: 46px;
+  height: 46px;
+}
+.horseblack {
+  background:url("chess.png");
+  background-repeat: no-repeat;
+  background-position: -212px 0px;
+  width: 46px;
+  height: 46px;
+}
+.elephantblack { 
+  background:url("chess.png");
+  background-repeat: no-repeat;
+  background-position:-153px 0px;
+  width: 46px;
+  height: 46px;
+}
+.kingblack {
+  background:url("chess.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  width: 46px;
+  height: 46px;
+} 
+.queenblack {
+  background:url("chess.png");
+  background-repeat: no-repeat;
+  background-position: -48px 0px;
+  width: 46px;
+  height: 46px;
+  }  
