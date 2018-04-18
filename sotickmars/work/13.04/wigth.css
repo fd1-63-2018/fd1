@@ -1,0 +1,40 @@
+
+._1 {
+    background-color: #f00;
+    width: 100px;
+    min-width: 200px;
+    height: 50px;
+    margin-bottom: 10px;
+    position: relative;
+    
+}
+
+._2 {
+    background-color: #0f0;
+    width: 100px;
+    max-width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    position:absolute;
+    top: 50px;
+}
+
+._3 {
+    background-color: #f0f;
+    width:100px;
+    min-width: 200px;
+    max-width: 50px;
+    height:50px;
+    margin-bottom: 10px;
+}
+
+._4 {
+    background-color: #ff0;
+    min-width: 200px;
+    max-width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    position: relative;  
+    left: 100px;
+    top:-25px;
+}

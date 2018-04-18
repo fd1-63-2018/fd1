@@ -1,0 +1,15 @@
+.table>div>div {
+    width: 12vmin;
+    height: 12vmin;
+    border: 2px solid #000;
+    box-sizing: border-box;
+}
+
+.stroka1 {
+    float: left;
+
+}
+
+._1 {
+    background-color: #000;
+}
