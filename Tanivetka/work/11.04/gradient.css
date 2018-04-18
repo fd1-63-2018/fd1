@@ -1,0 +1,14 @@
+.clear {
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to right, #f00, #fa0, #ff0, #0f0, #0af, #00f,
+    #f0f);
+}
+
+.unclear {
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to right, #f00 14%, #fa0 14%, #fa0 28%,
+    #ff0 28%, #ff0 42%, #0f0 42%, #0f0 57%, #0af 57%, #0af 71%, #00f
+    71%, #00f 86%, #f0f 86%);
+}
