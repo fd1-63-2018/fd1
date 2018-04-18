@@ -1,0 +1,132 @@
+.chessBoard {
+    width:60vmin;
+    height: 60vmin;
+}
+
+.chessBoard > div {
+    height: 12.5%;
+}
+
+.chessBoard > div > div{
+    height: 100%;
+    width: 12.5% ;
+    float: left;
+    outline: 2px solid #9E9E9E;
+}
+
+.chessBoard > div:nth-of-type(odd) > div:nth-of-type(odd){
+    background-color: #3F51B5;
+   
+}
+.chessBoard > div:nth-of-type(even) > div:nth-of-type(even){
+    background-color: #3F51B5;
+    
+}
+.chessBoard > div:nth-of-type(2) > div{
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    height: 7.5vmin;
+    width: 7.5vmin;
+    background-position: -45vmin 0;
+    background-size: 51.3vmin 15.5vmin;
+    
+}
+.chessBoard > div:nth-of-type(7) > div{
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    height: 7.5vmin;
+    width: 7.5vmin;
+    background-position: -45vmin -8vmin;
+    background-size: 51.3vmin 15.5vmin;
+    
+}
+
+.chessBoard > div:first-child > div:first-child,
+.chessBoard > div:first-child > div:last-child{
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    height: 7.5vmin;
+    width: 7.5vmin;
+    background-position: -14vmin 0vmin; 
+    background-size:43vmin 15vmin;
+}
+
+.chessBoard > div:first-child > div:nth-of-type(2),
+.chessBoard > div:first-child > div:nth-of-type(7){
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    height: 7.5vmin;
+    width: 7.5vmin;
+    background-position: -30vmin 0vmin; 
+    background-size:43.4vmin 15vmin;
+}
+.chessBoard > div:first-child > div:nth-of-type(3),
+.chessBoard > div:first-child > div:nth-of-type(6){
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    height: 7.5vmin;
+    width: 7.5vmin;
+    background-position: -22vmin 0vmin; 
+    background-size:43.3vmin 15vmin;
+}
+
+.chessBoard > div:first-child > div:nth-of-type(4){
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    height: 7.5vmin;
+    width: 7.5vmin;
+    background-position: -6.8vmin 0vmin; 
+    background-size:43.3vmin 15vmin;
+}
+
+.chessBoard > div:first-child > div:nth-of-type(5){
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    height: 7.5vmin;
+    width: 7.5vmin;
+    background-position: 1vmin 0vmin; 
+    background-size:43.3vmin 15vmin;
+}
+.chessBoard > div:last-child > div:first-child,
+.chessBoard > div:last-child > div:last-child{
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    height: 7.5vmin;
+    width: 7.5vmin;
+    background-position: -15vmin -7.6vmin; 
+    background-size:43.3vmin 15vmin;
+}
+.chessBoard > div:last-child > div:nth-of-type(2),
+.chessBoard > div:last-child > div:nth-of-type(7){
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    height: 7.5vmin;
+    width: 7.5vmin;
+    background-position: -30vmin -7.6vmin; 
+    background-size:43.3vmin 15vmin;
+}
+.chessBoard > div:last-child > div:nth-of-type(3),
+.chessBoard > div:last-child > div:nth-of-type(6){
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    height: 7.5vmin;
+    width: 7.5vmin;
+    background-position: -22vmin -7.6vmin; 
+    background-size:43.3vmin 15vmin;
+}
+.chessBoard > div:last-child > div:nth-of-type(4){
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    height: 7.5vmin;
+    width: 7.5vmin;
+    background-position: -7vmin -7.6vmin; 
+    background-size:43.3vmin 15vmin;
+}
+.chessBoard > div:last-child > div:nth-of-type(5){
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    height: 7.5vmin;
+    width: 7.5vmin;
+    background-position: 1vmin -7.6vmin; 
+    background-size:43.3vmin 15vmin;
+}
