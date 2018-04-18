@@ -53,7 +53,7 @@ p.test, .hello{
     text-transform: uppercase;
 }
 
-h2.test, .hello, .eee{
+h2.test,.hello,.eee{
     color: red;
 }
 
@@ -68,3 +68,12 @@ p>a[href]{
 #test~*{
     font-size: 23px;
 }
+
+h2:hover+*{
+    background-color: red;
+}
+
+:target{
+    border: 8px solid green;
+}
+
