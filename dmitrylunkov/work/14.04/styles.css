@@ -1,0 +1,24 @@
+.checker_board {
+    border: 1px solid black;
+    width: 96vmin;
+    height: 96vmin;
+}
+
+.row {
+    width: 100%;
+    height: 12.50%;
+}
+
+.checker_board > div > div {
+    width: 12.50%;
+    height: 100%;
+    float: left;
+}
+
+.black_square {
+    background-color: black;
+}
+
+.white_square {
+    background-color: white;
+}
