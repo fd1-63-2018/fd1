@@ -1,0 +1,105 @@
+.chesstable>div>div {
+    height: 10vmin;
+    width: 10vmin;
+    float: left;
+}
+
+.black {
+background-color: #383C40;
+
+    
+}
+.chesstable {
+    height: 80vmin;
+    width: 80vmin;
+    border: solid 1px black;
+    
+}
+.chesstable>div:nth-of-type(2)>div
+{
+background-image: url(chess.png);
+background-repeat: no-repeat;
+background-position: -253px 13px;
+
+}
+
+.chesstable>div:nth-of-type(7)>div
+{
+background-image: url(chess.png);
+background-repeat: no-repeat;
+background-position: -253px -44px;
+
+}
+.chesstable>div:nth-of-type(1)>div:nth-of-type(7n-6)
+{
+background-image: url(chess.png);
+background-repeat: no-repeat;
+background-position: -92px 15px;
+
+}
+.chesstable>div:nth-of-type(1)>div:nth-of-type(7n-5)
+{
+background-image: url(chess.png);
+background-repeat: no-repeat;
+background-position: -201px 15px;
+}
+.chesstable>div:nth-of-type(1)>div:nth-of-type(7)
+{
+background-image: url(chess.png);
+background-repeat: no-repeat;
+background-position: -201px 15px;
+}
+.chesstable>div:nth-of-type(1)>div:nth-of-type(3n+3)
+{
+background-image: url(chess.png);
+background-repeat: no-repeat;
+background-position: -144px 18px;
+}
+.chesstable>div:nth-of-type(1)>div:nth-of-type(4)
+{
+background-image: url(chess.png);
+background-repeat: no-repeat;
+background-position: -39px 18px;
+}
+.chesstable>div:nth-of-type(1)>div:nth-of-type(5)
+{
+background-image: url(chess.png);
+background-repeat: no-repeat;
+background-position: 18px 18px;
+}
+.chesstable>div:nth-of-type(8)>div:nth-of-type(7n-6)
+{
+background-image: url(chess.png);
+background-repeat: no-repeat;
+background-position: calc(100% + 139px) calc(100% - 17px);
+}
+.chesstable>div:nth-of-type(8)>div:nth-of-type(2)
+{
+background-image: url(chess.png);
+background-repeat: no-repeat;
+background-position: calc(100% + 30px) calc(100% - 17px);
+}
+.chesstable>div:nth-of-type(8)>div:nth-of-type(7)
+{
+background-image: url(chess.png);
+background-repeat: no-repeat;
+background-position: calc(100% + 30px) calc(100% - 17px);
+}
+.chesstable>div:nth-of-type(8)>div:nth-of-type(3n+3)
+{
+background-image: url(chess.png);
+background-repeat: no-repeat;
+background-position: calc(100% + 87px) calc(100% - 18px);
+}
+.chesstable>div:nth-of-type(8)>div:nth-of-type(4)
+{
+background-image: url(chess.png);
+background-repeat: no-repeat;
+background-position: calc(100% + 192px) calc(100% - 17px);
+}
+.chesstable>div:nth-of-type(8)>div:nth-of-type(5)
+{
+background-image: url(chess.png);
+background-repeat: no-repeat;
+background-position: calc(100% + 249px) calc(100% - 18px);
+}
