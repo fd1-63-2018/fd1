@@ -1,0 +1,90 @@
+body {
+    margin: 3px;
+}
+
+.chessTable {
+    width: 80vmin;
+}
+
+.chessTable>div>div {
+    width: 10vmin;
+    height: 10vmin;
+    outline: 1px solid #836543;
+    float: left;
+}
+
+.bishopB,
+.knightB,
+.castleB,
+.queenB,
+.kingB,
+.castleBw,
+.knightBw,
+.bishopBw,
+.PB,
+.PW,
+.bishopW,
+.knightW,
+.castleW,
+.queenW,
+.kingW   {
+    background: url(chess.png);
+    background-size: 55vmin;
+    background-repeat: no-repeat;
+}
+
+.bishopB {
+    background-position: 40% -7%;
+}
+
+.knightB {
+    background-position: 84% -7%;
+}
+
+.castleB {
+    background-position: 62% -10%;
+}
+
+.queenB {
+    background-position: 18% -10%;
+}
+
+.kingB {
+    background-position: -3% -10%;
+}
+
+.PB {
+    background-position: 105% -6%;
+}
+
+.PW {
+    background-position: 105% 117%;     
+}
+
+.bishopW {
+    background-position: 40% 117%;     
+}
+
+.knightW {
+    background-position: 84% 117%;        
+}
+
+.castleW {
+    background-position: 62% 114%;    
+}
+
+.queenW {
+    background-position: 19% 112%;         
+}
+
+.kingW    {
+    background-position: -3% 112%;         
+}
+
+.paint {
+    background-color: #836543;
+}
+
+.paint_1 {
+    background-color: #EDE2C9;
+}
