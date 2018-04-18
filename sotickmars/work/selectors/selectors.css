@@ -19,7 +19,7 @@ div h2, div p{
     
 }
 
-#test {
+#test *{
     text-decoration: underline;
 }
 
@@ -33,4 +33,22 @@ div h2, div p{
 
 p .test{
     font-style: italic;
+} 
+
+.hello p.test{
+    font-weight: bold;
+    }
+div.hello p.test {
+    font-weight: normal;
+}
+
+h2:hover+*{
+    background-color: red;
+}
+#test:target{
+    border:50px solid black;
+    background-color: red;
+}
+a {
+    border:1px solid blue;
 }

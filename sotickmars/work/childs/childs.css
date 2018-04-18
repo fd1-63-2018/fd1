@@ -1,0 +1,11 @@
+
+li:first-child { background: lightsalmon;; }
+li:last-child { background: lightsalmon; }
+
+
+li:nth-child(n+2):nth-child(-n+4){
+    background: greenyellow;
+}
+p:nth-of-type(2){
+    background: lightsalmon;
+} 
