@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+}
+
+.chessTable>div>div {
+    height: 12.5vmin;
+    width: 12.5vmin;
+}
+
+.paint {
+    background-color: red;
+}
+
+.chessTable>div {
+    float: left;
+    outline: 1px solid red;
+}
