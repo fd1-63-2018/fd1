@@ -1,0 +1,30 @@
+.container {
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.container1 {
+    background-color: #333;
+    width: 100px;
+    min-width: 200px;
+}
+
+.container2 {
+    background-color: #111;
+    width: 100px;
+    max-width: 50px;
+}
+
+.container3 {
+    background-color: #a3a3a3;
+    width: 100px;
+    min-width: 200px;
+    max-width: 50px;
+}
+
+.container4 {
+    background-color: #c3c3c3;
+    min-width: 200px;
+    max-width: 50px;
+}
+
