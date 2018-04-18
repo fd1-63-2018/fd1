@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+.float>div>div {
+    width:11vmin;
+    height: 11vmin;
+    border:1px solid #000;
+}
+.paint {
+    background-color: #000;
+}
+.float>div {
+    float: left;
+}
