@@ -1,0 +1,61 @@
+p{
+    font-family: verdana;
+}
+
+/*2*/
+div p{
+    font-family: monospace;
+}
+
+/*3*/
+div>h2{
+    font-family: Italic;
+}
+
+/*4*/
+*p,h2{
+    color: green;
+}
+
+/*5*/
+div h2, div p{
+    color: blue;
+}
+
+/*6*/
+#test{
+    text-decoration: underline;
+}
+
+/*7*/
+#test p{
+    background-color: red;
+}
+
+/*8*/
+.test{
+    color: black;
+}
+
+/*9*/
+.test p{
+    font-family: Italic;
+} 
+
+/*10*/
+.hello>.test p{
+    font-weight: bold;
+}
+
+/*11*/
+.hello div>.test p{
+    font-weight: normal;
+}
+
+/*12*/
+.test,.hello{
+    color: red;
+}
+
+
+
