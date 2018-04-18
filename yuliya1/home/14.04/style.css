@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+
+.painted1 {
+    background-color: black;
+    width: 12.5vmin;
+    height: 12vmin;
+}
+
+.chess>div>div {
+    float: left;
+    width: 12.5vmin;
+    height: 12.5vmin;
+    outline: 1px solid black;
+}
+
+/*
+.chess>div {
+    overflow: hidden;
+}*/
+
+.chess>div>div:nth-of-type(1) {
+    clear: left;
+}
+
+
+.chess>div:nth-of-type(1)>div,
+.chess>div:nth-of-type(2)>div,
+.chess>div:nth-of-type(7)>div,
+.chess>div:nth-of-type(8)>div {
+    background-image: url("image_chess.png");
+    background-repeat: no-repeat;
+    background-size: 650%;
+}
+
+/*Ладья*/
+.chess>div:nth-of-type(1)>div:nth-of-type(1),
+.chess>div:nth-of-type(1)>div:nth-of-type(8) {
+    background-position: 41% 105%;
+}
+
+/*Конь*/
+.chess>div:nth-of-type(1)>div:nth-of-type(2),
+.chess>div:nth-of-type(1)>div:nth-of-type(7) {
+    background-position: 83% 100%;
+}
+
+/*Слон*/
+.chess>div:nth-of-type(1)>div:nth-of-type(3),
+.chess>div:nth-of-type(1)>div:nth-of-type(6) {
+    background-position: 62% 100%;
+}
+
+/*Король*/
+.chess>div:nth-of-type(1)>div:nth-of-type(4) {
+    background-position: 0% 100%;
+}
+
+/*Ферзь*/
+.chess>div:nth-of-type(1)>div:nth-of-type(5) {
+    background-position: 20% 100%;
+}
+
+/*Пешки*/
+.chess>div:nth-of-type(2)>div {
+    background-position: 103% 100%;
+}
+
+/*Пешки*/
+.chess>div:nth-of-type(7)>div {
+    background-position: 103% 0%;
+}
+
+/*Ладья*/
+.chess>div:nth-of-type(8)>div:nth-of-type(1),
+.chess>div:nth-of-type(8)>div:nth-of-type(8) {
+    background-position: 41% 0%;
+}
+
+/*Конь*/
+.chess>div:nth-of-type(8)>div:nth-of-type(2),
+.chess>div:nth-of-type(8)>div:nth-of-type(7) {
+    background-position: 83% 0%;
+}
+
+/*Слон*/
+.chess>div:nth-of-type(8)>div:nth-of-type(3),
+.chess>div:nth-of-type(8)>div:nth-of-type(6) {
+    background-position: 62% 0%;
+}
+
+/*Король*/
+.chess>div:nth-of-type(8)>div:nth-of-type(4) {
+    background-position: 0% 0%;
+}
+
+/*Ферзь*/
+.chess>div:nth-of-type(8)>div:nth-of-type(5) {
+    background-position: 20% 0%;
+}
