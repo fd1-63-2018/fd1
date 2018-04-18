@@ -16,9 +16,19 @@
     #test {
         text-decoration:underline;
     }
-    #test>p {
+    #test p {
         border:1px solid red;
     }
-    p .test{ 
+    p.test{ 
        font-style: italic; 
     }
+    .test{
+        color: black 
+    }
+    .hello p.test{
+        font-weight: bold;
+    }
+    div.hello p.test {
+        font-weight: normal;
+    }
+    
