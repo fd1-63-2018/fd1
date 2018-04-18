@@ -1,0 +1,96 @@
+
+.checker_board {
+    border: 1px solid black;
+    width: 96vmin;
+    height: 96vmin;
+}
+
+
+.checker_board > div {
+    width: 12.50%;
+    height: 100%;
+    float: left;
+}
+
+.checker_board > div > div {
+    width: 100%;
+    height: 12.50%;
+}
+
+.checker_board > div:nth-child(2n+1) > div:nth-child(2n+1),
+.checker_board > div:nth-child(2n+2) > div:nth-child(2n+2)
+{
+    background-color: darkgrey;
+}
+
+.checker_board > div:nth-child(2n+1) > div:nth-child(2n+2),
+.checker_board > div:nth-child(2n+2) > div:nth-child(2n+1)
+{
+    background-color: white;
+}
+
+.checker_board > div:nth-child(n+1) > div:nth-child(1),
+.checker_board > div:nth-child(n+1) > div:nth-child(2),
+.checker_board > div:nth-child(n+1) > div:nth-child(7),
+.checker_board > div:nth-child(n+1) > div:nth-child(8) {
+    background-image: url("chess.png");
+    background-repeat: no-repeat;
+    background-size: 72vmin;
+}
+
+
+.checker_board > div > div:nth-child(2) {
+    background-position: 104% 0%;
+}
+
+.checker_board > div > div:nth-child(7) {
+    background-position: 104% 104%;
+}
+
+.checker_board > div:nth-child(1) > div:nth-child(1),
+.checker_board > div:nth-child(8) > div:nth-child(1) {
+    background-position: 40% 0%;
+}
+
+.checker_board > div:nth-child(1) > div:nth-child(8),
+.checker_board > div:nth-child(8) > div:nth-child(8) {
+    background-position: 40% 106%;
+}
+
+.checker_board > div:nth-child(2) > div:nth-child(1),
+.checker_board > div:nth-child(7) > div:nth-child(1) {
+    background-position: 83% 0%;
+}
+
+.checker_board > div:nth-child(2) > div:nth-child(8),
+.checker_board > div:nth-child(7) > div:nth-child(8) {
+    background-position: 83% 106%;
+}
+
+.checker_board > div:nth-child(3) > div:nth-child(1),
+.checker_board > div:nth-child(6) > div:nth-child(1) {
+    background-position: 62% -2%;
+}
+
+.checker_board > div:nth-child(3) > div:nth-child(8),
+.checker_board > div:nth-child(6) > div:nth-child(8) {
+    background-position: 62% 106%;
+}
+
+.checker_board > div:nth-child(4) > div:nth-child(1) {
+    background-position: -2% -2%;
+}
+
+.checker_board > div:nth-child(4) > div:nth-child(8) {
+    background-position: -2% 106%;
+}
+
+.checker_board > div:nth-child(5) > div:nth-child(1) {
+    background-position: 19% -2%;
+}
+
+.checker_board > div:nth-child(5) > div:nth-child(8) {
+    background-position: 19% 106%;
+}
+
+
