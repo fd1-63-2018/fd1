@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+}
+
+.chessTable {
+    position: absolute;
+    
+    height: 100vmin;
+    width: 100vmin;
+    border: 1px solid black;
+}
+
+.chessTable div {
+    margin: -1.8px;
+    display: inline-block;
+    height: 12.5vmin;
+    width: 12.5vmin;
+    outline: 0.1px solid black;
+}
+
+.chessTable div:nth-child(1){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(3){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(5){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(7){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(10){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(12){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(14){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(16){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(17){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(19){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(21){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(23){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(26){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(28){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(30){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(32){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(33){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(35){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(37){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(39){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(42){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(44){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(46){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(48){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(49){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(51){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(53){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(55){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(58){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(60){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(62){
+  background-color: #6E4E44; 
+}
+.chessTable div:nth-child(64){
+  background-color: #6E4E44; 
+}
+
+.chessTable>div:nth-child(1),.chessTable>:nth-child(8) {
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    background-position: 40% 2%;
+    background-size: 650%;
+}
+
+.chessTable>div:nth-child(2),.chessTable>:nth-child(7) {
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    background-position: 83% 2%;
+    background-size: 650%;
+}
+
+.chessTable>div:nth-child(3),.chessTable>:nth-child(6) {
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    background-position: 61% 0%;
+    background-size: 650%;
+}
+
+.chessTable>div:nth-child(4) {
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    background-position: 19% 0%;
+    background-size: 650%;
+}
+
+.chessTable>div:nth-child(5) {
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    background-position: -1% -2%;
+    background-size: 650%;
+}
+
+.chessTable>div:nth-child(9), .chessTable>div:nth-child(10), .chessTable>div:nth-child(11), .chessTable>div:nth-child(12), .chessTable>div:nth-child(13), .chessTable>div:nth-child(14), .chessTable>div:nth-child(15), .chessTable>div:nth-child(16) {
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    background-position: 104% 2%;
+    background-size: 650%;
+}
+
+.chessTable>div:nth-child(49), .chessTable>div:nth-child(50), .chessTable>div:nth-child(51), .chessTable>div:nth-child(52), .chessTable>div:nth-child(53), .chessTable>div:nth-child(54), .chessTable>div:nth-child(55), .chessTable>div:nth-child(56) {
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    background-position: 104% 103%;
+    background-size: 650%;
+}
+
+.chessTable>div:nth-child(57),.chessTable>:nth-child(64) {
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    background-position: 40% 103%;
+    background-size: 650%;
+}
+
+.chessTable>div:nth-child(58),.chessTable>:nth-child(63) {
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    background-position: 83% 103%;
+    background-size: 650%;
+}
+
+.chessTable>div:nth-child(59),.chessTable>:nth-child(62) {
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    background-position: 61% 103%;
+    background-size: 650%;
+}
+
+.chessTable>div:nth-child(60) {
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    background-position: 20% 100%;
+    background-size: 650%;
+}
+
+.chessTable>div:nth-child(61) {
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    background-position: -1% 98%;
+    background-size: 650%;
+}
