@@ -1,0 +1,23 @@
+div {
+  float: left;
+  position: relative;
+}
+div:nth-child(3n) {
+  float: none;
+}
+
+div:nth-child(5), div:nth-child(7), div:nth-child(14), div:nth-child(13) {
+  left: 0.5em;
+}
+
+div:nth-child(6), div:nth-child(8), div:nth-child(11), div:nth-child(12) {
+  left: -0.5em;
+}
+
+div:nth-child(10), div:nth-child(16) {
+  left: 1em;
+}
+
+div:nth-child(15), div:nth-child(18) {
+  left: -1em;
+}
