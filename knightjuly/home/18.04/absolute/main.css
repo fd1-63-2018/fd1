@@ -1,0 +1,340 @@
+body{
+  margin: 0;
+}
+.chessTable
+{
+    height: 80vmin;
+    width: 80vmin;
+    background-color: #FFF0D4;
+    top: 10%;
+    right:10%;
+}
+.chessTable>div {
+  width: 10vmin;
+  height: 10vmin;
+  outline: 1px solid #004747;
+
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.chessTable>div:nth-child(2){
+  left: 10vmin;
+}
+.chessTable>div:nth-child(3){
+  left: 20vmin;
+}
+.chessTable>div:nth-child(4){
+  left: 30vmin;}
+  
+  .chessTable>div:nth-child(5){
+  left: 40vmin;
+}
+.chessTable>div:nth-child(6){
+  left: 50vmin;
+}
+.chessTable>div:nth-child(7){
+  left: 60vmin;
+}
+.chessTable>div:nth-child(8){
+  left: 70vmin;
+}
+.chessTable>div:nth-child(9){
+  top: 10vmin;
+}
+.chessTable>div:nth-child(10){
+  left: 10vmin;
+  top: 10vmin;
+}
+.chessTable>div:nth-child(11){
+  left: 20vmin;
+  top: 10vmin;}
+  
+.chessTable>div:nth-child(12){
+  left: 30vmin;
+  top: 10vmin;
+}
+.chessTable>div:nth-child(13){
+  left: 40vmin;
+  top: 10vmin;
+}
+.chessTable>div:nth-child(14){
+  left: 50vmin;
+  top: 10vmin;
+}
+.chessTable>div:nth-child(15){
+  left: 60vmin;
+  top: 10vmin;
+}
+.chessTable>div:nth-child(16){
+  left: 70vmin;
+  top: 10vmin;
+}
+.chessTable>div:nth-child(17){
+  left: 0vmin;
+  top: 20vmin;
+}
+  .chessTable>div:nth-child(18){
+  left: 10vmin;
+  top: 20vmin;
+  }
+  .chessTable>div:nth-child(19){
+  left: 20vmin;
+  top: 20vmin;
+  }
+  .chessTable>div:nth-child(20){
+  left: 30vmin;
+  top: 20vmin;
+  }
+  .chessTable>div:nth-child(21){
+  left: 40vmin;
+  top: 20vmin;
+  }
+  .chessTable>div:nth-child(22){
+  left: 50vmin;
+  top: 20vmin;
+  }
+  .chessTable>div:nth-child(23){
+  left: 60vmin;
+  top: 20vmin;
+  }
+  .chessTable>div:nth-child(24){
+  left: 70vmin;
+  top: 20vmin;
+}
+  .chessTable>div:nth-child(25){
+  left: 0vmin;
+  top: 30vmin;
+}
+  .chessTable>div:nth-child(26){
+  left: 10vmin;
+  top: 30vmin;
+}
+  .chessTable>div:nth-child(27){
+  left: 20vmin;
+  top: 30vmin;
+}
+  .chessTable>div:nth-child(28){
+  left: 30vmin;
+  top: 30vmin;
+}
+  .chessTable>div:nth-child(29){
+  left: 40vmin;
+  top: 30vmin;
+}
+  .chessTable>div:nth-child(30){
+  left: 50vmin;
+  top: 30vmin;
+}
+  .chessTable>div:nth-child(31){
+  left: 60vmin;
+  top: 30vmin;
+}
+  .chessTable>div:nth-child(32){
+  left: 70vmin;
+  top: 30vmin;
+}
+  .chessTable>div:nth-child(33){
+  left: 0vmin;
+  top: 40vmin;
+}
+  .chessTable>div:nth-child(34){
+  left: 10vmin;
+  top: 40vmin;
+}
+  .chessTable>div:nth-child(35){
+  left: 20vmin;
+  top: 40vmin;
+}
+  .chessTable>div:nth-child(36){
+  left: 30vmin;
+  top: 40vmin;
+}
+  .chessTable>div:nth-child(37){
+  left: 40vmin;
+  top: 40vmin;
+}
+  .chessTable>div:nth-child(38){
+  left: 50vmin;
+  top: 40vmin;
+}
+  .chessTable>div:nth-child(39){
+  left: 60vmin;
+  top: 40vmin;
+}
+  .chessTable>div:nth-child(40){
+  left: 70vmin;
+  top: 40vmin;
+}
+ .chessTable>div:nth-child(41){
+  left: 0vmin;
+  top: 50vmin;
+}
+  .chessTable>div:nth-child(42){
+  left: 10vmin;
+  top: 50vmin;
+}
+  .chessTable>div:nth-child(43){
+  left: 20vmin;
+  top: 50vmin;
+}
+  .chessTable>div:nth-child(44){
+  left: 30vmin;
+  top: 50vmin;
+}
+  .chessTable>div:nth-child(45){
+  left: 40vmin;
+  top: 50vmin;
+}
+  .chessTable>div:nth-child(46){
+  left: 50vmin;
+  top: 50vmin;
+}
+  .chessTable>div:nth-child(47){
+  left: 60vmin;
+  top: 50vmin;
+}
+  .chessTable>div:nth-child(48){
+  left: 70vmin;
+  top: 50vmin;
+}
+ .chessTable>div:nth-child(49){
+  left: 0vmin;
+  top: 60vmin;
+}
+  .chessTable>div:nth-child(50){
+  left: 10vmin;
+  top: 60vmin;
+}
+  .chessTable>div:nth-child(51){
+  left: 20vmin;
+  top: 60vmin;
+}
+  .chessTable>div:nth-child(52){
+  left: 30vmin;
+  top: 60vmin;
+}
+  .chessTable>div:nth-child(53){
+  left: 40vmin;
+  top: 60vmin;
+}
+  .chessTable>div:nth-child(54){
+  left: 50vmin;
+  top: 60vmin;
+}
+  .chessTable>div:nth-child(55){
+  left: 60vmin;
+  top: 60vmin;
+}
+  .chessTable>div:nth-child(56){
+  left: 70vmin;
+  top: 60vmin;
+}
+ .chessTable>div:nth-child(57){
+  left: 0vmin;
+  top: 70vmin;
+}
+  .chessTable>div:nth-child(58){
+  left: 10vmin;
+  top: 70vmin;
+}
+  .chessTable>div:nth-child(59){
+  left: 20vmin;
+  top: 70vmin;
+}
+  .chessTable>div:nth-child(60){
+  left: 30vmin;
+  top: 70vmin;
+}
+  .chessTable>div:nth-child(61){
+  left: 40vmin;
+  top: 70vmin;
+}
+  .chessTable>div:nth-child(62){
+  left: 50vmin;
+  top: 70vmin;
+}
+  .chessTable>div:nth-child(63){
+  left: 60vmin;
+  top: 70vmin;
+}
+  .chessTable>div:nth-child(64){
+  left: 70vmin;
+  top: 70vmin;
+}
+
+.chessTable>div:nth-child(1),:nth-child(3),:nth-child(5),:nth-child(7),:nth-child(10),:nth-child(12),:nth-child(14),:nth-child(16),:nth-child(17),:nth-child(19),:nth-child(21),:nth-child(23),:nth-child(26),:nth-child(28),:nth-child(30),:nth-child(32),:nth-child(33),:nth-child(35),:nth-child(37),:nth-child(39),:nth-child(42),:nth-child(44),:nth-child(46),:nth-child(48),:nth-child(49),:nth-child(51),:nth-child(53),:nth-child(55),:nth-child(58),:nth-child(60),:nth-child(62),:nth-child(64)
+{
+    background-color: #337E70;
+}
+.chessTable>div:nth-child(1),:nth-child(8)
+{
+  background-image: url(chess.png);
+  background-position: 41% -6%;
+  background-size: 600%
+}
+.chessTable>div:nth-child(57),:nth-child(64)
+{
+  background-image: url(chess.png);
+  background-position: 41% 110%;
+  background-size: 600%
+}
+.chessTable>div:nth-child(2),:nth-child(7)
+{
+  background-image: url(chess.png);
+  background-size: 600%;
+  background-position: 83% -6%;
+  }
+  .chessTable>div:nth-child(58),:nth-child(63)
+{
+  background-image: url(chess.png);
+  background-size: 600%;
+  background-position: 83% 110%;
+  }
+    .chessTable>div:nth-child(3),:nth-child(6)
+{
+  background-image: url(chess.png);
+  background-size: 600%;
+  background-position: 61% -6%;
+  }
+      .chessTable>div:nth-child(59),:nth-child(62)
+{
+  background-image: url(chess.png);
+  background-size: 600%;
+  background-position: 61% 110%;
+  }
+        .chessTable>div:nth-child(4)
+{
+  background-image: url(chess.png);
+  background-size: 600%;
+  background-position: 19% -6%;
+  }
+          .chessTable>div:nth-child(60)
+{
+  background-image: url(chess.png);
+  background-size: 600%;
+  background-position: 19% 110%;
+  }
+          .chessTable>div:nth-child(5)
+  {
+  background-image: url(chess.png);
+  background-size: 600%;
+  background-position: -2% -6%;
+  }
+            .chessTable>div:nth-child(61)
+  {
+  background-image: url(chess.png);
+  background-size: 600%;
+  background-position: -2% 110%;
+  }
+  .chessTable>div:nth-child(9),:nth-child(11),:nth-child(10),:nth-child(12),:nth-child(13),:nth-child(14),:nth-child(15),:nth-child(16)
+  {
+  background-image: url(chess.png);
+  background-size: 600%;
+  background-position: 104% -6%;
+  }
+    .chessTable>div:nth-child(49),:nth-child(50),:nth-child(51),:nth-child(52),:nth-child(53),:nth-child(54),:nth-child(55),:nth-child(56)
+  {
+  background-image: url(chess.png);
+  background-size: 600%;
+  background-position: 104% 110%;
+  }
