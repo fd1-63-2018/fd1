@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+}
+
+.chessTable {
+    width: 100vmin;
+    height: 100vmin;
+}
+
+div {
+    width: 12.5vmin;
+    height: 12.5vmin;
+    outline: 1px solid black;
+    float: left;
+}
+
+.chessTable>div:nth-child(n+1):nth-child(-n+8):nth-child(odd),
+.chessTable>div:nth-child(n+10):nth-child(-n+16):nth-child(even),
+.chessTable>div:nth-child(n+17):nth-child(-n+24):nth-child(odd),
+.chessTable>div:nth-child(n+25):nth-child(-n+32):nth-child(even),
+.chessTable>div:nth-child(n+33):nth-child(-n+40):nth-child(odd),
+.chessTable>div:nth-child(n+41):nth-child(-n+48):nth-child(even),
+.chessTable>div:nth-child(n+49):nth-child(-n+56):nth-child(odd),
+.chessTable>div:nth-child(n+57):nth-child(-n+64):nth-child(even) {
+    background-color: deeppink;
+}
+
+
+.chessTable>div:nth-child(n+9):nth-child(-n+16) {
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    background-size: 75vmin;
+    background-position: -65vmin 1vmin;
+}
+
+.chessTable>div:nth-child(n+1):nth-child(-n+9) {
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    background-size: 75vmin;
+}
+
+.chessTable>div:nth-child(1),
+.chessTable>div:nth-child(8) {
+    background-position: -25vmin 1vmin;
+}
+
+.chessTable>div:nth-child(2),
+.chessTable>div:nth-child(7) {
+    background-position: -52vmin 1vmin;
+}
+
+.chessTable>div:nth-child(3),
+.chessTable>div:nth-child(6) {
+    background-position: -38vmin 1vmin;
+}
+
+.chessTable>div:nth-child(4) {
+    background-position: -12vmin 1vmin;
+}
+
+.chessTable>div:nth-child(5) {
+    background-position: 1vmin 1vmin;
+}
+
+.chessTable>div:nth-child(n+49):nth-child(-n+56) {
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    background-size: 75vmin;
+    background-position: -66vmin -12vmin;
+}
+
+.chessTable>div:nth-child(n+57):nth-child(-n+64) {
+    background-image: url('chess.png');
+    background-repeat: no-repeat;
+    background-size: 75vmin;
+}
+
+.chessTable>div:nth-child(57),
+.chessTable>div:nth-child(64) {
+    background-position: -26vmin -12vmin;
+}
+
+.chessTable>div:nth-child(58),
+.chessTable>div:nth-child(63) {
+    background-position: -52vmin -12vmin;
+}
+
+.chessTable>div:nth-child(59),
+.chessTable>div:nth-child(62) {
+    background-position: -39vmin -12vmin;
+
+}
+
+.chessTable>div:nth-child(60) {
+    background-position: -12vmin -12vmin;
+}
+
+.chessTable>div:nth-child(61) {
+    background-position: 1vmin 1vmin;
+}
