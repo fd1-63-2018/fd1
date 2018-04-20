@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+}
+
+.chessTable>div {
+  width: 12.5vmin;
+  height: 12.5vmin;
+  outline: 1px solid black;
+  float: left;
+}
+
+.chessTable>div:nth-child(8n+1) {
+  clear: left;
+}
+
+.chessTable>div:nth-child(even):nth-child(-n+8) {
+  background-color: red;
+}
+
+.chessTable>div:nth-child(odd):nth-child(n+8):nth-child(-n+16) {
+  background-color: red;
+}
+
+.chessTable>div:nth-child(even):nth-child(n+17):nth-child(-n+24) {
+  background-color: red
+}
+
+.chessTable>div:nth-child(odd):nth-child(n+24):nth-child(-n+32) {
+  background-color: red;
+}
+
+.chessTable>div:nth-child(even):nth-child(n+34):nth-child(-n+40) {
+  background-color: red;
+}
+
+.chessTable>div:nth-child(odd):nth-child(n+41):nth-child(-n+48) {
+  background-color: red;
+}
+
+.chessTable>div:nth-child(even):nth-child(n+49):nth-child(-n+56) {
+  background-color: red;
+}
+
+.chessTable>div:nth-child(odd):nth-child(n+56):nth-child(-n+64) {
+  background-color: red;
+}
+
+.chessTable>div:nth-child(n+9):nth-child(-n+16) {
+  background-image: url(chess.png);
+  background-repeat: no-repeat;
+  background-size: 650%;
+  background-position: -71vmin 0vmin;
+
+}
+
+.chessTable>div:nth-child(1),
+.chessTable>div:nth-child(8) {
+  background-image: url(chess.png);
+  background-repeat: no-repeat;
+  background-size: 650%;
+  background-position: -28vmin 0vmin;
+}
+
+.chessTable>div:nth-child(2),
+.chessTable>div:nth-child(7) {
+  background-image: url(chess.png);
+  background-repeat: no-repeat;
+  background-size: 650%;
+  background-position: -57vmin 0vmin;
+}
+
+
+.chessTable>div:nth-child(3),
+.chessTable>div:nth-child(6) {
+  background-image: url(chess.png);
+  background-repeat: no-repeat;
+  background-size: 650%;
+  background-position: -42vmin 0vmin;
+}
+
+.chessTable>div:nth-child(4) {
+  background-image: url(chess.png);
+  background-repeat: no-repeat;
+  background-size: 650%;
+  background-position: -13.5vmin 0vmin;
+}
+
+.chessTable>div:nth-child(5) {
+  background-image: url(chess.png);
+  background-repeat: no-repeat;
+  background-size: 650%;
+  background-position: 1vmin 0vmin;
+}
+
+
+
+.chessTable>div:nth-child(n+49):nth-child(-n+56) {
+  background-image: url(chess.png);
+  background-repeat: no-repeat;
+  background-size: 650%;
+  background-position: -71vmin -14vmin;
+
+}
+
+.chessTable>div:nth-child(57),
+.chessTable>div:nth-child(64) {
+  background-image: url(chess.png);
+  background-repeat: no-repeat;
+  background-size: 650%;
+  background-position: -28vmin -14vmin;
+}
+
+.chessTable>div:nth-child(58),
+.chessTable>div:nth-child(63) {
+  background-image: url(chess.png);
+  background-repeat: no-repeat;
+  background-size: 650%;
+  background-position: -57vmin -14vmin;
+}
+
+.chessTable>div:nth-child(59),
+.chessTable>div:nth-child(62) {
+  background-image: url(chess.png);
+  background-repeat: no-repeat;
+  background-size: 650%;
+  background-position: -42vmin -14vmin;
+}
+
+
+
+.chessTable>div:nth-child(60) {
+  background-image: url(chess.png);
+  background-repeat: no-repeat;
+  background-size: 650%;
+  background-position: -13.5vmin -14vmin;
+}
+
+.chessTable>div:nth-child(61) {
+  background-image: url(chess.png);
+  background-repeat: no-repeat;
+  background-size: 650%;
+  background-position: 1vmin -14vmin;
+}
