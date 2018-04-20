@@ -1,67 +1,106 @@
-p {
-    font-family: Verdana;
+* {
+    color: orange!important;
 }
+
+p {
+  font-family: verdana;
+}
+
+/* 1 tag 0001 */
 
 div p {
-    font-family: monospace;
+  font-family: monospace;
 }
+
+/* 2 tags 0002 */
 
 div h2 {
-    font-style: italic;
+  font-style: italic;
 }
+
+/* 2 tags 0002 */
 
 p, h2 {
-    color: green;
+  color: green;
 }
 
-div > h2, div > p {
-    color: blue;
+/* 1 tags 0001, 1 tags 0001 */
+
+div h2, div p {
+  color: blue;
 }
 
-#test {
-    text-decoration: underline;
+/* 2 tags 0002, 2 tags 0002 */
+
+#test * {
+  text-decoration: underline;
 }
 
-#test > p {
-    border: 1px solid red;
+/* 1 id 0100 */
+
+#test p {
+  outline: 1px solid red;
 }
+
+/* 1 id 1 tag 0101 */
 
 .test {
-    color: #000;
+  color: black;
 }
+
+/* 1 class 0010 */
 
 p.test {
-    font-style: italic;
+  font-style: italic;
 }
+
+/* 1 tag 1 class 0011 */
 
 .hello p.test {
-    font-weight: bold;
+  font-weight: bold;
 }
+
+/* 1 tag 2 classes 0021 */
 
 div.hello p.test {
-    font-weight: normal;
+  font-weight: normal;
 }
+
+/* 2 tags 2 classes 0022 */
 
 .test.hello {
-    color: red;
+  color: red;
 }
+
+/* 2 classes 0020 */
 
 p.test.hello {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
+
+/* 1 tag 2 classes 0021 */
+
 
 h2.test.hello.eee {
-    color: red;
+  color: red;
 }
 
-p > a[href] {
-    border: 1px solid blue;
+/* 1 tag 3 classes 0031 */
+
+p a[href] {
+  outline: 1px solid blue;
 }
 
-#test + p + p {
-    background-color: yellow;
+/* 2 tags 1 attr 0012 */
+
+#test + p + p + p {
+  background-color: yellow;
 }
+
+/* 1 id 3 tags 0103 */
 
 #test ~ * {
-    font-size: 23px;
+  font-size: 23px;
 }
+
+/* 1 id 0100 */
