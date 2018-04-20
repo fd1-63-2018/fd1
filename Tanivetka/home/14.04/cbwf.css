@@ -1,0 +1,103 @@
+body {
+    margin: 0px;
+}
+
+.board {
+    outline: 1px solid #808080;
+    width: 100vmin;
+    height: 100vmin;
+}
+
+.board>div>div {
+    height: 12.5vmin;
+    width: 12.5vmin;
+    float: left;
+}
+
+.board>div:nth-of-type(odd)>div:nth-of-type(odd),
+.board>div:nth-of-type(even)>div:nth-of-type(even) {
+    background-color: #808080;
+}
+
+.board>div:nth-child(1)>div,
+.board>div:nth-child(2)>div,
+.board>div:nth-child(7)>div,
+.board>div:nth-child(8)>div {
+    background-image: url("chess.png");
+    background-repeat: no-repeat;
+    background-size: 80vmin;
+    width: 12.5vmin;
+    height: 12.5vmin;
+}
+
+/*белый слон*/
+
+.board>div:nth-child(1)>div:nth-child(7n+1) {
+    background-position: 41% 100%;
+}
+
+/* белый конь */
+
+.board>div:nth-child(1)>div:nth-child(5n+2) {
+    background-position: 82% 100%;
+}
+
+/*белая ладья*/
+
+.board>div:nth-child(1)>div:nth-child(3n+3) {
+    background-position: 62% 100%;
+}
+
+/* белая королева */
+
+.board>div:nth-child(1)>div:nth-child(4) {
+    background-position: 20% 100%;
+}
+
+/* белый король */
+
+.board>div:nth-child(1)>div:nth-child(5) {
+    background-position: -1% 100%;
+}
+
+/* белые пешки */
+
+.board>div:nth-child(2)>div:nth-child(1n+1) {
+    background-position: 104% 100%;
+}
+
+/* черные пешки */
+
+.board>div:nth-child(7)>div:nth-child(1n+1) {
+    background-position: 104% 0%;
+}
+
+/* черный слон*/
+
+.board>div:nth-child(8)>div:nth-child(7n+1) {
+    background-position: 41% 00%;
+}
+
+/* черный конь */
+
+.board>div:nth-child(8)>div:nth-child(5n+2) {
+    background-position: 82% 00%;
+}
+
+/* белая ладья */
+
+.board>div:nth-child(8)>div:nth-child(3n+3) {
+    background-position: 62% 00%;
+}
+
+/* черная королева */
+
+.board>div:nth-child(8)>div:nth-child(4) {
+    background-position: 20% 0%;
+}
+
+/* черный король */
+
+.board>div:nth-child(8)>div:nth-child(5) {
+    background-position: -1% 00%;
+}
