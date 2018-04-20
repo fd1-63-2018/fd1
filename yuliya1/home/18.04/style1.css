@@ -1,0 +1,152 @@
+/*position: absolute*/
+body {
+    margin: 0;
+    width: 100vmin;
+    height:100vmin;
+}
+
+.chessTable>div {
+    width: 12.5vmin;
+    height: 12.5vmin;
+    outline: 1px solid black;
+    position: absolute;
+}
+
+.chessTable>div:nth-child(8n-7) {
+    left: 0vmin;
+}
+
+.chessTable>div:nth-child(8n-6) {
+    left: 12.5vmin;
+}
+
+.chessTable>div:nth-child(8n-5) {
+    left: 25vmin;
+}
+
+.chessTable>div:nth-child(8n-4) {
+    left: 37.5vmin;
+}
+
+.chessTable>div:nth-child(8n-3) {
+    left: 50vmin;
+}
+
+.chessTable>div:nth-child(8n-2) {
+    left: 62.5vmin;
+}
+
+.chessTable>div:nth-child(8n-1) {
+    left: 75vmin;
+}
+
+.chessTable>div:nth-child(8n) {
+    left: 87.5vmin;
+    position: relative;
+}
+
+.chessTable>div:nth-child(even):nth-child(-n+8),
+.chessTable>div:nth-child(n+9):nth-child(odd):nth-child(-n+16),
+.chessTable>div:nth-child(n+17):nth-child(even):nth-child(-n+24),
+.chessTable>div:nth-child(n+25):nth-child(odd):nth-child(-n+32),
+.chessTable>div:nth-child(n+33):nth-child(even):nth-child(-n+40),
+.chessTable>div:nth-child(n+41):nth-child(odd):nth-child(-n+48),
+.chessTable>div:nth-child(n+49):nth-child(even):nth-child(-n+56),
+.chessTable>div:nth-child(n+57):nth-child(odd):nth-child(-n+64) {
+    background-color: blue;
+}
+
+.chessTable>div:nth-of-type(-n+8),
+.chessTable>div:nth-of-type(n+9):nth-of-type(-n+16),
+.chessTable>div:nth-of-type(n+49):nth-of-type(-n+56),
+.chessTable>div:nth-of-type(n+57):nth-of-type(-n+64) {
+    background-image: url("image_chess.png");
+    background-repeat: no-repeat;
+    background-size: 650%;
+}
+
+.chessTable>div {
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+}
+
+/* Белые фигуры,
+ладья */
+
+.chessTable>div:nth-of-type(1),
+.chessTable>div:nth-of-type(8) {
+    background-position: 41% 100%;
+}
+
+/* Конь */
+
+.chessTable>div:nth-of-type(2),
+.chessTable>div:nth-of-type(7) {
+    background-position: 83% 100%;
+}
+
+/* cлон */
+
+.chessTable>div:nth-of-type(3),
+.chessTable>div:nth-of-type(6) {
+    background-position: 62% 100%;
+}
+
+/* король */
+
+.chessTable>div:nth-of-type(4) {
+    background-position: 0% 100%;
+}
+
+/* ферзь */
+
+.chessTable>div:nth-of-type(5) {
+    background-position: 20% 100%;
+}
+
+/* пешки */
+
+.chessTable>div:nth-of-type(n+9):nth-of-type(-n+16) {
+    background-position: 103% 100%;
+}
+
+/* Черные фигуры, 
+ладья */
+
+.chessTable>div:nth-of-type(57),
+.chessTable>div:nth-of-type(64) {
+    background-position: 41% 0%;
+}
+
+/* Конь */
+
+.chessTable>div:nth-of-type(58),
+.chessTable>div:nth-of-type(63) {
+    background-position: 83% 0%;
+}
+
+/* cлон */
+
+.chessTable>div:nth-of-type(59),
+.chessTable>div:nth-of-type(62) {
+    background-position: 62% 0%;
+}
+
+/* король */
+
+.chessTable>div:nth-of-type(60) {
+    background-position: 0% 0%;
+}
+
+/* ферзь */
+
+.chessTable>div:nth-of-type(61) {
+    background-position: 20% 0%;
+}
+
+/* пешки */
+
+.chessTable>div:nth-of-type(n+49):nth-of-type(-n+56) {
+    background-position: 103% 0%;
+}
