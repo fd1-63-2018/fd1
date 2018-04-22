@@ -1,0 +1,32 @@
+#first{
+    width: 600px;
+    height: 70px;
+}
+
+#first>div{
+    width: 60px;
+    height: 50px;
+    float: left;
+    text-decoration: underline;
+    color: #2f88a6;
+    font-size: 200%;
+    text-align: center;
+}
+
+#first>div:nth-of-type(4){
+    background-color: #f97020;
+    color: white;
+    text-decoration: none;
+}
+
+#first>div:nth-of-type(n+11){
+    background-color: #cccccc;
+    position: relative;
+    height: 5px;
+    top: 20px;
+}
+
+#first>div:nth-of-type(14){
+    background-color: #f97020;
+}
+
