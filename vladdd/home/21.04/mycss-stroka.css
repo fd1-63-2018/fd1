@@ -1,0 +1,53 @@
+            div:nth-of-type(n) {
+                float: left;
+                position: relative;
+            }
+            div:nth-of-type(11){
+                clear: left;
+            }
+            div:nth-of-type(21){
+                clear: left;
+            }
+            div:nth-of-type(-n+10){
+                color:blue;
+                text-decoration:underline;
+                text-align: center;
+                font-size:4vmin;
+                height:5vmin;
+                width:5vmin;
+            }
+            div:nth-of-type(-n+20):nth-of-type(n+11){
+                height:1vmin;
+                width:5vmin;
+            }
+            div:nth-of-type(-n+30):nth-of-type(n+21){
+                background-color:silver;
+                height:0.5vmin;
+                width:5vmin;
+            }
+            
+            div:nth-of-type(1):hover ~ div:nth-of-type(21),
+            div:nth-of-type(1):hover ,
+            div:nth-of-type(2):hover ~ div:nth-of-type(22),
+            div:nth-of-type(2):hover ,
+            div:nth-of-type(3):hover ~ div:nth-of-type(23),
+            div:nth-of-type(3):hover ,
+            div:nth-of-type(4):hover ~ div:nth-of-type(24),
+            div:nth-of-type(4):hover,
+            div:nth-of-type(5):hover ~ div:nth-of-type(25),
+            div:nth-of-type(5):hover ,
+            div:nth-of-type(6):hover ~ div:nth-of-type(26),
+            div:nth-of-type(6):hover ,
+            div:nth-of-type(7):hover ~ div:nth-of-type(27),
+            div:nth-of-type(7):hover ,
+            div:nth-of-type(8):hover ~ div:nth-of-type(28),
+            div:nth-of-type(8):hover ,
+            div:nth-of-type(9):hover ~ div:nth-of-type(29),
+            div:nth-of-type(9):hover ,
+            div:nth-of-type(10):hover ~ div:nth-of-type(30),
+            div:nth-of-type(10):hover {
+                background-color: #FFA500;
+                text-decoration:none;
+                color:#fff;
+                
+            }

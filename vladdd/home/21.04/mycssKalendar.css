@@ -1,0 +1,72 @@
+                .myclass1{
+                width:220px;
+                height:20px;
+                border:1px solid black;
+                margin:0px;
+                padding:3px 5px;
+                border-radius:10px 10px 0px 0px;
+                text-align:center ;
+                color:#FFF;
+                background-color:green;
+            }
+            .myclass2{
+                width:220px;
+                height:20px;
+                border:1px solid black;
+                padding:3px 5px;
+                text-align:center ;
+                margin:0px;
+                color:#FFF;
+                background-color:black;
+            }
+            .myclass3{
+                width:220px;
+                height:160px;
+                border:1px solid black;
+                margin:0px;
+                padding:3px 5px;
+                background-color:silver;
+                
+            }
+            .myclass2>div:nth-of-type(1){
+                width: 0;
+                height: 0;
+                border: 10px solid transparent; 
+                border-right-color: green;  
+                border-left: 0;
+                float:left;
+            }
+            .myclass2>div:nth-of-type(2){
+                width: 0;
+                height: 0;
+                border: 10px solid transparent; 
+                border-left-color: green;  
+                border-right: 0;
+                float:right;
+            }
+            .myclass2>p,
+            .myclass1>p {
+                margin:0px;
+            }
+            .myclass3>div {
+                text-align:center;
+                font-size:20px;
+                position: relative;
+                float:left;
+            }
+            .myclass3>div:nth-of-type(n){
+                width:30px;
+                height:30px;
+            }
+            .myclass3>div:nth-of-type(8),
+            .myclass3>div:nth-of-type(15),
+            .myclass3>div:nth-of-type(29) {
+                clear:left;
+            }
+            .myclass3>div:nth-of-type(4){
+                color:#FFF;
+                background-color:orange;
+            }
+            .myclass3>div:nth-of-type(n+5){
+                opacity:0.3;
+            }

@@ -1,0 +1,41 @@
+            body {
+                background-color:green;
+                margin:5vmin 10vmin;
+            }
+            .table {
+                width:70vmin;
+                height:60vmin;
+                outline:0.5vmin solid black;
+                padding:3vmin 5vmin;
+                
+            }
+            .table>div:nth-of-type(1){
+                float:left;
+                background-color:red;
+                height:15vmin;
+                width:20vmin;
+                outline:0.5vmin solid black;
+            }
+            .table>div:nth-of-type(2){
+              background-color:silver;
+              float:right;
+                height:35vmin;
+                width:45vmin;
+                outline:0.5vmin solid black;
+            }
+            .table>div:nth-of-type(3){
+                float:left;
+                background-color:blue;
+                height:35vmin;
+                width:20vmin;
+                margin:10vmin 0vmin;
+                outline:0.5vmin solid black;
+            }
+            .table>div:nth-of-type(4){
+                float:right;
+                background-color:yellow;
+                height:15vmin;
+                width:45vmin;
+                margin:10vmin 0vmin;
+                outline:0.5vmin solid black;
+            }
