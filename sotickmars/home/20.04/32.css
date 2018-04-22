@@ -1,0 +1,428 @@
+body{
+    margin: 10vmin;
+}
+
+div:nth-of-type(1n):nth-of-type(-n+8){
+    
+    height: 10vmin;
+    width: 80vmin;
+    border:1px solid #d2691e;
+    box-sizing: border-box
+}
+div:nth-of-type(2n):nth-of-type(-n+8){
+    background:linear-gradient(to left, #d2691e 0vmin, #d2691e 10vmin, #fff 10vmin, #fff 20vmin,
+    #d2691e 20vmin, #d2691e 30vmin, #fff 30vmin, #fff 40vmin, #d2691e 40vmin, #d2691e 50vmin, #fff 50vmin, #fff 60vmin,
+    #d2691e 60vmin, #d2691e 70vmin, #fff 70vmin, #fff 80vmin);
+}
+div:nth-of-type(2n-1):nth-of-type(-n+8){
+    background:linear-gradient(to right,  #d2691e 0vmin, #d2691e 10vmin, #fff 10vmin, #fff 20vmin,
+    #d2691e 20vmin, #d2691e 30vmin, #fff 30vmin, #fff 40vmin, #d2691e 40vmin, #d2691e 50vmin, #fff 50vmin, #fff 60vmin,
+    #d2691e 60vmin, #d2691e 70vmin, #fff 70vmin, #fff 80vmin);
+}
+
+div:nth-of-type(n+9):nth-of-type(-n+16){
+    height: 10vmin;
+    width: 10vmin;
+    float: left;
+    position: relative;
+    top: -20vmin;
+    background-image: url(slack-imgs.png);
+    background-size: 65vmin;
+    background-position: 103% 0%;
+    background-repeat: no-repeat;
+}
+
+div:nth-of-type(n+9):nth-of-type(-n+16):after{
+    content: "";
+    display: block;
+    height: 10vmin;
+    width: 10vmin;
+    position: absolute;
+    top: -50vmin;
+    background-image: url(slack-imgs.png);
+    background-size: 65vmin;
+    background-position: 103% 100%;
+    background-repeat: no-repeat;
+}
+div:nth-of-type(17){/*lad b*/
+    height: 10vmin;
+    width: 10vmin;
+    position: relative;
+    top: -10vmin;
+    background-image: url(slack-imgs.png);
+    background-size: 65vmin;
+    background-position: 41% 0%;
+    background-repeat: no-repeat;
+}
+div:nth-of-type(17):after{/*lad w*/
+    content: "";
+    display: block;
+    height: 10vmin;
+    width: 10vmin;
+    position: absolute;
+    top: -70vmin;
+    background-image: url(slack-imgs.png);
+    background-size: 65vmin;
+    background-position: 41% 100%;
+    background-repeat: no-repeat;
+}
+
+div:nth-of-type(18){/*lad2 b*/
+    height: 10vmin;
+    width: 10vmin;
+    position: absolute;
+    top: 80vmin;
+    left: 80vmin;
+    background-image: url(slack-imgs.png);
+    background-size: 65vmin;
+    background-position: 41% 0%;
+    background-repeat: no-repeat;
+}
+div:nth-of-type(18):after{/*lad2 w*/
+    content: "";
+    display: block;
+    height: 10vmin;
+    width: 10vmin;
+    position:absolute;
+    top: -70vmin;
+    background-image: url(slack-imgs.png);
+    background-size: 65vmin;
+    background-position: 41% 100%;
+    background-repeat: no-repeat;
+}
+
+div:nth-of-type(19){/*konb b*/
+    height: 10vmin;
+    width: 10vmin;
+    position: absolute;
+    top: 80vmin;
+    left: 20vmin;
+    background-image: url(slack-imgs.png);
+    background-size: 65vmin;
+    background-position: 82% 0%;
+    background-repeat: no-repeat;
+}
+div:nth-of-type(19):after{/*konb w*/
+    content: "";
+    display: block;
+    height: 10vmin;
+    width: 10vmin;
+    position: absolute;
+    top: -70vmin;
+    background-image: url(slack-imgs.png);
+    background-size: 65vmin;
+    background-position: 82% 100%;
+    background-repeat: no-repeat;
+}
+
+div:nth-of-type(20){/*konb22 b*/
+    height: 10vmin;
+    width: 10vmin;
+    position: absolute;
+    top: 80vmin;
+    left: 70vmin;
+    background-image: url(slack-imgs.png);
+    background-size: 65vmin;
+    background-position: 82% 0%;
+    background-repeat: no-repeat;
+}
+div:nth-of-type(20):after{/*konb2 w*/
+    content: "";
+    display: block;
+    height: 10vmin;
+    width: 10vmin;
+    position: absolute;
+    top: -70vmin;
+    background-image: url(slack-imgs.png);
+    background-size: 65vmin;
+    background-position: 82% 100%;
+    background-repeat: no-repeat;
+}
+
+div:nth-of-type(21){/*slon b*/
+    height: 10vmin;
+    width: 10vmin;
+    position: absolute;
+    top: 80vmin;
+    left: 30vmin;
+    background-image: url(slack-imgs.png);
+    background-size: 65vmin;
+    background-position: 61% 0%;
+    background-repeat: no-repeat;
+}
+div:nth-of-type(21):after{/*slon w*/
+    content: "";
+    display: block;
+    height: 10vmin;
+    width: 10vmin;
+    position: absolute;
+    top: -70vmin;
+    background-image: url(slack-imgs.png);
+    background-size: 65vmin;
+    background-position: 61% 100%;
+    background-repeat: no-repeat;
+}
+
+div:nth-of-type(22){/*slon2 b*/
+    height: 10vmin;
+    width: 10vmin;
+    position: absolute;
+    top: 80vmin;
+    left: 60vmin;
+    background-image: url(slack-imgs.png);
+    background-size: 65vmin;
+    background-position: 61% 0%;
+    background-repeat: no-repeat;
+}
+div:nth-of-type(22):after{/*slon2 w*/
+    content: "";
+    display: block;
+    height: 10vmin;
+    width: 10vmin;
+    position: absolute;
+    top: -70vmin;
+    background-image: url(slack-imgs.png);
+    background-size: 65vmin;
+    background-position: 61% 100%;
+    background-repeat: no-repeat;
+}
+
+div:nth-of-type(23){/*ferz b*/
+    height: 10vmin;
+    width: 10vmin;
+    position: absolute;
+    top: 80vmin;
+    left: 40vmin;
+    background-image: url(slack-imgs.png);
+    background-size: 65vmin;
+    background-position: 20% 0%;
+    background-repeat: no-repeat;
+}
+div:nth-of-type(23):after{/*ferz w*/
+    content: "";
+    display: block;
+    height: 10vmin;
+    width: 10vmin;
+    position: absolute;
+    top: -70vmin;
+    background-image: url(slack-imgs.png);
+    background-size: 65vmin;
+    background-position: 20% 100%;
+    background-repeat: no-repeat;
+}
+
+div:nth-of-type(24){/*king b*/
+    height: 10vmin;
+    width: 10vmin;
+    position: absolute;
+    top: 80vmin;
+    left: 50vmin;
+    background-image: url(slack-imgs.png);
+    background-size: 65vmin;
+    background-position: -1% 0%;
+    background-repeat: no-repeat;
+}
+div:nth-of-type(24):after{/*king w*/
+    content: "";
+    display: block;
+    height: 10vmin;
+    width: 10vmin;
+    position: absolute;
+    top: -70vmin;
+    background-image: url(slack-imgs.png);
+    background-size: 65vmin;
+    background-position: -1% 100%;
+    background-repeat: no-repeat;
+}
+
+
+div:nth-of-type(1n):nth-of-type(-n+8):after{
+    display: block;
+    position: absolute;
+    left: 7vmin;
+    font-size: 5vmin;
+    }
+div:nth-of-type(1n):nth-of-type(-n+8):before{
+    display: block;
+    position: absolute;
+    left:90vmin;
+    font-size: 5vmin;
+    }
+
+div:nth-of-type(1):after{
+    content: "1";
+    top: 13vmin;
+    
+}div:nth-of-type(1):before{
+    content: "1";
+    top: 13vmin;
+}
+
+div:nth-of-type(2):after{
+    content: "2";
+    top: 23vmin;
+    
+}div:nth-of-type(2):before{
+    content: "2";
+    top: 23vmin;
+}
+
+div:nth-of-type(3):after{
+    content: "3";
+    top: 33vmin;
+}div:nth-of-type(3):before{
+    content: "3";
+    top: 33vmin;
+}
+
+div:nth-of-type(4):after{
+    content: "4";
+    top: 43vmin;
+}div:nth-of-type(4):before{
+    content: "4";
+    top: 43vmin;
+}
+
+div:nth-of-type(5):after{
+    content: "5";
+    top: 53vmin;
+}
+
+div:nth-of-type(5):before{
+    content: "5";
+    top: 53vmin;
+}
+div:nth-of-type(6):after{
+    content: "6";
+    top: 63vmin;
+}
+
+div:nth-of-type(6):before{
+    content: "6";
+    top: 63vmin;
+}
+div:nth-of-type(7):after{
+    content: "7";
+    top: 73vmin;
+}
+
+div:nth-of-type(7):before{
+    content: "7";
+    top: 73vmin;
+}
+
+div:nth-of-type(8):after{
+    content: "8";
+    top: 83vmin;
+}
+
+div:nth-of-type(8):before{
+    content: "8";
+    top: 83vmin;
+}
+
+div:nth-of-type(n+25):nth-of-type(-n+32){
+    float: left;
+    height: 10vmin;
+    width: 10vmin;
+}
+
+div:nth-of-type(n+25):nth-of-type(-n+32):after{
+    display: block;
+    top: 5vmin;
+    position: absolute;
+    font-size: 5vmin;
+    }
+div:nth-of-type(n+25):nth-of-type(-n+32):before{
+    display: block;
+    top: 90vmin;
+    position: absolute;
+    font-size: 5vmin;
+    }
+    
+
+
+div:nth-of-type(25):after{
+    content: "A";
+    left: 13vmin;
+}
+
+div:nth-of-type(25):before{
+    content: "A";
+    left: 13vmin;
+}
+
+div:nth-of-type(26):after{
+    content: "B";
+    left: 23vmin;
+}
+
+div:nth-of-type(26):before{
+    content: "B";
+    left: 23vmin;
+}
+
+div:nth-of-type(27):after{
+    content: "C";
+    left: 33vmin;
+}
+
+div:nth-of-type(27):before{
+    content: "C";
+    left: 33vmin;
+}
+
+div:nth-of-type(28):after{
+    content: "D";
+    left: 43vmin;
+}
+
+div:nth-of-type(28):before{
+    content: "D";
+    left: 43vmin;
+}
+
+div:nth-of-type(29):after{
+    content: "E";
+    left: 53vmin;
+}
+
+div:nth-of-type(29):before{
+    content: "F";
+    left: 53vmin;
+}
+
+div:nth-of-type(30):after{
+    content: "F";
+    left: 63vmin;
+}
+
+div:nth-of-type(30):before{
+    content: "E";
+    left: 63vmin;
+}
+
+div:nth-of-type(31):after{
+    content: "G";
+    left: 73vmin;
+}
+
+div:nth-of-type(31):before{
+    content: "G";
+    left: 73vmin;
+}
+
+div:nth-of-type(32):after{
+    content: "H";
+    left: 83vmin;
+}
+
+div:nth-of-type(32):before{
+    content: "H";
+    left: 83vmin;
+}
+
+
+
+
+

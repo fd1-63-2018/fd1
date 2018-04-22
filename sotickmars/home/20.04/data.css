@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+}
+
+.data {
+    height: 100vmin;
+    width: 75vmin;
+}
+
+.arx {
+    height: 10vmin;
+    background: green;
+    border-radius: 2vmin 2vmin 0vmin 0vmin;
+}
+
+.arx>div {
+    color: #fff;
+    position: absolute;
+    top: 2vmin;
+    width: 75vmin;
+    text-align: center;
+    font-size: 30px;
+}
+
+.strelka {
+    height: 10vmin;
+    background: #000;
+}
+
+.strelka>div {
+    position: absolute;
+    float: left;
+}
+
+.strelka>div:nth-of-type(2) {
+    color: #fff;
+    width: 75vmin;
+    text-align: center;
+    padding-top: 2vmin;
+    font-size: 30px;
+}
+
+.strelka>div:nth-of-type(1) {
+    top: 11vmin;
+    height: 8vmin;
+    width: 8vmin;
+    border-top: 4vmin solid black;
+    border-right: 4vmin solid green;
+    border-bottom: 4vmin solid black;
+    box-sizing: border-box
+}
+
+.strelka>div:nth-of-type(3) {
+    top: 11vmin;
+    left: 67vmin;
+    height: 8vmin;
+    width: 8vmin;
+    border-top: 4vmin solid black;
+    border-left: 4vmin solid green;
+    border-bottom: 4vmin solid black;
+    box-sizing: border-box
+}
+
+.number {
+    margin: 5vmin;
+}
+
+.number>div {
+    color: gray;
+    margin-top: 5vmin;
+    float: left;
+    font-size: 30px;
+    height: 9vmin;
+    width: 9vmin;
+    text-align: center;
+}
+
+.fon {
+    height: 75vmin;
+    margin-top: -5vmin;
+    background: lightgray;
+}
+
+.number>div:nth-of-type(1n):nth-of-type(-n+3) {
+    color: #000;
+}
+
+.number>div:nth-of-type(4) {
+    color: #fff;
+    background: green;
+}
