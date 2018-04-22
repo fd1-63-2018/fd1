@@ -1,0 +1,50 @@
+html {
+    background-color: #1c675d;
+}
+
+.container {
+    position: relative;
+    width: 96vmin;
+    height: 76vmin;
+    margin-top: 10vmin;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid black;
+}
+
+.container > div {
+    position: absolute;
+    border: 4px solid black;
+}
+
+.figure_red {
+    background-color: darkred;
+    width: 20%;
+    height: 15%;
+    top: 10%;
+    left: 10%;
+}
+
+.figure_blue {
+    background-color: darkblue;
+    width: 20%;
+    height: 55%;
+    top: 35%;
+    left: 10%;
+}
+
+.figure_green {
+    background-color: darkgreen;
+    width: 50%;
+    height: 55%;
+    top: 10%;
+    left: 40%;
+}
+
+.figure_yellow {
+    background-color: yellow;
+    width: 50%;
+    height: 15%;
+    top: 75%;
+    left: 40%;
+}
