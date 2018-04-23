@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.face,
+.eyes,
+.smile,
+.eyeL,
+.eyeR,
+.mouthl {
+    position: relative;
+
+}
+
+
+div.contener {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+div.face {
+    width: 480px;
+    height: 480px;
+    border: 15px solid black;
+    border-radius: 50%;
+}
+
+div.eyes {
+    width: 380px;
+    height: 90px;
+    top: 140px;
+    left: 40px;
+}
+
+.eyes {
+    height: 70px;
+    width: 150px;
+    top: 5px;
+    border-radius: 140px 140px 0 0;
+}
+
+.eyeL {
+    width: 90px;
+    height: 90px;
+    border: 15px solid;
+    border-radius: 50%;
+    border-color: black black white white;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 70px;
+
+}
+
+.eyeR {
+    width: 90px;
+    height: 90px;
+    border: 15px solid;
+    border-radius: 50%;
+    border-color: black black white white;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 220px;
+}
+
+.dotl {
+    width: 10px;
+    height: 10px;
+    border: 7.5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 38px;
+    left: 145px
+}
+
+.dotr {
+    width: 10px;
+    height: 10px;
+    border: 7.5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 38px;
+    left: 70px;
+}
+
+.leftd {
+    width: 10px;
+    height: 10px;
+    border: 7.5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 38px;
+    left: 220px;
+}
+
+.rightd {
+    width: 10px;
+    height: 10px;
+    border: 7.5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 39px;
+    left: 296px;
+}
+
+.mouthl {
+    width: 360px;
+    height: 220px;
+    border-radius: 0 0 200px 200px;
+    border-bottom: 15px solid black;
+    border-left: 15px solid black;
+    border-right: 15px solid black;
+    position: absolute;
+    left: 50px;
+    top: 114px;
+
+
+}
+
+.dottl {
+    width: 10px;
+    height: 10px;
+    border: 7.5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: -15px;
+}
+
+.dottr {
+    width: 10px;
+    height: 10px;
+    border: 7.5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: 330px;
+}
