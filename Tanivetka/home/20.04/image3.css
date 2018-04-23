@@ -1,0 +1,35 @@
+a:hover {
+    background-color: orange;
+    text-decoration: none;
+}
+
+a {
+  padding: 10px;
+}
+
+div.first {
+    width: 324px;
+}
+
+div.first, a {
+    position: relative;
+}
+
+a:hover::before,
+div.first::before {
+    content: '';
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+}
+
+div.first::before {
+    background-color: gray;
+    bottom: -20px;
+}
+
+a:hover::before {
+    background-color: orange;
+    bottom: -11px;
+}
