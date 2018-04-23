@@ -1,0 +1,51 @@
+html,
+body {
+    margin: 0;
+    background-color: teal;
+    height: calc(100% - 16px);
+    width: 100%;
+}
+
+#first {
+    height: calc(100vh - 84px);
+    border: 2px solid black;
+    margin: 20px 40px;
+    padding: 20px;
+}
+
+#red {
+    border: 2px solid black;
+    background-color: red;
+    width: calc((100vw - 112px - 120px)/3);
+    height: calc((100vh - 112px - 80px)/3);
+    margin: 20px;
+    float: left;
+}
+
+#green {
+    border: 2px solid black;
+    background-color: green;
+    ;
+    width: calc((100vw - 112px - 120px)/1.5);
+    height: calc((100vh - 112px - 80px)/1.5);
+    margin: 20px;
+    float: right;
+}
+
+#blue {
+    border: 2px solid black;
+    background-color: blue;
+    width: calc((100vw - 112px - 120px)/3);
+    height: calc((100vh - 112px - 80px)/1.5);
+    margin: 20px;
+    float: left;
+}
+
+#yellow {
+    border: 2px solid black;
+    background-color: yellow;
+    width: calc((100vw - 112px - 120px)/1.5);
+    height: calc((100vh - 112px - 80px)/3);
+    margin: 20px;
+    float: right;
+}
