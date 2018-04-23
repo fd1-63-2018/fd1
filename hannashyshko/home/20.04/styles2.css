@@ -1,0 +1,47 @@
+body {
+    margin: 8;
+    background-color: #008080;
+}
+
+div {
+    border: 2px solid black;
+    width: 80vmin;
+    height: 62vmin;
+}
+
+div>div:nth-child(1) {
+    margin: 30px;
+    background-color: red;
+    width: 15vmin;
+    height: 10vmin;
+}
+
+div>div:nth-child(2) {
+    position: relative;
+    left: 120px;
+    top: -76px;
+    margin: 10px;
+    background-color: green;
+    width: 40vmin;
+    height: 25vmin;
+}
+
+div>div:nth-child(3) {
+    position: relative;
+    left: 21px;
+    top: -125px;
+    margin: 10px;
+    background-color: blue;
+    width: 15vmin;
+    height: 30vmin;
+}
+
+div>div:nth-child(4) {
+    position: relative;
+    left: 120px;
+    top: -200px;
+    margin: 10px;
+    background-color: yellow;
+    width: 40vmin;
+    height: 14vmin;
+}

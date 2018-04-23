@@ -1,0 +1,21 @@
+body {
+    margin: 8;
+}
+
+div {
+    display: inline;
+    padding: 10px;
+    font-size: large;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: orange;
+}
+
+hr {
+    border: 2px #e0e0d1 solid;
+    position: inherit;
+    margin-right: 200px;
+   
+}

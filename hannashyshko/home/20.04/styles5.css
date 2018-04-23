@@ -1,0 +1,28 @@
+body {
+    margin: 8;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.archive {
+    text-align: center;
+    padding: 10px;
+    background-color: #339966;
+    border-radius: 10px;
+    color: white;
+}
+
+.month {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.left {
+    padding-left: -600px;
+}
