@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 10vmin;
+    background-color: #39ac73;
+}
+
+.blockcontainer {
+    height: 80vmin;
+    width: 100vmin;
+    border: 2px solid black;
+}
+
+div {
+    position: relative;
+}
+
+.red {
+    width: 25vmin;
+    height: 20vmin;
+    outline: 2px solid black;
+    background-color: red;
+    top: 5vmin;
+    left: 5vmin;
+
+}
+
+.blue {
+    width: 25vmin;
+    height: 40vmin;
+    outline: 2px solid black;
+    background-color: blue;
+    top: 10vmin;
+    left: 5vmin;
+
+}
+
+.green {
+    width: 50vmin;
+    height: 40vmin;
+    outline: 2px solid black;
+    background-color: green;
+    top: -55vmin;
+    left: 40vmin;
+
+}
+
+.yellow {
+    width: 50vmin;
+    height: 20vmin;
+    outline: 2px solid black;
+    background-color: yellow;
+    top: -50vmin;
+    left: 40vmin;
+
+}
