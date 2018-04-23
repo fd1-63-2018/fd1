@@ -1,0 +1,94 @@
+.container {
+    width: 330px;
+    height: 330px;
+    background-color: white;
+    margin: 0px;
+    padding:1px;
+}
+
+.header {
+    width: 300px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #2E8B57;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    font-family: Times, Sans-Serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin: 17px 11px 0px 11px;
+}
+
+.month {
+    width: 300px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #000000;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    margin: 0px 11px 0px 11px;
+}
+
+.button_left {
+    width: 0;
+    height: 0;
+    border-right: 18px solid seagreen;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    margin-left: 17px;
+    margin-top: -33px;
+    margin-bottom: 0px;
+}
+
+.button_right {
+    width: 0;
+    height: 0;
+    border-left: 18px solid seagreen;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    margin-left: 265px;
+    margin-top: -24px;
+    margin-bottom: 0px;
+}
+
+.data {
+    width: 300px;
+    height: 214px;
+    background: #D3D3D3;
+    margin: 0px 11px 0px 11px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 11px;
+    margin: 0px 11px 0px 11px;
+}
+
+.data ul>li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    text-align: right;
+}
+
+.data ul>li:nth-of-type(-n+3) {
+    color: black;
+}
+
+.data ul>li:nth-of-type(n+5) {
+    color: #808080;
+}
+
+.data ul>li:nth-of-type(4) {
+    color: white;
+    background-color: #2E8B57;
+    text-align: center;
+}
+
+li {
+    margin: 11px 0px 0px 0px;
+}
