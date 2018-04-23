@@ -1,0 +1,93 @@
+html{
+	background-color: #f3f3f3;
+    margin:0;
+}
+.position{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.face{
+    height: 600px;
+    width: 600px;
+    border:3vmin solid black;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.eyes{
+    height: 30vmin;
+    width: 70vmin;
+    margin-left:  8vmin;
+    overflow: hidden;
+}
+.eyes>div:nth-of-type(1){
+    height:15vmin;
+    width: 15vmin;
+    border:3vmin solid black;
+    border-radius: 50%;
+    float: left;
+    margin-top: 20vmin;
+    margin-left: 3vmin;
+}
+.eyes>div:nth-of-type(2){
+    height:15vmin;
+    width: 15vmin;
+    border:3vmin solid black;
+    border-radius: 50%;
+    float: left;
+    margin-top: 20vmin;
+    margin-left: 9vmin;
+}
+.mouth{
+    height: 60vmin;
+    width: 90vmin;
+    margin-left:  7vmin;
+    margin-top: 7vmin;
+    overflow: hidden;
+}
+.mouth>div{
+    height:57vmin;
+    width: 52vmin;
+    border:3vmin solid black;
+    border-radius: 50%;
+    float: left;
+    margin-top: -38vmin
+}
+.eyes1, .eyes2, .eyes3, .eyes4{
+    height: 3.8vmin;
+    width: 3.1vmin;
+    background:black;
+    border-radius: 50%;
+    position: absolute;
+    top: 31vmin;
+}
+.eyes1{
+    left: 14vmin;
+}
+.eyes2{
+    left: 31.9vmin;
+}
+.eyes3{
+    left: 44vmin;
+}
+.eyes4{
+    left: 61.9vmin;
+}
+.mouth1, .mouth2{
+    height: 2.9vmin;
+    width: 3vmin;
+    background:black;
+    border-radius: 50%;
+    position: absolute;
+    top: 38.5vmin;
+}
+.mouth1{
+    left: 10.7vmin;
+}
+.mouth2{
+    left: 64.4vmin;
+}
