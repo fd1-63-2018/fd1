@@ -1,0 +1,62 @@
+.osnova {
+    background-color: teal;
+    height: 50vmin;
+    width: 80vmin;
+
+}
+
+.border {
+    height: 45vmin;
+    width: 65vmin;
+    position: relative;
+    left: 10vmin;
+    top: 3vmin;
+    border: 3px solid black;
+}
+
+.otstup1 {
+    position: relative;
+    top: 3vmin;
+    left: 5vmin;
+    float: left;
+}
+
+.otstup2 {
+    position: relative;
+    top: 3vmin;
+    right: 5vmin;
+    float: right;
+}
+
+
+.red {
+    background-color: red;
+    height: 10vmin;
+    width: 15vmin;
+    border: 2px solid black;
+}
+
+.blue {
+    background-color: blue;
+    height: 25vmin;
+    width: 15vmin;
+    border: 2px solid black;
+    position: relative;
+    top: 2vmin;
+}
+
+.green {
+    background-color: green;
+    width: 35vmin;
+    height: 25vmin;
+    border: 2px solid black;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 9vmin;
+    width: 35vmin;
+    border: 2px solid black;
+    position: relative;
+    top: 3vmin;
+}
