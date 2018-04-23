@@ -7,54 +7,21 @@ div {
     display: block;
 }
 
-div:nth-child(3), div:nth-child(6), div:nth-child(9), div:nth-child(12), div:nth-child(15) {
-    float: none;
+div:nth-child(3n-2) {
+    clear: left;
 }
 
-div:nth-child(5) {
-    margin-left: 8px;
+div:nth-child(5), div:nth-child(7), div:nth-child(10), div:nth-child(13) {
+    margin-left: 0.5em;
 }
 
-div:nth-child(6) {
-    
+div:nth-child(6), div:nth-child(8), div:nth-child(12), div:nth-child(17) {
+    margin-left: -1em;
 }
 
-div:nth-child(7) {
-    
+div:nth-child(10), div:nth-child(16) {
+  margin-left: 1em;
 }
-
-div:nth-child(8) {
-    
-}
-
-div:nth-child(10) {
-    
-}
-
-div:nth-child(11) {
-    
-}
-
-div:nth-child(12) {
-    
-}
-
-div:nth-child(13) {
-    
-}
-
-div:nth-child(14) {
-    
-}
-
-div:nth-child(15) {
-    
-}
-
-div:nth-child(16) {
-    
-}
-
-div:nth-child(18) {
-    
+div:nth-child(11), div:nth-child(15), div:nth-child(18) {
+  margin-left: -1.5em;
 }

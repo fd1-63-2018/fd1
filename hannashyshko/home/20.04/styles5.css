@@ -21,8 +21,23 @@ body {
     border-radius: 10px;
     color: white;
     font-family: sans-serif;
+    
 }
 
 .left {
-    padding-left: -600px;
+    width: 0vmin;
+    height: 0vmin;
+    border:10px solid transparent;
+    border-left: 10px solid green;
 }
+
+/*div div {*/
+/*    float: left;*/
+/*    padding: 10px;*/
+/*    margin: 1px;*/
+    
+/*}*/
+
+/*div:nth-child(7), div:nth-child(14), div:nth-child(21), div:nth-child(28) {*/
+/*    float: none;*/
+/*}*/
