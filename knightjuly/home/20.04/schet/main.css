@@ -1,0 +1,35 @@
+body{
+    margin:0;
+}
+div {
+    font-style: inherit;
+    width: 40px;
+    height: 40px;
+    font-size:200%;
+    color: #388fa3;
+    text-decoration: underline;
+    float: left;
+    text-align: center;
+    margin:30px;
+}
+div:hover
+{
+    color:white;
+    background-color: #f87024;}
+div:hover div>div
+{
+    color:white;
+    background-color: #f87024;
+}
+.underline {
+    height:4px;
+    width: auto;
+    position:relative;
+    top: -40px;
+    background-color:#cbcbcb;
+}
+div>div{
+     height:4px;
+    position:relative;
+    top: -30px;
+}
