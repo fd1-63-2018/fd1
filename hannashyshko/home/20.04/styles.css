@@ -1,0 +1,60 @@
+body {
+    margin: 8;
+}
+
+div {
+    float: left;
+    display: block;
+}
+
+div:nth-child(3), div:nth-child(6), div:nth-child(9), div:nth-child(12), div:nth-child(15) {
+    float: none;
+}
+
+div:nth-child(5) {
+    margin-left: 8px;
+}
+
+div:nth-child(6) {
+    
+}
+
+div:nth-child(7) {
+    
+}
+
+div:nth-child(8) {
+    
+}
+
+div:nth-child(10) {
+    
+}
+
+div:nth-child(11) {
+    
+}
+
+div:nth-child(12) {
+    
+}
+
+div:nth-child(13) {
+    
+}
+
+div:nth-child(14) {
+    
+}
+
+div:nth-child(15) {
+    
+}
+
+div:nth-child(16) {
+    
+}
+
+div:nth-child(18) {
+    
+}
