@@ -1,0 +1,101 @@
+ * {
+   margin: 0;
+   padding: 0;
+ }
+ 
+ .circle {
+   height: 500px;
+   width: 500px;
+ 
+   border: black solid 25px;
+   border-radius: 100%;
+ }
+ 
+ .eyeleft,
+ .eyeright,
+ .smile,
+ .eyeleft1,
+ .eyeleft2,
+ .eyeright1,
+ .eyeright2,
+ .smileleft1,
+ .smileleft2 {
+   position: absolute;
+ }
+ 
+ .eyeleft {
+   width: 70px;
+   height: 40px;
+   border-radius: 100px 100px 0 0;
+   border-top: 20px solid black;
+   border-left: 20px solid black;
+   border-right: 20px solid black;
+   margin: 100px;
+ 
+ }
+ 
+ .eyeright {
+   width: 70px;
+   height: 40px;
+   border-radius: 100px 100px 0 0;
+   border-top: 20px solid black;
+   border-left: 20px solid black;
+   border-right: 20px solid black;
+   margin: 100px 280px;
+ 
+ }
+ 
+ .smile {
+   width: 200px;
+   height: 100px;
+   border-radius: 0 0 200px 200px;
+   border-bottom: 20px solid black;
+   border-left: 20px solid black;
+   border-right: 20px solid black;
+   margin: 280px 120px;
+ 
+ }
+ 
+ .eyeleft1,
+ .eyeleft2,
+ .eyeright1,
+ .eyeright2,
+ .smileleft1,
+ .smileleft2 {
+   width: 20px;
+   height: 20px;
+   border-radius: 100%;
+   background-color: black;
+ }
+ 
+ .eyeleft1 {
+   left: -20px;
+   bottom: -10px;
+ }
+ 
+ .eyeleft2 {
+   left: 70px;
+   bottom: -10px;
+ 
+ }
+ 
+ .eyeright1 {
+   left: -20px;
+   bottom: -10px;
+ }
+ 
+ .eyeright2 {
+   left: 70px;
+   bottom: -10px;
+ }
+ 
+ .smileleft1 {
+   left: -20px;
+   top: -10px;
+ 
+ }
+ 
+ .smileleft2 {
+   left: 200px;
+   top: -10px;
+ }

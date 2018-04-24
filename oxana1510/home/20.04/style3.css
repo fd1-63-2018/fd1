@@ -1,0 +1,31 @@
+a {
+    font-size: 1.5em;
+    padding: 0.5em;
+
+}
+
+a:hover {
+    background-color: #ffad33;
+    color: white;
+    text-decoration: none;
+}
+
+a:nth-of-type(4) {
+    background-color: #ffad33;
+    color: white;
+    display: inline-block;
+    width: 2px;
+    height: 15px;
+    position: relative;
+    padding: 5px 20px 15px 10px;
+    text-decoration: none;
+
+
+}
+
+.line {
+    margin: 20px 5px;
+    height: 4px;
+    width: 400px;
+    background: linear-gradient(to right, #e0e0d1 29%, #ffad33 29%, 37.5%, #e0e0d1 37.5%);
+}

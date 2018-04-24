@@ -1,0 +1,70 @@
+div {
+    float: left;
+
+
+
+}
+
+div:nth-child(3n+4) {
+    clear: left;
+
+
+}
+
+div:nth-child(5) {
+    margin-left: 0.5em;
+}
+
+div:nth-child(6) {
+    margin-left: -1em;
+}
+
+div:nth-child(7) {
+    margin-left: 0.5em;
+}
+
+div:nth-child(8) {
+    margin-left: -1em;
+}
+
+div:nth-child(10) {
+    margin-left: 1em;
+}
+
+div:nth-child(11) {
+    margin-left: -1.5em;
+}
+
+div:nth-child(12) {
+    margin-left: -1em;
+}
+
+div:nth-child(13) {
+    margin-left: 0.5em;
+
+}
+
+div:nth-child(14) {
+    margin-left: 0em;
+
+}
+
+div:nth-child(15) {
+    margin-left: -1.5em;
+
+}
+
+div:nth-child(16) {
+    margin-left: 1em;
+
+}
+
+div:nth-child(17) {
+    margin-left: -1em;
+
+}
+
+div:nth-child(18) {
+    margin-left: -1.5em;
+
+}
