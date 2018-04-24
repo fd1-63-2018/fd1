@@ -121,7 +121,7 @@ body {
     background-image: url(slack-imgs.png);
     background-size: 75vmin;
     background-repeat: no-repeat;
-    background-position: 103% 0%;
+    background-position: 103% 103%;
 }
 
 .chessTable div:nth-child(n+57):nth-child(-n+57):nth-child(odd),
@@ -129,7 +129,7 @@ body {
     background-image: url(slack-imgs.png);
     background-size: 75vmin;
     background-repeat: no-repeat;
-    background-position: 41% 0%;
+    background-position: 41% 103%;
 }
 
 .chessTable div:nth-child(n+63):nth-child(-n+63):nth-child(odd),
@@ -137,7 +137,7 @@ body {
     background-image: url(slack-imgs.png);
     background-size: 75vmin;
     background-repeat: no-repeat;
-    background-position: 82% 0%;
+    background-position: 82% 103%;
 }
 
 .chessTable div:nth-child(n+59):nth-child(-n+59):nth-child(odd),
@@ -145,19 +145,19 @@ body {
     background-image: url(slack-imgs.png);
     background-size: 75vmin;
     background-repeat: no-repeat;
-    background-position: 61% 0%;
+    background-position: 61% 103%;
 }
 
 .chessTable div:nth-child(n+61):nth-child(-n+61):nth-child(odd) {
     background-image: url(slack-imgs.png);
     background-size: 75vmin;
     background-repeat: no-repeat;
-    background-position: -1.5% 0%;
+    background-position: -1.5% 103%;
 }
 
 .chessTable div:nth-child(60) {
     background-image: url(slack-imgs.png);
     background-size: 75vmin;
     background-repeat: no-repeat;
-    background-position: 19.5% 0%;
+    background-position: 19.5% 103%;
 }
