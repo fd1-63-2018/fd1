@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.main_circle, div.eyes, .eye, div.mouth,
+.cap, .line-caps-group, .left-caps, .right-caps,
+div.mouth-container, .mouth-line-caps {
+    position: absolute;
+}
+
+div.container {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+}
+
+div.main_circle {
+    width: 580px;
+    height: 580px;
+    left: 10px;
+    top: 10px;
+    border: 20px solid black;
+    border-radius: 50%;
+}
+
+div.eyes {
+    width: 400px;
+    height: 100px;
+    top: 100px;
+    left: 70px;
+}
+
+.eye, div.mouth {
+    border-right: 20px solid black;
+    border-left: 20px solid black;
+}
+
+.eye {
+    border-top: 20px solid black;
+    height: 70px;
+    width: 150px;
+    top: 15px;
+    border-radius: 300px 300px 0 0;
+}
+
+.eye-left {
+    left: 0;
+}
+
+.eye-right {
+    right: 0;
+}
+
+div.mouth-container, div.mouth, .mouth-line-caps {
+    width: 440px;
+}
+
+div.mouth-container {
+
+    height: 240px;
+    top: 275px;
+    left: 50px;
+}
+
+.mouth-line-caps {
+    top: 9px;
+}
+
+div.mouth {
+    height: 220px;
+    border-bottom: 20px solid black;
+    top: 20px;
+    left: 0;
+    border-radius: 0 0 300px 300px;
+}
+
+.cap, .line-caps-group, .left-caps, .right-caps {
+    height: 20px;
+}
+
+.cap {
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.line-caps-group {
+    left: 0;
+    top: 77px;
+    width: 400px;
+}
+
+.left-caps, .right-caps {
+    width: 150px;
+    top: 0;
+}
+
+.left-caps {
+    left: 0;
+}
+
+.right-caps {
+    right: 0;
+}
+
+.cap-1, .cap-2 {
+    top: 0;
+}
+
+.cap-1 {
+    left: 0;
+}
+
+.cap-2 {
+    right: 0;
+}
