@@ -1,0 +1,47 @@
+.cirkl {
+    width: 50vmin;
+    height: 50vmin;
+    border-radius: 500vmin;
+    border: 10px solid black;
+}
+
+.cirkl1 {
+    width: 6vmin;
+    height: 4vmin;
+    border: 10px solid black;
+    position: relative;
+    top: 12vmin;
+    left: 10vmin;
+    border-bottom-style: none;
+
+    border-top-left-radius: 100vmin;
+    border-top-right-radius: 100vmin;
+    float: left;
+
+}
+
+.cirkl2 {
+    width: 6vmin;
+    height: 4vmin;
+    border: 10px solid black;
+    position: relative;
+    top: 12vmin;
+    left: 30vmin;
+    border-bottom-style: none;
+
+    border-top-left-radius: 100vmin;
+    border-top-right-radius: 100vmin;
+}
+
+.smile {
+    width: 30vmin;
+    height: 15vmin;
+    border: 10px solid black;
+    position: relative;
+    top: 20vmin;
+    left: 8vmin;
+    border-top-style: none;
+
+    border-bottom-left-radius: 1000vmin;
+    border-bottom-right-radius: 1000vmin;
+}
