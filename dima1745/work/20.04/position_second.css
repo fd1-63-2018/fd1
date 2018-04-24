@@ -1,0 +1,59 @@
+/*00001*/p {
+  font-family: verdana;
+}
+
+/*00002*/div p {
+  font-family: monospace;
+}
+
+/*00002*/div h2 {
+  font-style: italic;
+}
+
+/*00001*/p, h2 {
+  color: green;
+}
+
+/*00002*/div h2, div p {
+  color: blue;
+}
+/*00100*/#test * {
+  text-decoration: underline;
+}
+
+/*00101*/#test p {
+  outline: 1px solid red;
+}
+
+/*00010*/.test {
+  color: black;
+}
+
+/*00011*/p.test {
+  font-style: italic;
+}
+/*00021*/.hello p.test {
+  font-weight: bold;
+}
+
+/*00022*/div.hello p.test {
+  font-weight: normal;
+}
+/*00020*/.test.hello {
+  color: red;
+}
+/*00021*/p.test.hello {
+  text-transform: uppercase;
+}
+/*00031*/h2.test.hello.eee {
+  color: red;
+}
+/*00012*/p a[href] {
+  outline: 1px solid blue;
+}
+/*00103*/#test + p + p + p {
+  background-color: yellow;
+}
+/*00100*/#test ~ * {
+  font-size: 23px;
+}
