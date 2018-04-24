@@ -1,0 +1,525 @@
+ body {
+                padding:3vmin;
+            }
+            div:nth-child(-n+8) {
+            height: 11vmin;
+            width: 88vmin;
+            outline: 1px solid #f00;
+            }
+            div:nth-child(-n+8):nth-child(odd) {
+            background: linear-gradient(to left, #fff 12.49%, #f00 12.50%,#f00 24.99%, #fff 25%, #fff 37.49%, #f00 37.50%, #f00 49.99%,#fff 50%, #fff 62.49%, #f00 62.50%, #f00 74.99%, #fff 75%, 
+            #fff 87.49%, #f00 87.50%);
+            }
+            div:nth-child(-n+8):nth-child(even) {
+            background: linear-gradient(to right, #fff 12.49%, #f00 12.50%,
+            #f00 24.99%, #fff 25%, #fff 37.49%, #f00 37.50%, #f00 49.99%,
+            #fff 50%, #fff 62.49%, #f00 62.50%, #f00 74.99%, #fff 75%, 
+            #fff 87.49%, #f00 87.50%);
+            }
+            div:nth-of-type(-n+30):nth-of-type(n+9) {
+                background-image:url(chess.png);
+                background-repeat:no-repeat;
+                background-size: 650%;
+                height: 11vmin;
+                width: 11vmin;
+                position:absolute;
+                
+            }
+            div:nth-of-type(9):before,
+            div:nth-of-type(10):before,
+            div:nth-of-type(11):before
+            {
+                content: " ";  
+                background-image:url(chess.png);
+                background-repeat:no-repeat;
+                background-size: 650%;
+                margin-left:-12vmin;
+                position: relative;
+                display: block;  
+                height: 11vmin;  
+                width: 11vmin;
+                background-position:103% 0%;
+                
+            }
+            div:nth-of-type(9):after,
+            div:nth-of-type(10):after{
+                content: " ";
+                background-image:url(chess.png);
+                background-repeat:no-repeat;
+                background-size: 650%;
+                margin-left:11vmin;
+                position: relative;
+                top:-11vmin;
+                display: block;  
+                height: 11vmin;  
+                width: 11vmin;
+                background-position:103% 0%;
+            }
+            div:nth-of-type(9){
+                top:15vmin;
+                left:15vmin;
+                background-position:103% 0%;
+            }
+            div:nth-of-type(10){
+                top:15vmin;
+                left:48vmin;
+                background-position:103% 0%;
+            }
+            div:nth-of-type(11){
+                top:15vmin;
+                left:82vmin;
+                background-position:103% 0%;
+            }
+            div:nth-of-type(12){
+                top:4vmin;
+                left:81vmin;
+                background-position:40% 0%;
+            }
+            div:nth-of-type(13){
+                top:4vmin;
+                left:4vmin;
+                background-position:40% 0%;
+            }
+            div:nth-of-type(14){
+                top:4vmin;
+                left:16vmin;
+                background-position:83% 0%;
+            }
+            div:nth-of-type(15){
+                top:4vmin;
+                left:71vmin;
+                background-position:83% 0%;
+            }
+            div:nth-of-type(16){
+                top:4vmin;
+                left:26vmin;
+                background-position:61% -1%;
+            }
+            div:nth-of-type(17){
+                top:4vmin;
+                left:59vmin;
+                background-position:61% -1%;
+            }
+            div:nth-of-type(18){
+                top:4vmin;
+                left:37vmin;
+                background-position:-1% -1%;
+            }
+            div:nth-of-type(19){
+                top:4vmin;
+                left:48.5vmin;
+                background-position:20% -1%;
+            }
+            div:nth-of-type(20){
+                top:69vmin;
+                left:14vmin;
+                background-position:103% 100%;
+            }
+            div:nth-of-type(21){
+                top:69vmin;
+                left:48vmin;
+                background-position:103% 100%;
+            }
+            div:nth-of-type(22){
+                top:69vmin;
+                left:81vmin;
+                background-position:103% 100%;
+            }
+            div:nth-of-type(20):before,
+            div:nth-of-type(21):before,
+            div:nth-of-type(22):before
+            {
+                content: " ";  
+                background-image:url(chess.png);
+                background-repeat:no-repeat;
+                background-size: 650%;
+                margin-left:-11vmin;
+                position: relative;
+                display: block;  
+                height: 11vmin;  
+                width: 11vmin;
+                background-position:103% 100%;
+                
+            }
+            div:nth-of-type(20):after,
+            div:nth-of-type(21):after{
+                content: " ";
+                background-image:url(chess.png);
+                background-repeat:no-repeat;
+                background-size: 650%;
+                margin-left:11vmin;
+                position: relative;
+                top:-11vmin;
+                display: block;  
+                height: 11vmin;  
+                width: 11vmin;
+                background-position:103% 100%;
+            }
+            div:nth-of-type(23){
+                top:81vmin;
+                left:81vmin;
+                background-position:40% 100%;
+            }
+            div:nth-of-type(24){
+                top:81vmin;
+                left:4vmin;
+                background-position:40% 100%;
+            }
+            div:nth-of-type(25){
+                top:81vmin;
+                left:16vmin;
+                background-position:83% 100%;
+            }
+            div:nth-of-type(26){
+                top:81vmin;
+                left:70vmin;
+                background-position:83% 100%;
+            }
+            div:nth-of-type(27){
+                top:81vmin;
+                left:26vmin;
+                background-position:61% 100%;
+            }
+            div:nth-of-type(28){
+                top:81vmin;
+                left:59vmin;
+                background-position:61% 100%;
+            }
+            div:nth-of-type(29){
+                top:81vmin;
+                left:37vmin;
+                background-position:-1% 100%;
+            }
+            div:nth-of-type(30){
+                top:81vmin;
+                left:48.5vmin;
+                background-position:20% 100%;
+            }
+            div:nth-of-type(1):before
+            {
+                content: "8";
+                text-align: center ;
+                padding:5%;
+                margin-left:-6vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 1.5vmin;
+                float: left;
+                font-size:3vmin;
+            }
+            div:nth-of-type(1):after
+            {
+                content: "8";
+                text-align: center ;
+                padding:5%;
+                margin-left:84vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 1.5vmin;
+                font-size:3vmin;
+            }
+            div:nth-of-type(2):before
+            {
+                content: "7";
+                text-align: center ;
+                padding:5%;
+                margin-left:-6vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 1.5vmin;
+                float: left;
+                font-size:3vmin;
+            }
+            div:nth-of-type(2):after
+            {
+                content: "7";
+                text-align: center ;
+                padding:5%;
+                margin-left:84vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 1.5vmin;
+                font-size:3vmin;
+            }
+            div:nth-of-type(3):before
+            {
+                content: "6";
+                text-align: center ;
+                padding:5%;
+                margin-left:-6vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 1.5vmin;
+                float: left;
+                font-size:3vmin;
+            }
+            div:nth-of-type(3):after
+            {
+                content: "6";
+                text-align: center ;
+                padding:5%;
+                margin-left:84vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 1.5vmin;
+                font-size:3vmin;
+            }
+            div:nth-of-type(4):before
+            {
+                content: "5";
+                text-align: center ;
+                padding:5%;
+                margin-left:-6vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 1.5vmin;
+                float: left;
+                font-size:3vmin;
+            }
+            div:nth-of-type(4):after
+            {
+                content: "5";
+                text-align: center ;
+                padding:5%;
+                margin-left:84vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 1.5vmin;
+                font-size:3vmin;
+            }
+            div:nth-of-type(5):before
+            {
+                content: "4";
+                text-align: center ;
+                padding:5%;
+                margin-left:-6vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 1.5vmin;
+                float: left;
+                font-size:3vmin;
+            }
+            div:nth-of-type(5):after
+            {
+                content: "4";
+                text-align: center ;
+                padding:5%;
+                margin-left:84vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 1.5vmin;
+                font-size:3vmin;
+            }
+            div:nth-of-type(6):before
+            {
+                content: "3";
+                text-align: center ;
+                padding:5%;
+                margin-left:-6vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 1.5vmin;
+                float: left;
+                font-size:3vmin;
+            }
+            div:nth-of-type(6):after
+            {
+                content: "3";
+                text-align: center ;
+                padding:5%;
+                margin-left:84vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 1.5vmin;
+                font-size:3vmin;
+            }
+            div:nth-of-type(7):before
+            {
+                content: "2";
+                text-align: center ;
+                padding:5%;
+                margin-left:-6vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 1.5vmin;
+                float: left;
+                font-size:3vmin;
+            }
+            div:nth-of-type(7):after
+            {
+                content: "2";
+                text-align: center ;
+                padding:5%;
+                margin-left:84vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 1.5vmin;
+                font-size:3vmin;
+            }
+            div:nth-of-type(8):before
+            {
+                content: "1";
+                text-align: center ;
+                padding:5%;
+                margin-left:-6vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 1.5vmin;
+                float: left;
+                font-size:3vmin;
+            }
+            div:nth-of-type(8):after
+            {
+                font-size:3vmin;
+                content: "1";
+                text-align: center ;
+                padding:5%;
+                margin-left:84vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 1.5vmin;
+            }
+            div:nth-of-type(12):before{
+                 content: "H";
+                text-align: center ;
+                font-size:3vmin;
+                margin-top:-3vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 11vmin;
+            }
+            div:nth-of-type(13):before{
+                 content: "A";
+                text-align: center ;
+                font-size:3vmin;
+                margin-top:-3vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 11vmin;
+            }
+            div:nth-of-type(14):before{
+                 content: "B";
+                text-align: center ;
+                font-size:3vmin;
+                margin-top:-3vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 11vmin;
+            }
+            div:nth-of-type(15):before{
+                 content: "G";
+                text-align: center ;
+                font-size:3vmin;
+                margin-top:-3vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 11vmin;
+            }
+            div:nth-of-type(16):before{
+                 content: "C";
+                text-align: center ;
+                font-size:3vmin;
+                margin-top:-3vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 11vmin;
+            }
+            div:nth-of-type(17):before{
+                 content: "F";
+                text-align: center ;
+                font-size:3vmin;
+                margin-top:-3vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 11vmin;
+            }
+            div:nth-of-type(18):before{
+                 content: "D";
+                text-align: center ;
+                font-size:3vmin;
+                margin-top:-3vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 11vmin;
+            }
+            div:nth-of-type(19):before{
+                 content: "E";
+                text-align: center ;
+                font-size:3vmin;
+                margin-top:-3vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 11vmin;
+            }
+            div:nth-of-type(24):before{
+                 content: "A";
+                text-align: center ;
+                font-size:3vmin;
+                margin-top:12vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 11vmin;
+            }
+            div:nth-of-type(23):before{
+                 content: "H";
+                text-align: center ;
+                font-size:3vmin;
+                margin-top:12vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 11vmin;
+            }
+            div:nth-of-type(25):before{
+                 content: "B";
+                text-align: center ;
+                font-size:3vmin;
+                margin-top:12vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 11vmin;
+            }
+            div:nth-of-type(26):before{
+                 content: "G";
+                text-align: center ;
+                font-size:3vmin;
+                margin-top:12vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 11vmin;
+            }
+            div:nth-of-type(27):before{
+                 content: "C";
+                text-align: center ;
+                font-size:3vmin;
+                margin-top:12vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 11vmin;
+            }
+            div:nth-of-type(28):before{
+                 content: "F";
+                text-align: center ;
+                font-size:3vmin;
+                margin-top:12vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 11vmin;
+            }
+            div:nth-of-type(29):before{
+                 content: "D";
+                text-align: center ;
+                font-size:3vmin;
+                margin-top:12vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 11vmin;
+            }
+            div:nth-of-type(30):before{
+                 content: "E";
+                text-align: center ;
+                margin-top:12vmin;
+                 display: block;  
+                height: 1.5vmin;  
+                width: 11vmin;
+                font-size:3vmin;
+            }
