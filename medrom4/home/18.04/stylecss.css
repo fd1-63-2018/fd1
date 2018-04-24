@@ -1,0 +1,89 @@
+body {
+    margin: 3px;
+}
+
+.chessboard {
+    width: 80vmin;
+    height: 80vmin;
+    margin: 0.5em;
+    outline: 1px solid #836543;
+}
+
+.chessboard div {
+    float: left;
+    width: 10vmin;
+    height: 10vmin;
+    background-color: #836543;
+}
+
+.chessboard div:nth-child(-2n+8),
+.chessboard div:nth-child(8)~div:nth-child(-2n+15),
+.chessboard div:nth-child(16)~div:nth-child(-2n+24),
+.chessboard div:nth-child(24)~div:nth-child(-2n+31),
+.chessboard div:nth-child(32)~div:nth-child(-2n+40),
+.chessboard div:nth-child(40)~div:nth-child(-2n+47),
+.chessboard div:nth-child(48)~div:nth-child(-2n+56),
+.chessboard div:nth-child(56)~div:nth-child(-2n+63) {
+    background-color: #EDE2C9;
+}
+
+.chessboard>div:nth-of-type(n):nth-of-type(-n+16),
+.chessboard>div:nth-of-type(-n+64):nth-of-type(n+49) {
+    background-image: url(chess.png);
+    background-size: 600% 200%;
+    background-repeat: no-repeat;
+}
+
+.chessboard>div:nth-of-type(-n+56):nth-of-type(n+48) {
+    background-position: 104% 0%;
+}
+
+.chessboard>div:nth-of-type(64),
+.chessboard>div:nth-of-type(57) {
+    background-position: 41% 0%;
+}
+
+.chessboard>div:nth-of-type(63),
+.chessboard>div:nth-of-type(58) {
+    background-position: 83% 0%;
+}
+
+.chessboard>div:nth-of-type(62),
+.chessboard>div:nth-of-type(59) {
+    background-position: 62% -4%;
+}
+
+.chessboard>div:nth-of-type(61) {
+    background-position: -2% -5%;
+}
+
+.chessboard>div:nth-of-type(60) {
+    background-position: 19% -3%;
+}
+
+.chessboard>div:nth-of-type(-n+16):nth-of-type(n+9) {
+    background-position: 105% 108%;
+}
+
+.chessboard>div:nth-of-type(8),
+.chessboard>div:nth-of-type(1) {
+    background-position: 40% 108%;
+}
+
+.chessboard>div:nth-of-type(7),
+.chessboard>div:nth-of-type(2) {
+    background-position: 83% 108%;
+}
+
+.chessboard>div:nth-of-type(6),
+.chessboard>div:nth-of-type(3) {
+    background-position: 62% 103%;
+}
+
+.chessboard>div:nth-of-type(5) {
+    background-position: -2% 102%;
+}
+
+.chessboard>div:nth-of-type(4) {
+    background-position: 19% 102%;
+}
