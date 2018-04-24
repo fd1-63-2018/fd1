@@ -1,0 +1,43 @@
+.major{
+    padding:1.4vmin 2.1vmin;
+    width:25.02vmin;
+    height:16.68vmin;
+    background-color: #278a89;
+}
+.outer{
+    padding: 1.4vmin;
+    width:19.1125vmin;
+    height:14.2475vmin;
+    border:solid black 2px;
+}
+.rd{
+    background-color:#f80e23;
+    width:3.8225vmin;
+    height:2.78vmin;
+    float: left
+}
+.grn{
+    width:9.3825vmin;
+    height:7.2975vmin;
+    background-color:#257d20;
+    float: right;
+}
+.bl{
+    height:7.2975vmin;
+    width:3.8225vmin;
+    background-color:#0036f8;
+    float: left;
+    
+    
+}
+.ylw{
+    background-color:#fffb47;
+    width: 9.3825vmin;
+    height: 2.78vmin;
+    float: right;
+    
+}
+div>div>div{
+    margin:0.7vmin 0.7vmin;
+    outline:solid black 2px;
+    }
