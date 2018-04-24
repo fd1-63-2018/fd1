@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+.block {
+    width: 100vmin;
+    height: 67vmin;
+    background-color: Teal;
+    padding: 1vmin;
+}
+
+.transparent1 {
+    float: left;
+    width: 75vmin;
+    height: 55vmin;
+    background-color: transparent;
+    outline: 2px solid black;
+    margin: 4vmin 13vmin 6vmin 11vmin;
+}
+
+.red {
+    width: 16vmin;
+    height: 12vmin;
+    background-color: red;
+    outline: 2px solid black;
+    margin-left: 6vmin;
+    margin-top: 5vmin;
+    margin-bottom: 3vmin;
+}
+
+.blue {
+    width: 16vmin;
+    height: 30vmin;
+    background-color: blue;
+    outline: 2px solid black;
+    margin-left: 6vmin;
+    margin-top: 3vmin;
+    margin-bottom: 5vmin;
+}
+
+.block_left,
+.block_rigth {
+    float: left;
+}
+
+.green {
+    width: 40vmin;
+    height: 30vmin;
+    background-color: green;
+    outline: 2px solid black;
+    margin-top: 5vmin;
+    margin-right: 7vmin;
+    margin-left: 6vmin;
+}
+
+.yellow {
+    width: 40vmin;
+    height: 12vmin;
+    background-color: yellow;
+    outline: 2px solid black;
+    /*margin-right: 7vmin;*/
+    /*margin-left: 6vmin;*/
+    /*margin-top: 3vmin;*/
+    /*margin-bottom: 5vmin;*/
+    margin: 3vmin 7vmin 5vmin 6vmin;
+}

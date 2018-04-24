@@ -1,0 +1,574 @@
+body {
+    width: 100vmin;
+    height: 100vmin;
+    margin: 0vmin;
+    padding: 5vmin;
+    overflow: hidden;
+    position: relative;
+}
+
+div:nth-of-type(1),
+div:nth-of-type(2),
+div:nth-of-type(3),
+div:nth-of-type(4),
+div:nth-of-type(9),
+div:nth-of-type(10),
+div:nth-of-type(11),
+div:nth-of-type(12),
+div:nth-of-type(17),
+div:nth-of-type(18),
+div:nth-of-type(19),
+div:nth-of-type(20),
+div:nth-of-type(25),
+div:nth-of-type(26),
+div:nth-of-type(27),
+div:nth-of-type(28) {
+    float: left;
+    width: 20vmin;
+    height: 10vmin;
+    background: linear-gradient(to left, red 10vmin, white 10vmin);
+    border: 1px solid red;
+}
+
+div:nth-of-type(5),
+div:nth-of-type(6),
+div:nth-of-type(7),
+div:nth-of-type(8),
+div:nth-of-type(13),
+div:nth-of-type(14),
+div:nth-of-type(15),
+div:nth-of-type(16),
+div:nth-of-type(21),
+div:nth-of-type(22),
+div:nth-of-type(23),
+div:nth-of-type(24),
+div:nth-of-type(29),
+div:nth-of-type(30),
+div:nth-of-type(31),
+div:nth-of-type(32) {
+    float: left;
+    width: 20vmin;
+    height: 10vmin;
+    background: linear-gradient(to right, red 10vmin, white 10vmin);
+    border: 1px solid red;
+}
+
+div:nth-of-type(1):after {
+    content: "A";
+    display: block;
+    position: absolute;
+    top: 1vmin;
+    left: 10vmin;
+}
+
+div:nth-of-type(1):before {
+    content: "B";
+    display: block;
+    position: absolute;
+    top: 1vmin;
+    left: 20vmin;
+}
+
+div:nth-of-type(2):after {
+    content: "C";
+    display: block;
+    position: absolute;
+    top: 1vmin;
+    left: 30vmin;
+}
+
+div:nth-of-type(2):before {
+    content: "D";
+    display: block;
+    position: absolute;
+    top: 1vmin;
+    left: 40vmin;
+}
+
+div:nth-of-type(3):after {
+    content: "E";
+    display: block;
+    position: absolute;
+    top: 1vmin;
+    left: 50vmin;
+}
+
+div:nth-of-type(3):before {
+    content: "F";
+    display: block;
+    position: absolute;
+    top: 1vmin;
+    left: 60vmin;
+}
+
+div:nth-of-type(4):after {
+    content: "G";
+    display: block;
+    position: absolute;
+    top: 1vmin;
+    left: 70vmin;
+}
+
+div:nth-of-type(4):before {
+    content: "H";
+    display: block;
+    position: absolute;
+    top: 1vmin;
+    left: 80vmin;
+}
+
+div:nth-of-type(29):after {
+    content: "A";
+    display: block;
+    position: absolute;
+    top: 89vmin;
+    left: 10vmin;
+}
+
+div:nth-of-type(29):before {
+    content: "B";
+    display: block;
+    position: absolute;
+    top: 89vmin;
+    left: 20vmin;
+}
+
+div:nth-of-type(30):after {
+    content: "C";
+    display: block;
+    position: absolute;
+    top: 89vmin;
+    left: 30vmin;
+}
+
+div:nth-of-type(30):before {
+    content: "D";
+    display: block;
+    position: absolute;
+    top: 89vmin;
+    left: 40vmin;
+}
+
+div:nth-of-type(31):after {
+    content: "E";
+    display: block;
+    position: absolute;
+    top: 89vmin;
+    left: 50vmin;
+}
+
+div:nth-of-type(31):before {
+    content: "F";
+    display: block;
+    position: absolute;
+    top: 89vmin;
+    left: 60vmin;
+}
+
+div:nth-of-type(32):after {
+    content: "G";
+    display: block;
+    position: absolute;
+    top: 89vmin;
+    left: 70vmin;
+}
+
+div:nth-of-type(32):before {
+    content: "H";
+    display: block;
+    position: absolute;
+    top: 89vmin;
+    left: 80vmin;
+}
+
+div:nth-of-type(5):after {
+    content: "8";
+    display: block;
+    position: absolute;
+    top: 9vmin;
+    left: 2vmin;
+}
+
+div:nth-of-type(5):before {
+    content: "7";
+    display: block;
+    position: absolute;
+    top: 19vmin;
+    left: 2vmin;
+}
+
+div:nth-of-type(9):after {
+    content: "6";
+    display: block;
+    position: absolute;
+    top: 29vmin;
+    left: 2vmin;
+}
+
+div:nth-of-type(9):before {
+    content: "5";
+    display: block;
+    position: absolute;
+    top: 40vmin;
+    left: 2vmin;
+}
+
+div:nth-of-type(13):after {
+    content: "4";
+    display: block;
+    position: absolute;
+    top: 50vmin;
+    left: 2vmin;
+}
+
+div:nth-of-type(13):before {
+    content: "3";
+    display: block;
+    position: absolute;
+    top: 61vmin;
+    left: 2vmin;
+}
+
+div:nth-of-type(17):after {
+    content: "2";
+    display: block;
+    position: absolute;
+    top: 72vmin;
+    left: 2vmin;
+}
+
+div:nth-of-type(17):before {
+    content: "1";
+    display: block;
+    position: absolute;
+    top: 82vmin;
+    left: 2vmin;
+}
+
+div:nth-of-type(8):after {
+    content: "8";
+    display: block;
+    position: absolute;
+    top: 9vmin;
+    left: 88vmin;
+}
+
+div:nth-of-type(8):before {
+    content: "7";
+    display: block;
+    position: absolute;
+    top: 19vmin;
+    left: 88vmin;
+}
+
+div:nth-of-type(12):after {
+    content: "6";
+    display: block;
+    position: absolute;
+    top: 29vmin;
+    left: 88vmin;
+}
+
+div:nth-of-type(12):before {
+    content: "5";
+    display: block;
+    position: absolute;
+    top: 39vmin;
+    left: 88vmin;
+}
+
+div:nth-of-type(16):after {
+    content: "4";
+    display: block;
+    position: absolute;
+    top: 50vmin;
+    left: 88vmin;
+}
+
+div:nth-of-type(16):before {
+    content: "3";
+    display: block;
+    position: absolute;
+    top: 61vmin;
+    left: 88vmin;
+}
+
+div:nth-of-type(20):after {
+    content: "2";
+    display: block;
+    position: absolute;
+    top: 72vmin;
+    left: 88vmin;
+}
+
+div:nth-of-type(20):before {
+    content: "1";
+    display: block;
+    position: absolute;
+    top: 82vmin;
+    left: 88vmin;
+}
+
+div:nth-of-type(6):after,
+div:nth-of-type(6):before,
+div:nth-of-type(7):before,
+div:nth-of-type(7):after,
+div:nth-of-type(11):before,
+div:nth-of-type(11):after,
+div:nth-of-type(10):before,
+div:nth-of-type(10):after,
+div:nth-of-type(14):before,
+div:nth-of-type(14):after,
+div:nth-of-type(15):before,
+div:nth-of-type(15):after,
+div:nth-of-type(18):before,
+div:nth-of-type(18):after,
+div:nth-of-type(19):before,
+div:nth-of-type(19):after,
+div:nth-of-type(21):before,
+div:nth-of-type(21):after,
+div:nth-of-type(22):before,
+div:nth-of-type(22):after,
+div:nth-of-type(23):before,
+div:nth-of-type(23):after,
+div:nth-of-type(24):before,
+div:nth-of-type(24):after,
+div:nth-of-type(25):before,
+div:nth-of-type(25):after,
+div:nth-of-type(26):before,
+div:nth-of-type(26):after,
+div:nth-of-type(27):before,
+div:nth-of-type(27):after,
+div:nth-of-type(28):before,
+div:nth-of-type(28):after {
+    width: 10vmin;
+    height: 10vmin;
+    position: absolute;
+    background-image: url("image_chess.png");
+    background-repeat: no-repeat;
+    background-size: 650%;
+    content: '';
+}
+
+/*E8*/
+div:nth-of-type(6):after {
+    top: 5vmin;
+    left: 47vmin;
+}
+
+/*D8*/
+div:nth-of-type(6):before {
+    background-position: -10.5vmin 0vmin;
+    top: 5vmin;
+    left: 36vmin;
+}
+
+/*F8*/
+div:nth-of-type(7):before {
+    top: 5vmin;
+    left: 57vmin;
+    background-position: -34vmin 0vmin;
+}
+
+/*G8*/
+div:nth-of-type(7):after {
+    top: 5vmin;
+    left: 67vmin;
+    background-position: -45vmin 0vmin;
+}
+
+/*H8*/
+div:nth-of-type(11):before {
+    top: 5vmin;
+    left: 77vmin;
+    background-position: -22vmin 0vmin;
+}
+
+/*A8*/
+div:nth-of-type(11):after {
+    top: 5vmin;
+    left: 5vmin;
+    background-position: -22vmin 0vmin;
+}
+
+/*C8*/
+div:nth-of-type(10):before {
+    top: 5vmin;
+    left: 25vmin;
+    background-position: -33vmin 0vmin;
+}
+
+/*B8*/
+div:nth-of-type(10):after {
+    top: 5vmin;
+    left: 15vmin;
+    background-position: -45vmin 0vmin;
+}
+
+/*B7*/
+div:nth-of-type(14):before {
+    top: 16vmin;
+    left: 15vmin;
+    background-position: -56vmin 0vmin;
+}
+
+/*C2*/
+div:nth-of-type(14):after {
+    top: 69vmin;
+    left: 25vmin;
+    background-position: -56vmin -11vmin;
+}
+
+/*C1*/
+div:nth-of-type(15):before {
+    top: 79vmin;
+    left: 25vmin;
+    background-position: -33vmin -11vmin;
+}
+
+/*B1*/
+div:nth-of-type(15):after {
+    top: 79vmin;
+    left: 15vmin;
+    background-position: -45vmin -11vmin;
+}
+
+/*G2*/
+div:nth-of-type(19):before {
+    top: 79vmin;
+    left: 46vmin;
+    background-position: 1vmin -11vmin;
+}
+
+/*H2*/
+div:nth-of-type(19):after {
+    top: 79vmin;
+    left: 56vmin;
+    background-position: -33vmin -11vmin;
+}
+
+/*D1*/
+div:nth-of-type(18):before {
+    top: 79vmin;
+    left: 4vmin;
+    background-position: -21vmin -11vmin;
+}
+
+/*А1*/
+div:nth-of-type(18):after {
+    top: 79vmin;
+    left: 35vmin;
+    background-position: -10.5vmin -11vmin;
+}
+
+/*G1*/
+div:nth-of-type(24):before {
+    top: 79vmin;
+    left: 67vmin;
+    background-position: -45vmin -11vmin;
+}
+
+/*H1*/
+div:nth-of-type(24):after {
+    top: 79vmin;
+    left: 76vmin;
+    background-position: -21vmin -11vmin;
+}
+
+/*G2*/
+div:nth-of-type(23):before {
+    top: 69vmin;
+    left: 67vmin;
+    background-position: -56vmin -11vmin;
+}
+
+/*пeшкаH1*/
+div:nth-of-type(23):after {
+    top: 69vmin;
+    left: 76vmin;
+    background-position: -56vmin -11vmin;
+}
+
+/*пешкаF2*/
+div:nth-of-type(22):before {
+    top: 69vmin;
+    left: 56vmin;
+    background-position: -56vmin -11vmin;
+}
+
+/*пешкаE2*/
+div:nth-of-type(22):after {
+    top: 69vmin;
+    left: 46vmin;
+    background-position: -56vmin -11vmin;
+}
+
+/*пешкаD2*/
+div:nth-of-type(21):before {
+    top: 69vmin;
+    left: 36vmin;
+    background-position: -56vmin -11vmin;
+}
+
+/*пешкаС2*/
+div:nth-of-type(21):after {
+    top: 69vmin;
+    left: 15vmin;
+    background-position: -56vmin -11vmin;
+}
+
+/*пешкаA2*/
+div:nth-of-type(25):after {
+    top: 69vmin;
+    left: 5vmin;
+    background-position: -56vmin -11vmin;
+}
+
+/*пешкаA7*/
+div:nth-of-type(25):before {
+    top: 16vmin;
+    left: 5vmin;
+    background-position: -56vmin 0vmin;
+}
+
+/*пешкаC7*/
+div:nth-of-type(26):before {
+    top: 16vmin;
+    left: 25vmin;
+    background-position: -56vmin 0vmin;
+}
+
+/*пешкаD7*/
+div:nth-of-type(26):after {
+    top: 16vmin;
+    left: 35vmin;
+    background-position: -56vmin 0vmin;
+}
+
+/*пешкаE7*/
+div:nth-of-type(27):after {
+    top: 16vmin;
+    left: 45vmin;
+    background-position: -56vmin 0vmin;
+}
+
+/*пешкаF7*/
+div:nth-of-type(27):before {
+    top: 16vmin;
+    left: 55vmin;
+    background-position: -56vmin 0vmin;
+}
+
+/*пешкаG7*/
+div:nth-of-type(28):after {
+    top: 16vmin;
+    left: 65vmin;
+    background-position: -56vmin 0vmin;
+}
+
+/*пешкаE7*/
+div:nth-of-type(28):before {
+    top: 16vmin;
+    left: 75vmin;
+    background-position: -56vmin 0vmin;
+}
