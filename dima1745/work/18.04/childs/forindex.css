@@ -1,0 +1,12 @@
+li:first-child { background: lightsalmon; }
+li:last-child { background: green; }
+li:nth-child(n+2):nth-child(-n+4){
+    border:3px solid lightblue;
+    background-color: pink;
+}
+li:hover{
+    color:white;
+}
+p:nth-of-type(2){
+    color: gold;
+}
