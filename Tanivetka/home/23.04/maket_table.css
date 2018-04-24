@@ -1,0 +1,37 @@
+th {
+    color: navy;
+    padding: 20px;
+    font-size: 18px;
+    background-color: lightblue;
+}
+
+.left {
+    text-indent: 1.5em;
+    background-color: khaki;
+    width: 200px;
+    height: 100%;
+}
+
+td.left p:first-child {
+    font-weight: bold;
+}
+    
+.right {
+    background-image: url(ball.png);
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+img {
+    float: left; 
+    margin: 5px;
+}
+
+tr {
+   vertical-align: top;
+}
+
+td.right p:first-child {
+    font-weight: bold;
+    text-align: center;
+}
