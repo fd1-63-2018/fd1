@@ -16,7 +16,6 @@ tfoot {
     color: #00004d;
     text-transform: uppercase;
     text-align: center;
-
 }
 
 thead td,
@@ -35,6 +34,7 @@ td>h3 {
     text-align: center;
     text-transform: uppercase;
 }
+
 
 tbody tr td:nth-child(1) {
     width: 30vmin;
