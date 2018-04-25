@@ -5,19 +5,19 @@ body {
     background-repeat: repeat-y;
     background-position: right;
     background-size: 60px 60px;
-   
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 table {
     width: 100%;
-    
+
 }
 
 p {
     text-align: justify;
     margin: 20px;
-   
-  
+
+
 }
 
 h1 {
@@ -55,6 +55,3 @@ table tr:first-child>td:first-child,
 .menu a:hover {
     color: #b99d61;
 }
-
-
-
