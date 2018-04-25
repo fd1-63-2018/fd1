@@ -1,0 +1,46 @@
+body {
+    margin: 8;
+    font-family: sans-serif;
+}
+
+.table-head {
+    
+    padding: 10px;
+    text-align: center;
+    background-color: #b3cce6;
+}
+
+.menu {
+    width: 15%;
+    float: left;
+    background-color: #ffff99;
+    font-size: small;
+}
+
+a:hover {
+    background-color: #808000;
+    opacity: 0.5;
+}
+
+.content {
+   margin-left: 15%;
+   margin-right: 200px;
+}
+
+img {
+    float: left;
+    margin: 15px;
+}
+
+p {
+    margin: 10px;
+}
+
+.table-foot {
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    background-color: #b3cce6;
+    
+}
+
