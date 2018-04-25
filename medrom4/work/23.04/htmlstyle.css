@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin-left: 40px;
+    box-sizing: border-box;
+}
+
+table.tablehead {
+    width: 940px;
+    height: 130px;
+    border-spacing: 20px 20px;
+    border-bottom: 1px solid Gray;
+}
+
+._1 {
+    height: 93px;
+    width: 105px;
+    background-color: Gray;
+}
+
+._2 {
+    height: 93px;
+    width: 239px;
+    background-color: Gray;
+}
+
+._3 {
+    height: 93px;
+    width: 439px;
+    background-color: Gray;
+}
+
+hr { 
+    width: 940px;
+}
+
+.tablebody {
+    border-spacing: 20px 20px;     
+}
+
+._4,
+._7 {
+    background-color: grey;
+    width: 160px;
+}
+
+._4 {
+    height: 287px;
+}
+
+._7 {
+    height: 115px;
+}
+
+._5,
+._6,
+._8,
+._9 {
+    background-color: silver;
+}
+
+._5 {
+    width: 650px;
+}
+
+._6 {
+    width: 115px;
+    height: 130px;
+}
+
+._5 {
+    height: 180px;
+}
+
+._8,
+._9 {
+    height: 170px;
+}
+
+._8,
+._9 {
+    width: 315px;
+}
+
+.pusto {
+    empty-cells: hide;
+    border: none;
+}
+
+table.tfoot_1 {
+    width: 940px;
+    height: 195px;
+    border-spacing: 20px 20px;
+    border-top: 1px solid Gray;
+}
+
+._10 {
+    height: 155px;
+    width: 255px;
+    background-color: Gray;
+}
+
+._11 {
+    height: 155px;
+    width: 255px;
+    background-color: Gray;
+}
+
+._12 {
+    height: 65px;
+    width: 265px;
+    background-color: Gray;
+}
+
+._13 {
+    height: 65px;
+    width: 265px;
+    background-color: Gray;
+}
