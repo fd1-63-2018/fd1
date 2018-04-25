@@ -36,6 +36,7 @@ td>h3 {
     text-transform: uppercase;
 }
 
+
 tbody tr td:nth-child(1) {
     width: 30vmin;
     background-color: #ffff1a;
