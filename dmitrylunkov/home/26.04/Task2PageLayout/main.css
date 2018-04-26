@@ -136,12 +136,6 @@ aside, section.section-container {
     margin-right: 2%;
 }
 
-.horizontal-line:nth-of-type(2)::after {
-    content: '';
-    display: block;
-    clear: both;
-}
-
 .footer {
     width: 87%;
     margin-left: auto;
