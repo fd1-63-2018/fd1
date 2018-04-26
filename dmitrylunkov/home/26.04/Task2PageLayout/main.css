@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 940px;
+    height: 1024px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+.header {
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90px;
+    margin-top: 20px;
+
+}
+
+.header > div {
+    background-color: darkgrey;
+    float: left;
+}
+
+.header > div:nth-of-type(1) {
+    height: 100%;
+    width: 13%;
+}
+
+.header > div:nth-of-type(2) {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: 100%;
+    width: 29%;
+}
+
+.header > div:nth-of-type(3) {
+    height: 100%;
+    width: 53%;
+}
+
+.horizontal-line {
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    border-bottom: 1px solid darkgrey;
+    margin-top: 15px;
+}
+
+main {
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 660px;
+    margin-top: 15px;
+}
+
+aside {
+    width: 19%;
+    margin-right: 2%;
+}
+
+aside div {
+    background-color: darkgrey;
+    width: 100%;
+}
+
+aside div:first-child {
+    height: 286px;
+}
+
+aside div:last-child {
+    height: 114px;
+    margin-top: 260px;
+}
+
+aside, section.section-container {
+    float: left;
+}
+
+.section-container {
+    width: 79%;
+}
+
+.section-container > section > div {
+    background-color: lightgrey;
+}
+
+.section-container > section {
+    width: 100%;
+}
+
+.section1 > div {
+    width: 100%;
+    height: 180px;
+}
+
+.section2 {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.section2 > div {
+    float: left;
+    width: 17.50%;
+    height: 130px;
+}
+
+.section2 > div:not(:nth-child(5)) {
+    margin-right: 3.1%;
+}
+
+.section2 > div:nth-last-child(-n+2) {
+    margin-top: 18px;
+}
+
+.section2::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.section3 > div {
+    height: 166px;
+    width: 49%;
+    float: left;
+}
+
+.section3 > div:first-child {
+    margin-right: 2%;
+}
+
+.horizontal-line:nth-of-type(2)::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.footer {
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+}
+
+.footer_container1, .footer_container2 {
+    float: left;
+}
+
+.footer_container1 > div, .footer_container2 > div {
+ background-color: darkgrey;
+}
+
+.footer_container1 {
+    width: 65%;
+    margin-right: 3%;
+}
+
+.footer_container1 > div {
+    height: 154px;
+    float: left;
+    width: 48%;
+}
+
+.footer_container1 > div:nth-child(1) {
+    margin-right: 4%;
+}
+
+.footer_container2 {
+    width: 32%;
+}
+
+.footer_container2 > div {
+    height: 65px;
+}
+
+.footer_container2 > div:first-child {
+    margin-bottom: 24px;
+}
