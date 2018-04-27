@@ -1,0 +1,89 @@
+input[type=radio] {
+  display: inline-block;
+  width: 30px;
+  margin: 0;
+}
+
+input[type=radio]~label {
+  display: none;
+}
+
+label {
+  outline: 1px solid green;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+
+input[type] {
+  display: none;
+}
+
+
+#e:checked~[for=p],
+#p:checked~[for=l],
+#l:checked~[for=h],
+#h:checked~[for=s],
+#s:checked~[for=k],
+#k:checked~[for=q],
+#q:checked~[for=e] {
+  outline: 2px solid red;
+  display: block;
+}
+
+#e:checked~[for=p] {
+  background-repeat: no-repeat;
+  background-position: 104% 2%;
+  background-image: url('chess.png');
+  width: 50px;
+  height: 50px;
+}
+
+#p:checked~[for=l] {
+  background-repeat: no-repeat;
+  background-position: 40% 2%;
+  background-image: url('chess.png');
+  width: 50px;
+  height: 50px;
+}
+
+#l:checked~[for=h] {
+  background-repeat: no-repeat;
+  background-position: 83% 2%;
+  background-image: url('chess.png');
+  width: 50px;
+  height: 50px;
+}
+
+#h:checked~[for=s] {
+  background-repeat: no-repeat;
+  background-position: 61% 0%;
+  background-image: url('chess.png');
+  width: 50px;
+  height: 50px;
+}
+
+#s:checked~[for=k] {
+  background-repeat: no-repeat;
+  background-position: 19% 0%;
+  background-image: url('chess.png');
+  width: 50px;
+  height: 50px;
+}
+
+#k:checked~[for=q] {
+  background-repeat: no-repeat;
+  background-image: url('chess.png');
+  width: 50px;
+  height: 50px;
+}
+
+#color[type=checkbox]:checked~label:nth-of-type(n+2) {
+  background-position-y: 100%;
+  background-image: url("chess.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+
+}
