@@ -1,0 +1,113 @@
+div {
+    width: 900px;
+}
+
+hr { 
+    width: 820px;
+    background-color: grey;
+}
+
+td { 
+  vertical-align: top;
+  color: white;
+}
+
+/* первая таблица */
+table { margin: auto; 
+border-spacing: 18px;
+}
+
+.first,
+.second,
+.third {
+    height: 93px;
+    background-color: grey;
+}
+
+.first {
+    width: 105px;
+}
+
+.second {
+    width: 240px;
+
+}
+
+.third {
+    width: 440px;
+
+}
+
+/* вторая таблица */
+.four,
+.seven {
+    background-color: grey;
+    width: 158px;
+}
+
+.four {
+    height: 287px;
+}
+
+.seven {
+    height: 114px;
+}
+
+.five,
+.six,
+.eight,
+.nine {
+    background-color: silver;
+}
+
+.five {
+    width: 648px;
+}
+
+.six {
+    width: 114px;
+    height: 130px;
+}
+
+.five {
+    height: 180px;
+}
+
+.eight,
+.nine {
+    height: 171px;
+}
+
+.eight,
+.nine {
+    width: 314px;
+}
+
+.invise {
+    empty-cells: hide;
+    border: none;
+}
+
+/* третья таблица */
+.ten,
+.eleven {
+    background-color: grey;
+    width: 255px;
+}
+
+.twelve,
+.thirteen {
+    background-color: grey;
+    width: 270px;
+}
+
+
+.ten,
+.eleven {
+    height: 155px;
+}
+
+.twelve,
+.thirteen {
+    height: 64px;
+}
