@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+thead{
+   float: left; 
+    width: 90vmin;
+    text-align: center;text-transform: uppercase;
+    background:lightskyblue;
+    color: #4B0082;
+}
+    tr:nth-of-type(2)>td:nth-of-type(1){
+    float: left;
+    width: 26vmin;
+    height:80vmin; 
+    background:yellow;
+    margin-right: 1vmin; 
+    
+}
+tr:nth-of-type(2)>td:nth-of-type(2){
+    float:left;
+    width: 64vmin;
+    margin-top:5vmin;
+}
+img{
+    width: 26vmin;
+    float: left;
+    margin-right:2vmin;
+    
+}
+tfoot{
+    float: left;
+    width: 90vmin;
+    text-align: center;text-transform: uppercase;
+    background:lightskyblue;
+    color: #4B0082;
+} 
