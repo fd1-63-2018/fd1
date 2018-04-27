@@ -1,0 +1,69 @@
+/*body{*/
+/*    margin: 0;*/
+/*}*/
+
+/*input[type=radio] {*/
+/*display: none;*/
+/*}*/
+
+/*input{*/
+/*    display: none;*/
+/*}*/
+
+label:nth-of-type(-n+7){
+    outline: 1px solid black;
+    height: 50px;
+    width: 50px;
+    display: none;
+    position: absolute;
+}
+
+
+
+
+label:nth-of-type(n+2):nth-of-type(-n+7){
+    background-image: url(chess.png);
+    background-size: 50vmin;
+    background-repeat: no-repeat;
+    outline: 1px solid black;
+}
+
+#zero:checked ~ [for=_1]{
+   outline: 1px solid black;
+   display: block;
+} 
+#_1:checked ~ [for=_2]{
+   background-position: -1% 0; 
+   display: block;
+} 
+
+#_2:checked ~ [for=_3]{
+   background-position: 19% 0;
+      display: block;
+}  
+#_3:checked ~ [for=_4]{
+   background-position: 41% 0; 
+      display: block;
+} 
+#_4:checked ~ [for=_5]{
+   background-position: 61% 0; 
+  display: block;
+} 
+#_5:checked ~ [for=_6]{
+    background-position: 82% 0; 
+   display: block;
+}
+#_6:checked ~ [for=zero]{
+    background-position: 104% 0; 
+   display: block;
+}
+
+
+
+label:nth-of-type(8):checked ~ label:nth-of-type(n+2):nth-of-type(-n+7){
+    background-position-y: 104%; 
+}
+
+
+
+
