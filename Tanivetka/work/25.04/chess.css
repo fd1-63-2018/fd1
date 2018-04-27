@@ -1,0 +1,123 @@
+input[type=radio] {
+    display: inline-block;
+    width: 43px;
+    margin: 0;
+}
+
+label {
+    outline: 1px solid green;
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+}
+
+input[type] {
+    display: none;
+}
+
+#e:not(checked)~[for=p],
+#p:not(checked)~[for=l],
+#l:not(checked)~[for=h],
+#h:not(checked)~[for=s],
+#s:not(checked)~[for=k],
+#k:not(checked)~[for=q],
+#q:not(checked)~[for=e] {
+    display: none;
+}
+
+#color:checked~label {
+    background-color: gray;
+}
+
+#e:checked~[for=p] {
+    background-image: none;
+    display: inline-block;
+}
+
+/* белые */
+
+#p:checked~[for=l] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: -260px 140px;
+    display: inline-block;
+}
+
+#color:not(checked)~#l:checked~[for=h] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: -105px 140px;
+    display: inline-block;
+}
+
+#color:not(checked)~#h:checked~[for=s] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: -212px 140px;
+    display: inline-block;
+}
+
+#color:not(checked)~#s:checked~[for=k] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: -159px 140px;
+    display: inline-block;
+}
+
+#color:not(checked)~#k:checked~[for=q] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: 0px 140px;
+    display: inline-block;
+}
+
+#color:not(checked)~#q:checked~[for=e] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: -52px 140px;
+    display: inline-block;
+}
+
+/* черные */
+
+#color:checked~#p:checked~[for=l] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: -260px 0px;
+    display: inline-block;
+}
+
+#color:checked~#l:checked~[for=h] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: -105px 0px;
+    display: inline-block;
+}
+
+#color:checked~#h:checked~[for=s] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: -212px 0px;
+    display: inline-block;
+}
+
+#color:checked~#s:checked~[for=k] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: -159px 0px;
+    display: inline-block;
+}
+
+#color:checked~#k:checked~[for=q] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: 0px 0px;
+    display: inline-block;
+}
+
+#color:checked~#q:checked~[for=e] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: -52px 0px;
+    display: inline-block;
+}
