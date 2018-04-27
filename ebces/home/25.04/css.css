@@ -1,0 +1,75 @@
+input {
+    display: none;
+}
+
+[type="checkbox"] {
+    display: none;
+}
+
+[for="cvet"] {
+    display: inline-block;
+}
+
+label {
+    width: 50px;
+    height: 50px;
+    outline: 1px solid black;
+
+}
+
+#none:checked~[for="peshka"],
+#peshka:checked~[for="kon"],
+#kon:checked~[for="slon"],
+#slon:checked~[for="ladya"],
+#ladya:checked~[for="ferz"],
+#ferz:checked~[for="korol"],
+#korol:checked~[for="none"] {
+    display: block
+}
+
+
+[for="peshka"] {
+    background-image: url(chess.png);
+    background-size: 650%;
+    background-repeat: no-repeat;
+    background-position: -285px 1px;
+}
+
+[for="kon"] {
+    background-image: url(chess.png);
+    background-size: 650%;
+    background-repeat: no-repeat;
+    background-position: -225px 1px;
+}
+
+[for="slon"] {
+    background-image: url(chess.png);
+    background-size: 650%;
+    background-repeat: no-repeat;
+    background-position: -170px 1px;
+}
+
+[for="ladya"] {
+    background-image: url(chess.png);
+    background-size: 650%;
+    background-repeat: no-repeat;
+    background-position: -110px 1px;
+}
+
+[for="ferz"] {
+    background-image: url(chess.png);
+    background-size: 650%;
+    background-repeat: no-repeat;
+    background-position: -53px 1px;
+}
+
+[for="korol"] {
+    background-image: url(chess.png);
+    background-size: 650%;
+    background-repeat: no-repeat;
+    background-position: 5px 1px;
+}
+
+#cvet:checked~[for] {
+    background-position-y: -52px;
+}
