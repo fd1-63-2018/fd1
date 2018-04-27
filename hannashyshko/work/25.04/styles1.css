@@ -1,0 +1,113 @@
+
+
+input[type=radio] {
+  display: inline-block;
+  width: 30px;
+  margin: 0;
+}
+
+input[type=radio] ~ label {
+  display: none;
+}
+
+label {
+  outline: 1px solid green;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+input[type] {
+  display: none;
+}
+
+#e:checked ~ [for=p] {
+  outline: 2px solid red;
+  display: block;
+  background-image: url('chess.png');
+  background-position: 30px 30px;
+  background-size: 220px;
+}
+
+#p:checked ~ [for=l] {
+  outline: 2px solid red;
+  display: block;
+  background-image: url('chess.png');
+  background-position: 145px 30px;
+  background-size: 220px;
+}
+
+#l:checked ~ [for=h] {
+  outline: 2px solid red;
+  display: block;
+  background-image: url('chess.png');
+  background-position: 65px 30px;
+  background-size: 220px;
+}
+
+#h:checked ~ [for=s] {
+  outline: 2px solid red;
+  display: block;
+  background-image: url('chess.png');
+  background-position: 104px 30px;
+  background-size: 220px;
+}
+
+#s:checked ~ [for=k] {
+  outline: 2px solid red;
+  display: block;
+  background-image: url('chess.png');
+  background-position: 220px 30px;
+  background-size: 220px;
+}
+
+#k:checked ~ [for=q] {
+  outline: 2px solid red;
+  display: block;
+  background-image: url('chess.png');
+  background-position: 180px 30px;
+  background-size: 220px;
+}
+
+#q:checked ~ [for=e] {
+  outline: 2px solid red;
+  display: block;
+}
+
+#color:checked ~ label[for=p]:not([for=color])  {
+  background-image: url('chess.png');
+  background-position: 30px 137px;
+  background-size: 220px;
+}
+
+#color:checked ~ label[for=l]:not([for=color])  {
+  background-image: url('chess.png');
+  background-position: 145px 137px;
+  background-size: 220px;
+}
+
+#color:checked ~ label[for=h]:not([for=color])  {
+  background-image: url('chess.png');
+  background-position: 65px 137px;
+  background-size: 220px;
+}
+
+#color:checked ~ label[for=s]:not([for=color])  {
+  background-image: url('chess.png');
+  background-position: 104px 137px;
+  background-size: 220px;
+}
+
+#color:checked ~ label[for=k]:not([for=color])  {
+  background-image: url('chess.png');
+  background-position: 220px 137px;
+  background-size: 220px;
+}
+
+#color:checked ~ label[for=q]:not([for=color])  {
+  background-image: url('chess.png');
+  background-position: 180px 137px;
+  background-size: 220px;
+}
+
+

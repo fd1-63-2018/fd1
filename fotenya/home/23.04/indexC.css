@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    font-family: Arial, Sans-serif;
+    font-size: 20px;
+}
+.one{
+    width:90vmin; height: 10vmin;
+    background-color: #87CEFA; color: #483D8B;
+    text-transform: uppercase; position: relative;
+}
+.two{
+    width: 26vmin; height: 80vmin;
+    background-color: #FFFF00;
+    text-align: left; float: left;
+    padding: 2px;
+    
+}
+.three{
+     float:left;
+    width: 64vmin;
+    margin-top:5vmin;
+}
+.four{
+     width:90vmin; height: 13vmin;
+    background-color: #87CEFA; color: #483D8B;
+    text-transform: uppercase; position: relative;
+}
+    

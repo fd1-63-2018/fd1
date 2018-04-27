@@ -1,0 +1,52 @@
+label{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    float: left;
+}
+
+label:nth-of-type(1):before,
+label:nth-of-type(4):before,
+label:nth-of-type(7):before{
+    content: "1";
+}
+
+label:nth-of-type(2):before,
+label:nth-of-type(5):before,
+label:nth-of-type(8):before{
+    content: "2";
+}
+label:nth-of-type(3):before,
+label:nth-of-type(6):before,
+label:nth-of-type(9):before{
+    content: "3";
+    }
+
+label, input{
+    display: none;
+}
+
+
+#_1:checked~[for=_2],
+#_11:checked~[for=_22],
+#_111:checked~[for=_222]{
+    display: block;
+    content: "2";
+    border:1px solid blue;
+}
+    
+#_2:checked~[for=_3],
+#_22:checked~[for=_33],
+#_222:checked~[for=_333]{
+    content: "3";
+    display: block;
+    border:1px solid green;
+}
+    
+#_3:checked~[for=_1],
+#_33:checked~[for=_11],
+#_333:checked~[for=_111]{
+    content: "1";
+    display:block;
+    border:1px solid red;
+    }

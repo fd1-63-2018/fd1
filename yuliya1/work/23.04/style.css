@@ -1,0 +1,116 @@
+table {
+    width: 940px;
+    height: 920px;
+
+}
+
+/*thead {*/
+/*    width: 940px;*/
+/*    height: 130px;*/
+/*}*/
+
+/*tbody{*/
+
+/*    border-top:1px solid grey;*/
+
+/*}*/
+
+.cell_1 {
+    width: 104px;
+    height: 91px;
+}
+
+.cell_1,.cell_2,.cell_3,.cell_4,
+.coll_10,.coll_11,.coll_12,.coll_13 {
+    background-color: grey;
+    color: white;
+    vertical-align: text-top;
+    padding-left: 11px;
+    padding-top: 11px;
+}
+
+.cell_2 {
+    width: 237px;
+    height: 91px;
+}
+
+.cell_3 {
+    width: 437px;
+    height: 91px;
+}
+
+.cell_5 {
+    background-color: silver;
+    color: white;
+    vertical-align: text-top;
+    padding-left: 11px;
+    padding-top: 11px;
+}
+
+.cell_4 {
+    width: 156px;
+    height: 285px;
+}
+
+.cell_5 {
+    width: 644px;
+    height: 178px;
+}
+
+.coll_10,
+.coll_11 {
+    width: 253px;
+    height: 153px;
+}
+
+.coll_12,
+.coll_13 {
+    width: 262px;
+    height: 64px;
+}
+
+.cell_6{
+    width: 113px;
+    height: 129px;
+    background-color: silver;
+    color: white;
+    vertical-align: text-top;
+    padding-left: 11px;
+    padding-top: 11px;
+}
+.cell_6_1{
+    width: 113px;
+    height: 129px;
+    background-color: transparent;
+    color: red;
+    vertical-align: text-top;
+    padding-left: 11px;
+    padding-top: 11px;
+}
+
+.cell_7{
+    width: 156px;
+    height: 112px;
+    background-color: grey;
+    color: white;
+    vertical-align: text-top;
+    padding-left: 11px;
+    padding-top: 11px;
+}
+.line {
+    width: 820px;
+    height: 1px;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 1px solid grey;
+}
+
+.cell_8_9 {
+    width: 314px;
+    height: 170px;
+    background-color: silver;
+    color: white;
+    vertical-align: text-top;
+    padding-left: 11px;
+    padding-top: 11px;
+}

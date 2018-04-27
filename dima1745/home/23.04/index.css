@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+nav{
+    width: 20%;
+    float: left;
+    background-color: yellow;
+}
+main{
+    margin-left: 20%;
+    margin-top: -20px;
+}
+
+img {
+    height: 200px;
+    width:200px;
+    float: left
+}
+main>p{
+    padding:12px;
+}
+header,footer{
+    color: darkblue;
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+    font-size:2em;
+}
+h1{
+    text-align: center;
+}
+h2{
+    padding-left:px;
+}
+footer{
+    clear: both;
+}
