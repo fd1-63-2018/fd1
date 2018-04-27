@@ -1,0 +1,65 @@
+label:nth-of-type(n+1) {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: 1px solid green;
+    float: left;
+    margin:5px;
+}
+
+label:nth-of-type(2){
+    margin-top: -13px;
+}
+label:nth-of-type(n+2),
+input[type=radio],
+input[type=checkbox]{
+    display: none;
+}
+
+#color:checked~label:nth-of-type(n+2){
+    background-position-y: 100%;
+}
+
+#example:checked~[for=peshka],
+#peshka:checked~[for=ladia],
+#ladia:checked~[for=konb],
+#konb:checked~[for=slon],
+#slon:checked~[for=king],
+#king:checked~[for=ferz],
+#ferz:checked~[for=example] {
+    background-image: url(slack-imgs.png);
+    background-size: 650%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: -13px;
+}
+
+#example:checked~[for=peshka] {
+    background-position: 103% 0%;
+    display: inline-block;
+}
+
+#peshka:checked~[for=ladia] {
+    background-position: 41% 0%;
+}
+
+#ladia:checked~[for=konb] {
+    background-position: 82% 0%;
+}
+
+#konb:checked~[for=slon] {
+    background-position: 61% 0%;
+}
+
+#slon:checked~[for=king] {
+    background-position: -1% 0%;
+}
+
+#king:checked~[for=ferz] {
+    background-position: 19% 0%;
+}
+
+#ferz:checked~[for=example] {
+    background:none;
+}
+
