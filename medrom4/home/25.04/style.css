@@ -1,0 +1,140 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.VsiaTable {
+    max-width: 100vmin;
+    min-height: 100vmin;
+}
+
+.hapka {
+    margin-top: 3vmin;
+    margin-left: 6vmin;
+}
+
+.liniya {
+    border-bottom: 1px solid grey;
+    margin-left: 6vmin;
+    width: 84vmin;
+    display: inline-block;
+}
+
+._1 {
+    background: grey;
+    width: 10vmin;
+    height: 9vmin;
+    display: inline-block;
+    margin-right: 2vmin;
+}
+
+._2 {
+    background: grey;
+    width: 23.7vmin;
+    height: 9vmin;
+    display: inline-block;
+    margin-right: 2vmin;
+}
+
+._3 {
+    background: grey;
+    width: 43.7vmin;
+    height: 9vmin;
+    display: inline-block;
+    margin-right: 2vmin;
+    margin-top: 2vmin
+}
+
+._4 {
+    background-color: grey;
+    width: 15.6vmin;
+    height: 28.6vmin;
+    margin-left: 6vmin;
+    display: inline-block;
+}
+
+._5 {
+    background-color: silver;
+    width: 64.3vmin;
+    height: 17.6vmin;
+    float: right;
+    margin-right: 11vmin;
+}
+
+.rightmiddle {
+    width: 64.3vmin;
+    height: 26vmin;
+    float: right;
+    margin-right: 10vmin;
+    margin-top: -10vmin;
+}
+
+._6 {
+    background-color: silver;
+    width: 10.8vmin;
+    height: 12vmin;
+    float: left;
+    margin-right: 2vmin;
+    margin-top: 1vmin;
+}
+
+
+
+.leftmiddle {
+    margin-top: 18vmin;
+    height: 18vmin;
+}
+
+._7 {
+    background: grey;
+    display: inline-block;
+    width: 15.6vmin;
+    height: 10vmin;
+    margin-left: 6vmin;
+    margin-right: 2vmin;
+}
+
+._8 {
+    background: silver;
+    display: inline-block;
+    width: 31.5vmin;
+    height: 17vmin;
+    margin-right: 1.6vmin;
+}
+
+._9 {
+    background: silver;
+    display: inline-block;
+    width: 31.5vmin;
+    height: 17vmin;
+}
+
+.bottom>div {
+    background-color: grey;
+    width: 10vmin;
+    height: 10vmin;
+    display: inline-block;
+    margin-right: 2vmin;
+}
+
+.bottom>div:nth-of-type(1) {
+    width: 26.2vmin;
+    height: 15.3vmin;
+    margin-left: 6vmin;
+}
+
+.bottom>div:nth-of-type(2) {
+    width: 26.2vmin;
+    height: 15.3vmin;
+}
+
+.bottom>div:nth-of-type(n+3) {
+    float: right;
+    width: 26.2vmin;
+    height: 6.4vmin;
+    margin-right: 10vmin;
+}
+
+.bottom>div:nth-of-type(4){
+      margin-top: -7vmin;
+}
