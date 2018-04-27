@@ -1,0 +1,110 @@
+label {
+    width: 40px;
+    height: 40px;
+    outline: 1px solid black;
+    display: none;
+    background-image: url(image_chess.png);
+    background-repeat: no-repeat;
+    background-size: 650%;
+}
+
+label[for=empty] {
+    display: block;
+    background-image: none;
+    background: transparent;
+}
+
+label[for=empty_black] {
+    display: block;
+    background: black;
+}
+
+input[type=radio], img {
+    display: none;
+}
+
+:checked~label[for=empty],
+:checked~label[for=peshka],
+:checked~label[for=rook],
+:checked~label[for=horse],
+:checked~label[for=elephant],
+:checked~label[for=king],
+:checked~label[for=queen],
+:checked~label[for=peshka_black],
+:checked~label[for=rook_black],
+:checked~label[for=horse_black],
+:checked~label[for=elephant_black],
+:checked~label[for=king_black],
+:checked~label[for=queen_black] {
+    display: none;
+}
+
+#empty:checked~label[for=peshka] {
+    display: block;
+    background-position: -227px -44px;
+}
+
+#peshka:checked~label[for=rook] {
+    display: block;
+    background-position: -89px -44px;
+}
+
+#rook:checked~label[for=horse] {
+    display: block;
+    background-position: -181px -44px;
+}
+
+#horse:checked~label[for=elephant] {
+    display: block;
+    background-position: -135px -44px;
+}
+
+#elephant:checked~label[for=king] {
+    display: block;
+    background-position: 3px -44px;
+}
+
+#king:checked~label[for=queen] {
+    display: block;
+    background-position: -42px -44px;
+}
+
+#queen:checked~label[for=empty] {
+    display: block;
+    background-position: 44px -44px;
+}
+
+#empty_black:checked~label[for=peshka_black] {
+    display: block;
+    background-position: -227px 0px;
+}
+
+#peshka_black:checked~label[for=rook_black] {
+    display: block;
+    background-position: -89px 0px;
+}
+
+#rook_black:checked~label[for=horse_black] {
+    display: block;
+    background-position: -181px 0px;
+}
+
+#horse_black:checked~label[for=elephant_black] {
+    display: block;
+    background-position: -135px 0px;
+}
+
+#elephant_black:checked~label[for=king_black] {
+    display: block;
+    background-position: 3px 0px;
+}
+
+#king_black:checked~label[for=queen_black] {
+    display: block;
+    background-position: -42px 0px;
+}
+
+#queen_black:checked~label[for=empty_black] {
+    display: block;
+    background-position: 44px 0px;
+}
