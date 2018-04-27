@@ -1,0 +1,13 @@
+.head{background-color: lightblue;
+    color: blue;
+    text-align: center;
+}
+.left{background-color: yellow;
+width: 15%;
+}
+h3{text-align: center;}
+img{float: left;
+    width: 150px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
