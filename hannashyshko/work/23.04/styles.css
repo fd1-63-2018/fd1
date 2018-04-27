@@ -1,0 +1,204 @@
+body {
+    display: block;
+    margin: 8px;
+}
+
+thead {
+    width: 815px;
+    height: 90px;
+}
+
+.th1 {
+    width: 100px;
+    height: 90px;
+    background-color: grey;
+    color: white;
+    vertical-align: top;
+}
+
+.th2 {
+    width: 235px;
+    height: 90px;
+    background-color: grey;
+    color: white;
+    vertical-align: top;
+    position: absolute;
+    left: 130px;
+}
+
+.th3 {
+    width: 435px;
+    height: 90px;
+    background-color: grey;
+    color: white;
+    vertical-align: top;
+    position: absolute;
+    left: 390px;
+}
+
+.th4 {
+    width: 155px;
+    height: 285px;
+    background-color: grey;
+    color: white;
+    vertical-align: top;
+}
+
+.th5 {
+    width: 645px;
+    height: 175px;
+    background-color: lightgrey;
+    color: white;
+    position: absolute;
+    left: 180px;
+}
+
+.th6 {
+    width: 113px;
+    height: 126px;
+    background-color: lightgrey;
+    color: white;
+    position: absolute;
+    left: 180px;
+    top: 320px;
+}
+
+.th7 {
+    width: 113px;
+    height: 126px;
+    background-color: lightgrey;
+    color: white;
+    position: absolute;
+    left: 310px;
+    top: 320px;
+}
+
+.th8 {
+    width: 113px;
+    height: 126px;
+    background-color: lightgrey;
+    color: white;
+    position: absolute;
+    left: 445px;
+    top: 320px;
+}
+
+.th9 {
+    width: 113px;
+    height: 126px;
+    background-color: lightgrey;
+    color: white;
+    position: absolute;
+    left: 580px;
+    top: 320px;
+}
+
+.th10 {
+    width: 113px;
+    height: 126px;
+    background-color: lightgrey;
+    color: white;
+    position: absolute;
+    left: 713px;
+    top: 320px;
+}
+
+.th11 {
+    width: 113px;
+    height: 126px;
+    background-color: lightgrey;
+    color: white;
+    position: absolute;
+    left: 180px;
+    top: 470px;
+}
+
+.th12 {
+    width: 113px;
+    height: 126px;
+    background-color: lightgrey;
+    color: white;
+    position: absolute;
+    left: 310px;
+    top: 470px;
+}
+
+.th13 {
+    width: 155px;
+    height: 112px;
+    background-color: grey;
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 678px;
+}
+
+div {
+    position: relative;
+    top: 390px;
+}
+
+.th14 {
+    width: 315px;
+    height: 170px;
+    background-color: lightgrey;
+    color: white;
+    position: absolute;
+    left: 180px;
+    top: 620px;
+}
+
+.th15 {
+    width: 315px;
+    height: 170px;
+    background-color: lightgrey;
+    color: white;
+    position: absolute;
+    left: 512px;
+    top: 620px;
+}
+
+
+
+.th16 {
+    width: 255px;
+    height: 150px;
+    background-color: grey;
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 830px;
+    margin-bottom: 10px
+}
+
+.th17 {
+    width: 255px;
+    height: 150px;
+    background-color: grey;
+    color: white;
+    position: absolute;
+    left: 287px;
+    top: 830px;
+}
+
+.th18 {
+    width: 262px;
+    height: 65px;
+    background-color: grey;
+    color: white;
+    position: absolute;
+    left: 565px;
+    top: 830px;
+}
+
+.th19 {
+    width: 262px;
+    height: 65px;
+    background-color: grey;
+    color: white;
+    position: absolute;
+    left: 565px;
+    top: 915px;
+}
+
+
