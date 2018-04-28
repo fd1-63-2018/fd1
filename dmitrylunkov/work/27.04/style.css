@@ -34,6 +34,7 @@ div.pins > label {
     width: 16px;
     height: 16px;
     background-color: white;
+    border: 1px solid #2477cc;
     border-radius: 50%
     
 }
@@ -44,15 +45,13 @@ div.pins {
     height: 30px;
     left: 400px;
     top: 550px;
-    z-index: 30;
-    
 }
 
 .prevSlide {
     position: absolute;
     width: 30px;
     height: 50px;
-    top: 280px;
+    top: 260px;
     left: 30px;
     background-color: #2477cc;
 }
@@ -114,5 +113,6 @@ input:nth-of-type(5):checked ~ #slider > section:nth-of-type(5) {
 #five:checked ~ #slider > div.pins > label:nth-child(5)
 {
     background-color: #2477cc;
+    transition: all 0.5s;
 }
 
