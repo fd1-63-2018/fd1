@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    user-select:none;
+}
+
+input {
+    display: none;
+}
+
+#slider {
+    position: relative;
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    top: 50px;
+}
+
+#slider section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+}
+
+div.pins > label {
+    width: 10px;
+    height: 6px;
+    border: 1px solid #7600cb;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+div.pins {
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    top: 570px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.prevSlide, .nextSlide {
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid #7600cb;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+.prevSlide {
+    left: 30px;
+}
+
+.nextSlide {
+    right: 30px;
+}
+
+.prevSlide:hover, .nextSlide:hover  {
+    background-color: #7600cb;
+}
+
+.prevSlide::after, .nextSlide::after {
+    color: #7600cb;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 8px;
+}
+
+.prevSlide::after {
+    content: "<";
+    left: 8px;
+}
+
+.nextSlide::after {
+    content: ">";
+    right: 8px;
+}
+
+.prevSlide:hover::after, .nextSlide:hover::after {
+    color: #fff;
+}
+
+#slider > section:not(:nth-of-type(1)) {
+    visibility: hidden;
+    opacity: 0;
+}
+
+input:nth-of-type(2):checked ~ #slider > section:nth-of-type(2),
+input:nth-of-type(3):checked ~ #slider > section:nth-of-type(3),
+input:nth-of-type(4):checked ~ #slider > section:nth-of-type(4),
+input:nth-of-type(5):checked ~ #slider > section:nth-of-type(5)
+{
+    visibility: visible;
+    opacity: 1;
+    transition: all 1s;
+}
+
+input:nth-of-type(2):not(:checked) ~ #slider > section:nth-of-type(2),
+input:nth-of-type(3):not(:checked) ~ #slider > section:nth-of-type(3),
+input:nth-of-type(4):not(:checked) ~ #slider > section:nth-of-type(4),
+input:nth-of-type(5):not(:checked) ~ #slider > section:nth-of-type(5)
+{
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#one:checked ~ #slider > div.pins > label:nth-child(1),
+#two:checked ~ #slider > div.pins > label:nth-child(2),
+#three:checked ~ #slider > div.pins > label:nth-child(3),
+#four:checked ~ #slider > div.pins > label:nth-child(4),
+#five:checked ~ #slider > div.pins > label:nth-child(5)
+{
+    background-color: #7600cb;
+    transition: all 0.5s;
+}
