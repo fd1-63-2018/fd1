@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+}
+
+hr{
+    margin-left: 6vmin;
+    width: 83vmin;
+}
+
+#hr{
+    margin-top: -1vmin;
+}
+
+/*div{*/
+/*    outline: 1px solid red;*/
+/*}*/
+#first{
+    width: 100vmin;
+    height: 100vmin;
+}
+#head{
+    margin-top: 3vmin;
+    margin-left: 6vmin;
+}
+
+#head>div:nth-of-type(n){
+    height: 9vmin;
+    display: inline-block;
+    margin-right: 2vmin;
+    background-color: grey;
+}
+
+#head>div:nth-of-type(1){
+    width: 10vmin;
+}
+
+#head>div:nth-of-type(2){
+    width: 23.7vmin;
+}
+
+#head>div:nth-of-type(3){
+    width: 43.7vmin;
+}
+
+
+#left{
+    width: 15.6vmin;
+    height: 28.6vmin;
+    margin-left: 6vmin;
+    display: inline-block;
+    background-color: grey;
+}
+
+#body{
+    width: 64.3vmin;
+    height: 17.6vmin;
+    float: right;
+    margin-right: 11vmin;
+    background-color: #dcdcdc;
+}
+
+#little{
+  width: 64.3vmin;
+    height: 26vmin;
+    float: right;
+    margin-right: 11vmin;
+    margin-top: -10vmin;
+
+    
+}
+
+#little>div:nth-of-type(n){
+    width: 10.8vmin;
+    height: 11vmin;
+    float: left;
+    margin-right: 2vmin;
+    margin-top: 2vmin;
+    background-color: #dcdcdc;
+}
+
+#center{
+    margin-top: 18vmin;
+    height: 20vmin;
+}
+
+#center>div{
+    display: inline-block;
+}
+
+#center>div:nth-of-type(1){
+    width: 15.6vmin;
+    height: 10vmin;
+    margin-left: 6vmin;
+    background-color: grey;
+    margin-right: 2vmin;
+}
+
+#center>div:nth-of-type(2){
+    width: 31.5vmin;
+    height: 17vmin;
+    background-color: #dcdcdc;
+    margin-right: 1.6vmin;
+}
+
+#center>div:nth-of-type(3){
+    width: 31.5vmin;
+    height: 17vmin;
+    background-color: #dcdcdc;
+}
+
+
+
+#foot>div{
+    width: 10vmin;
+    height: 10vmin;
+    display: inline-block;
+    margin-right: 2vmin;
+    background-color: grey;
+}
+#foot>div:nth-of-type(1){
+    width: 26.2vmin;
+    height: 15.3vmin;
+    margin-left: 6vmin;
+}
+
+#foot>div:nth-of-type(2){
+    width: 26.2vmin;
+    height: 15.3vmin;
+}
+#foot>div:nth-of-type(n+3){
+    float: right;
+    width: 26.2vmin;
+    height: 6.4vmin;
+    margin-right: 10vmin;
+}
+#foot>div:nth-of-type(4){
+      margin-top: -7vmin;
+}
+
+
+

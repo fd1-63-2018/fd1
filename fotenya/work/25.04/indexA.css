@@ -1,0 +1,19 @@
+label{
+  height: 1.3em;
+  line-height: 1.3em;
+  width: 1em;
+  border: 1px solid red;
+  display: inline-block;
+}
+
+#one:checked ~ label::before {
+  content: "1";
+}
+
+#two:checked ~ label::before {
+  content: "2";
+}
+
+#three:checked ~ label::before {
+  content: "3";
+}

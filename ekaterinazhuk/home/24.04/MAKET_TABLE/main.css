@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    background-image: url('ball.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: right;
+    background-size: 60px 60px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+table {
+    width: 100%;
+
+}
+
+p {
+    text-align: justify;
+    margin: 20px;
+
+
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    padding: 3px;
+}
+
+img {
+    float: left;
+    width: 30%;
+    height: 30%;
+    margin: 0px 20px 0px 0px;
+}
+
+table tr:first-child>td:first-child,
+.end>td {
+    background-color: #B0E0E6;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000080;
+}
+
+.menu {
+    background-color: #FFFACD;
+    padding: 5px;
+    width: 12%;
+    vertical-align: top;
+}
+
+.menu a:hover {
+    color: #b99d61;
+}
