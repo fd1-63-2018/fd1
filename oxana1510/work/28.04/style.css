@@ -1,0 +1,86 @@
+* {
+ margin: 0;
+ padding: 0;
+
+}
+
+p {
+ display: block;
+ clear: both;
+ padding: 10px;
+}
+
+p:nth-of-type(7n+1) {
+ font-weight: bold;
+ font-size: 1.3rem;
+}
+
+p:nth-of-type(7n+2) {
+ color: green;
+
+}
+
+p:nth-of-type(7n+3) {
+ color: red;
+
+}
+
+p:nth-of-type(7n+4) {
+ color: blue;
+ text-decoration: underline;
+
+}
+
+p:nth-of-type(n+5):nth-of-type(-n+7),
+p:nth-of-type(n+12):nth-of-type(-n+14),
+p:nth-of-type(n+19):nth-of-type(-n+20) {
+ color: blue;
+ font-style: italic;
+}
+
+@media (min-width:400px) and (max-width:800px) {
+ a:before {
+  content: "400> && <800";
+  margin: 50px;
+
+ }
+ p:nth-of-type(n+1):nth-of-type(-n+7) {
+  width: 200px;
+  float: left;
+
+
+ }
+
+ p:nth-of-type(n+8):nth-of-type(-n+14) {
+  width: 200px;
+  position: relative;
+  left: 230px;
+  top: -1190px;
+
+ }
+
+ p:nth-of-type(n+15):nth-of-type(-n+20) {
+  width: 200px;
+  float: right;
+  position: relative;
+  top: -2900px;
+  right: -190px;
+
+ }
+}
+
+@media (max-width:400px) {
+ a:before {
+  content: "<400";
+  margin: 10px;
+ }
+
+}
+
+
+@media (min-width:800px) {
+ a:before {
+  content: ">800";
+ }
+
+}
