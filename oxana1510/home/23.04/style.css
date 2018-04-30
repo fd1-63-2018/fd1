@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 150vmin;
+    margin: 20px auto;
+
+
+}  
+
+
+thead,
+tfoot {
+    background-color: #80e5ff;
+    color: #00004d;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+thead td,
+tfoot td {
+    padding: 20px
+}
+
+
+img {
+    width: 50vmin;
+    float: left;
+    margin: 15px;
+}
+
+td>h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+tbody tr td:nth-child(1) {
+    width: 30vmin;
+    background-color: #ffff1a;
+    padding-left: 20px;
+    word-wrap: break-word;
+
+}
+
+tbody>tr>td:nth-child(2) {
+    padding: 20px;
+}
