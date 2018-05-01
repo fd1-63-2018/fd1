@@ -1,0 +1,178 @@
+input[type=radio] {
+    display: inline-block;
+    width: 43px;
+    margin: 0;
+}
+
+label {
+    outline: 1px solid green;
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+}
+
+input[type] {
+    display: none;
+}
+
+#e:not(checked)~[for=p],
+#p:not(checked)~[for=l],
+#l:not(checked)~[for=h],
+#h:not(checked)~[for=s],
+#s:not(checked)~[for=k],
+#k:not(checked)~[for=q],
+#q:not(checked)~[for=e] {
+    visibility: hidden;
+    /* display: none;*/
+}
+
+#color:checked~label[for=color] {
+    background-color: gray;
+    transition: 2s 0.1s linear;
+}
+
+#color:not(checked)~label[for=color] {
+    background-color: white;
+    transition: 2s 0.1s linear;
+}
+
+#e:checked~[for=p] {
+    background-image: none;
+    visibility: visible;
+}
+
+/* белые */
+
+#p:checked~[for=l] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: -260px 45px;
+    visibility: visible;
+    position: absolute;
+    top: 8px;
+    left: 55px;
+    transition: 1s 0.1s ease-out;
+}
+
+#color:not(checked)~#l:checked~[for=h] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: -105px 45px;
+    visibility: visible;
+    position: absolute;
+    top: 8px;
+    left: 55px;
+    transition: 1s 0.1s ease-out;
+}
+
+#color:not(checked)~#h:checked~[for=s] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: -212px 45px;
+    visibility: visible;
+    position: absolute;
+    top: 8px;
+    left: 55px;
+    transition: 1s 0.1s ease-out;
+}
+
+#color:not(checked)~#s:checked~[for=k] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: -159px 45px;
+    visibility: visible;
+    position: absolute;
+    top: 8px;
+    left: 55px;
+    transition: 1s 0.1s ease-out;
+}
+
+#color:not(checked)~#k:checked~[for=q] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: 0px 45px;
+    visibility: visible;
+    position: absolute;
+    top: 8px;
+    left: 55px;
+    transition: 1s 0.1s ease-out;
+}
+
+#color:not(checked)~#q:checked~[for=e] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: -52px 45px;
+    visibility: visible;
+    position: absolute;
+    top: 8px;
+    left: 55px;
+    transition: 1s 0.1s ease-out;
+}
+
+/* черные */
+
+#color:checked~#p:checked~[for=l] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: -260px 0px;
+    visibility: visible;
+    position: absolute;
+    top: 8px;
+    left: 55px;
+    transition: 1s 0.1s ease-out;
+}
+
+#color:checked~#l:checked~[for=h] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: -105px 0px;
+    visibility: visible;
+    position: absolute;
+    top: 8px;
+    left: 55px;
+    transition: 1s 0.1s ease-out;
+}
+
+#color:checked~#h:checked~[for=s] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: -212px 0px;
+    visibility: visible;
+    position: absolute;
+    top: 8px;
+    left: 55px;
+    transition: 1s 0.1s ease-out;
+}
+
+#color:checked~#s:checked~[for=k] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: -159px 0px;
+    visibility: visible;
+    position: absolute;
+    top: 8px;
+    left: 55px;
+    transition: 1s 0.1s ease-out;
+}
+
+#color:checked~#k:checked~[for=q] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: 0px 0px;
+    visibility: visible;
+    position: absolute;
+    top: 8px;
+    left: 55px;
+    transition: 1s 0.1s ease-out;
+}
+
+#color:checked~#q:checked~[for=e] {
+    background-image: url(chess.png);
+    repeat: no-repeat;
+    background-position: -52px 0px;
+    visibility: visible;
+    position: absolute;
+    top: 8px;
+    left: 55px;
+    transition: 1s 0.1s ease-out;
+}
