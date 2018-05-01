@@ -1,0 +1,76 @@
+p{
+    color: blueviolet;
+    font-style: italic;
+}
+p:nth-of-type(7n+1){
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: normal;
+}
+p:nth-of-type(7n+2){
+    color: green;
+    font-style: normal;
+}
+p:nth-of-type(7n+3){
+    color: red;
+    font-style: normal;
+}
+p:nth-of-type(7n+4){
+    color: blue;
+    text-decoration: underline;
+    font-style: normal;
+}
+
+@media(min-width: 800px){
+    a::before{
+        content: '>800';
+    }
+}
+
+@media(min-width: 400px) and (max-width: 800px) {
+    a::before{
+        content: '>400 && <800';
+    }
+}
+@media(max-width: 400px) {
+    a::before{
+        content: '<400';
+    }
+}
+
+
+
+@media (min-width: 400px) and (max-width: 800px){
+    p{width: 200px;
+        text-align: justify;
+        padding: 5px;
+    }
+}
+
+
+
+@media (min-width: 400px) and (max-width: 800px){
+    p:nth-of-type(n+8):nth-of-type(-n+13){
+        margin-left: 220px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 800px){
+    p:nth-of-type(n+15):nth-of-type(-n+19){
+        margin-left: 440px;
+    }
+}
+@media (min-width: 400px) and (max-width: 800px){
+    p:nth-of-type(7){
+        margin: -620px;
+    }
+}
+@media (min-width: 400px) and (max-width: 800px){
+    p:nth-of-type(14){
+        margin: -880px;
+    }
+}
+
+
+
