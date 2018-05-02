@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    user-select:none;
+}
+
+input {
+    display: none;
+    
+}
+
+#slider {
+    position: relative;
+    width: 900px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+}
+
+#slider section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+}
+
+div.pins > label {
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border: 1px solid #2477cc;
+    border-radius: 50%
+    
+}
+
+div.pins {
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    left: 400px;
+    top: 550px;
+}
+
+.prevSlide {
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    top: 260px;
+    left: 30px;
+    background-color: #2477cc;
+}
+
+.prevSlide::after {
+    content: "<";
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    position: absolute;
+    top: 10px;
+    left: 6px
+}
+
+.nextSlide {
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    top: 280px;
+    left: 850px;
+    background-color: #2477cc;
+}
+
+.nextSlide::after {
+    content: ">";
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    position: absolute;
+    top: 10px;
+    left: 8px
+}
+
+#slider > section:not(:nth-of-type(1)) {
+    display: none;
+}
+
+input:nth-of-type(2):checked ~ #slider > section:nth-of-type(2) {
+    display: block;
+}
+
+input:nth-of-type(3):checked ~ #slider > section:nth-of-type(3) {
+    display: block;
+}
+
+input:nth-of-type(4):checked ~ #slider > section:nth-of-type(4) {
+    display: block;
+}
+
+input:nth-of-type(5):checked ~ #slider > section:nth-of-type(5) {
+    display: block;
+}
+
+
+#one:checked ~ #slider > div.pins > label:nth-child(1),
+#two:checked ~ #slider > div.pins > label:nth-child(2),
+#three:checked ~ #slider > div.pins > label:nth-child(3),
+#four:checked ~ #slider > div.pins > label:nth-child(4),
+#five:checked ~ #slider > div.pins > label:nth-child(5)
+{
+    background-color: #2477cc;
+    transition: all 0.5s;
+}
+
