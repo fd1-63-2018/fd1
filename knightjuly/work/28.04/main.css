@@ -1,0 +1,37 @@
+p
+{color: blue;
+    font-style: italic;
+    width: 50%;
+    margin: 1.5ex;
+}
+
+p:nth-of-type(1), :nth-of-type(8), :nth-of-type(15)
+{
+    font-weight: bolder;
+    color: black;
+    font-style: normal;
+    
+}
+
+p:nth-of-type(2), :nth-of-type(9), :nth-of-type(16)
+{
+    color: green;
+    font-style: normal;}
+    
+p:nth-of-type(3), :nth-of-type(10), :nth-of-type(17){
+    color: red;
+        font-style: normal;}
+        
+
+p:nth-of-type(4), :nth-of-type(11), :nth-of-type(18)
+{
+    text-decoration: underline;
+    font-style: normal;
+}
+
+@media screen and (max-width:800px), (min-width:400px){
+  p{  column-width: 20ex;
+      column-count: 3;
+  }
+    
+}
