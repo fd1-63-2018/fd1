@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    opacity: 0;
+    border: 1px solid black;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left: 50px;
+}
+
+label:nth-of-type(1) {
+    left: 100px;
+}
+
+input {
+    display: none;
+}
+
+label[for="empty"], label[for="color"] {
+    opacity: 1;
+    z-index: 1;
+}
+
+label:nth-of-type(n+3):nth-of-type(-n+8) {
+    background-image: url("chess.png");
+    background-repeat: no-repeat;
+    background-position-y: -2%;
+    transition: all 1s ease-in-out;
+}
+
+
+input[type="radio"]:nth-of-type(2):checked ~ label[for="peshka"],
+input[type="radio"]:nth-of-type(3):checked ~ label[for="ladya"],
+input[type="radio"]:nth-of-type(4):checked ~ label[for="horse"],
+input[type="radio"]:nth-of-type(5):checked ~ label[for="elephant"],
+input[type="radio"]:nth-of-type(6):checked ~ label[for="king"],
+input[type="radio"]:nth-of-type(7):checked ~ label[for="queen"],
+input[type="radio"]:nth-of-type(8):checked ~ label[for="empty"]
+{
+    opacity: 1;
+    z-index: 1;
+}
+
+input[type="radio"]:nth-of-type(2):checked ~ label[for="peshka"] {
+    background-position-x: 103%;
+}
+
+input[type="radio"]:nth-of-type(3):checked ~ label[for="ladya"] {
+    background-position-x: 40%;
+}
+
+input[type="radio"]:nth-of-type(4):checked ~ label[for="horse"] {
+    background-position-x: 83%;
+}
+
+input[type="radio"]:nth-of-type(5):checked ~ label[for="elephant"] {
+    background-position-x: 61%;
+}
+
+input[type="radio"]:nth-of-type(6):checked ~ label[for="king"] {
+    background-position-x: -2%;
+}
+
+input[type="radio"]:nth-of-type(7):checked ~ label[for="queen"] {
+    background-position-x: 20%;
+}
+
+input[type="checkbox"]:checked ~ label:nth-of-type(n+3):nth-of-type(-n+8) {
+    background-position-y: 104%;
+}

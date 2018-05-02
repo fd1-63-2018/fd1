@@ -1,0 +1,89 @@
+img{
+    width:450px;
+    margin-left:50px;
+    user-select:none;
+}
+section{
+    height:350px;
+    width:350px;
+}
+section,
+input[type=radio]{
+    display:none;
+}
+
+#one:checked~#slider>section:nth-of-type(1){
+    display:block;
+    transition: color 0.7s ease-in 0.3s;
+    
+}
+
+#two:checked~#slider>section:nth-of-type(2){
+    display:block;
+}
+
+#three:checked~#slider>section:nth-of-type(3){
+    display:block;
+}
+#four:checked~#slider>section:nth-of-type(4){
+    display:block;
+   
+}
+#five:checked~#slider>section:nth-of-type(5){
+    display:block;
+    }
+    
+label.prevSlide{
+    height:4px;
+    width:4px;
+    border:20px solid green;
+    border-bottom:20px solid #fff;
+    border-top:20px solid #fff;
+    border-left:20px solid #fff;
+    position:absolute;
+    top:200px;
+}
+
+label.nextSlide{
+    height:4px;
+    width:4px;
+    border:20px solid green;
+    border-top:20px solid #fff;
+    border-bottom:20px solid #fff;
+    border-right:20px solid #fff;
+    position:absolute;
+    left:520px;
+    top:200px;
+}
+
+.pins>label{
+    height:30px;
+    width:30px;
+    border:1px solid green;
+    border-radius:50%;
+    float:left;
+    margin:10px;
+    margin-top:140px;
+    margin-left:60px;
+}
+
+#one:checked~#slider>.pins>label[for=one]{
+    display:block;
+    background:lightgreen;
+}
+#two:checked~#slider>.pins>label[for=two]{
+    display:block;
+    background:lightgreen;
+}
+#three:checked~#slider>.pins>label[for=three]{
+    display:block;
+    background:lightgreen;
+}
+#four:checked~#slider>.pins>label[for=four]{
+    display:block;
+    background:lightgreen;
+}
+#five:checked~#slider>.pins>label[for=five]{
+    display:block;
+    background:lightgreen;
+}
