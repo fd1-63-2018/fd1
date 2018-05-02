@@ -1,0 +1,66 @@
+body {
+  margin: 50px;
+}
+
+.prevSlide {
+  width: 18px;
+  border: 10px solid blue;
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  float: left;
+ margin: 30px;
+}
+
+.nextSlide {
+  width: 18px;
+  border: 10px solid blue;
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  float: right;
+  margin: 30px;
+ 
+
+}
+
+
+
+
+#one:checked~#slider>.slide:nth-of-type(1),
+#two:checked~#slider>.slide:nth-of-type(2),
+#three:checked~#slider>.slide:nth-of-type(3),
+#four:checked~#slider>.slide:nth-of-type(4),
+#five:checked~#slider>.slide:nth-of-type(5) {
+  display: block;
+
+}
+
+section.slide,
+input {
+  display: none;
+}
+
+.slide { float: left;}
+
+.pins label {
+  display: inline-block;
+  vertical-align: middle;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 10px;
+  position: relative;
+  right: 200px;
+  top: 100px;
+  margin: 4px;
+}
+
+pins>label:after,
+#one:checked~#slider>.pins>label:nth-of-type(1),
+#two:checked~#slider>.pins>label:nth-of-type(2),
+#three:checked~#slider>.pins>label:nth-of-type(3),
+#four:checked~#slider>.pins>label:nth-of-type(4),
+#five:checked~#slider>.pins>label:nth-of-type(5) {
+  background: black;
+}
