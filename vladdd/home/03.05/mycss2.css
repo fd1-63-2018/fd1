@@ -1,0 +1,62 @@
+div{
+    float: left;
+}
+div:nth-of-type(3n+4){
+    clear: left;
+}
+body>div:nth-of-type(-n+15) {
+    transition-duration: 1s;
+}
+body>div:nth-of-type(n+16) {
+    transition-duration: 1s;
+    transition-delay:1s;
+}
+body:hover>div:nth-of-type(4){
+    transform: translateX(0.5em);
+    transition-duration: 1s;
+}
+body:hover>div:nth-of-type(5){
+    transform: translateX(-0.5em);
+    transition-duration: 1s;
+}
+body:hover>div:nth-of-type(7){
+    transform: translateX(1em);
+    transition-duration: 1s;
+}
+body:hover>div:nth-of-type(9){
+    transform: translateX(-1em);
+    transition-duration: 1s;
+}
+body:hover>div:nth-of-type(10){
+    transform: translateX(1em);
+    transition-duration: 1s;
+}
+body:hover>div:nth-of-type(11){
+    transform: scale(2) rotate(3600deg);
+    transition-duration: 1s;
+}
+body:hover>div:nth-of-type(12){
+    transform: translateX(-1em);
+    transition-duration: 1s;
+}
+body:hover>div:nth-of-type(14){
+    transform: translateX(0.5em) rotate(360deg);
+    transition-duration: 1s;
+}
+body:hover>div:nth-of-type(15){
+    transform: translateX(-0.5em) rotate(360deg);
+    transition-duration: 1s;
+}
+body:hover>div:nth-of-type(16){
+    transform: translateX(1.5em) rotate(360deg) scale(2) skewX(10deg);
+    transition-duration: 1s;
+    transition-delay:1s;
+}body:hover>div:nth-of-type(17){
+    transform: translateX(-0.5em) rotate(360deg) scale(2) skewY(20deg);
+    transition-duration: 1s;
+    transition-delay:1s;
+}body:hover>div:nth-of-type(18){
+    transform: translateX(-0.1em) rotate(360deg) scale(2)skewX(-10deg);
+    transition-duration: 1s;
+    transition-delay:1s;
+}
