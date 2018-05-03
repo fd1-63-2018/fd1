@@ -1,0 +1,395 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Screen width 640-1024 px */
+
+input {
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 12px 8px;
+    text-align: center;
+}
+
+i.ion-ios-close-empty,
+i.ion-ios-drag, label[for="adv-close"] {
+    display: none;
+}
+
+.container {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    margin-top: 20px;
+}
+
+.header::after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.header > div {
+    background-color: darkgrey;
+    float: left;
+    height: 90px;
+}
+
+.header > div:nth-of-type(1) {
+    width: 13%;
+}
+
+.header > div:nth-of-type(2) {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 29%;
+}
+
+.header > div:nth-of-type(3) {
+    width: 53%;
+}
+
+.horizontal-line {
+    height: 2px;
+    border-bottom: 1px solid darkgrey;
+    margin-top: 15px;
+    clear: left;
+}
+
+aside, section.section-container {
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 14px;
+}
+
+section.section-container::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+aside {
+    margin-left: 6.50%;
+    width: 15%;
+    margin-right: 2%;
+    overflow: hidden;
+    transition: height 0.7s;
+}
+
+aside div {
+    background-color: darkgrey;
+    width: 100%;
+}
+
+aside div:first-child {
+    height: 286px;
+}
+
+aside div:last-child {
+    height: 114px;
+    margin-top: 260px;
+}
+
+.section-container {
+    width: 70%;
+    margin-right: 6.50%;
+}
+
+.section-container > section > div {
+    background-color: lightgrey;
+}
+
+.section-container > section {
+    width: 100%;
+}
+
+.section1 > div {
+    width: 100%;
+    height: 180px;
+}
+
+.section2 {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.section2 > div {
+    float: left;
+    width: 17.50%;
+    height: 130px;
+}
+
+.section2 > div:not(:nth-child(5)) {
+    margin-right: 3.1%;
+}
+
+.section2 > div:nth-last-child(-n+2) {
+    margin-top: 18px;
+}
+
+.section2::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.section3 > div {
+    height: 166px;
+    width: 49%;
+    float: left;
+}
+
+.section3 > div:first-child {
+    margin-right: 2%;
+}
+
+.footer {
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+.footer::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+section.footer > div {
+ background-color: darkgrey;
+    float: left;
+}
+
+section.footer > div:nth-child(1),
+section.footer > div:nth-child(2)
+{
+    width: 33%;
+    height: 150px;
+    margin-right: 1%;
+}
+
+section.footer > div:nth-child(3),
+section.footer > div:last-child
+{
+    width: 32%;
+    height: 65px;
+}
+
+section.footer > div:last-child {
+    margin-top: 20px;
+}
+
+section.footer > div:last-child::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+@media screen and (min-width: 320px) and (max-width: 640px) {
+
+    .container {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .center {
+        width: 100%;
+    }
+
+    i.ion-ios-drag {
+        display: block;
+    }
+
+    input:checked ~ aside {
+        height: 270px;
+    }
+
+    input:checked ~ aside > div > label > i.ion-ios-close-empty {
+        display: block;
+        font-size: 36px;
+    }
+
+    input:checked ~ aside > div > label > i.ion-ios-drag {
+        display: none;
+    }
+
+    aside, section.container {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    aside > div:last-child {
+        position: fixed;
+        top: 100px;
+        height: 250px;
+        left: 0;
+        opacity: 0.8;
+    }
+
+    label[for="adv-close"] {
+        display: block;
+        position: absolute;
+        right: 34px;
+        top: -28px;
+        background-color: darkgrey;
+        opacity: 0.8;
+        width: 70px;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    input[id="adv-close"]:not(:checked) + div {
+         display: none;
+    }
+
+    aside {
+        background-color: darkgrey;
+        position: relative;
+        height: 45px;
+    }
+
+    aside > div:first-child {
+        height: 30px;
+    }
+
+    div.header > div:nth-of-type(2) {
+        display: none;
+    }
+
+    div.header > div, .section2 > div, .section3 > div {
+        float: none;
+        width: 100%;
+    }
+
+    div.header > div:first-child, div.header > div:last-child {
+        width: 100%;
+    }
+
+    div.header > div:last-child {
+        margin-top: 15px;
+    }
+
+    div.header, div.container {
+        margin-top: 0;
+    }
+
+    section.section-container {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    section.section-container > section > div {
+        margin-bottom: 12px;
+    }
+
+    section.footer {
+        width: 100%;
+    }
+
+    section.footer > div:not(:last-child) {
+        display: none;
+    }
+
+    section.footer > div:last-child {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    label {
+        position: relative;
+        width: 35px;
+        height: 45px;
+        top: 6px;
+        right: 20px;
+    }
+
+    li {
+        font-size: 20px;
+        text-align: center;
+        padding: 8px 0;
+    }
+
+
+    i {
+        display: block;
+        width: 100%;
+        font-size: 32px;
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+       .container {
+           max-width: 1024px;
+       }
+}
+
+@media screen and (min-width: 1024px) {
+
+    aside, section.section-container {
+        float: none;
+        width: 87%;
+        margin: 0 auto;
+    }
+
+    aside {
+        margin-bottom: 20px;
+    }
+
+    aside div:last-child {
+        margin-top: 15px;
+    }
+
+    aside div:first-child {
+        height: 40px;
+    }
+
+    ul {
+        padding: 11px 0;
+        margin: 0 auto;
+        width: 350px;
+    }
+
+    ul li {
+        display: inline-block;
+        padding: 0 8px;
+        text-align: center;
+    }
+
+    section.section-container {
+        margin-bottom: 20px;
+    }
+
+    .container {
+        max-width: 1200px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .container {
+        width: 1200px;
+    }
+
+}

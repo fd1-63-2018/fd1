@@ -1,0 +1,21 @@
+
+div {
+    float: left;
+    padding: 6px;
+    transition: all 1s;
+    user-select: none;
+}
+
+div:nth-of-type(3n+4) {
+    clear: left;
+}
+
+button {
+    clear: left;
+    display: block;
+}
+
+button:nth-of-type(2) {
+    padding: 0 46px;
+    margin-top: 12px;
+}

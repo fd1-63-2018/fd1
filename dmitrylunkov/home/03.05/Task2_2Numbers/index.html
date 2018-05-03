@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+        <div>1</div><div>2</div><div>3</div>
+        <div>1</div><div>2</div><div>3</div>
+        <div>1</div><div>2</div><div>3</div>
+        <div>1</div><div>2</div><div>3</div>
+        <div>1</div><div>2</div><div>3</div>
+        <div>1</div><div>2</div><div>3</div>
+        <button type="button" onclick="reOrder()">Упорядочить цифры</button>
+        <button type="button" onclick="orderBack()">назад</button>
+
+        <script>
+            function reOrder() {
+                var i, numbers, length;
+
+                var numbers = document.getElementsByTagName("div");
+                length = numbers.length;
+                for (i=0; i<length; i++) {
+                    if ((i == 4) || (i == 6) || (i == 12) || (i == 13) ) {
+                        numbers[i].style.transform = "translateX(20px)";
+                    }
+                    if ((i == 5) || (i == 7) || (i == 10) || (i == 11)) {
+                        numbers[i].style.transform = "translateX(-20px)";
+                    }
+                    if ((i == 9) || (i == 15)) {
+                        numbers[i].style.transform = "translateX(40px)";
+                    }
+                    if ((i == 14) || (i == 17)) {
+                        numbers[i].style.transform = "translateX(-40px)";
+                    }
+                    numbers[i].style.color = "red";
+                }
+            }
+            function orderBack() {
+                var i, numbers, length;
+
+                var numbers = document.getElementsByTagName("div");
+                length = numbers.length;
+                for (i=0; i<length; i++) {
+                    numbers[i].style.removeProperty("transform");
+                    numbers[i].style.removeProperty("color");
+                }
+            }
+        </script>
+</body>
+</html>
