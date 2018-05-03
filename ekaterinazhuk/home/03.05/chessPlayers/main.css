@@ -1,0 +1,45 @@
+p:nth-of-type(7n+1) {
+    font-weight:bold;
+    font-size:30px;
+    color: black;
+    font-style: normal;
+}
+
+p:nth-of-type(7n+2){
+     color: green;
+     font-style: normal;
+}
+p:nth-of-type(7n+3){
+    color: red;
+    font-style: normal;
+}
+p {
+    color: blue;
+    font-style:italic;
+}
+p:nth-of-type(7n +4){
+    text-decoration: underline;
+    font-style: normal;
+}
+
+    
+p:nth-of-type(n+1):nth-of-type(-n+7){
+    background-color: gray;
+
+}
+p:nth-of-type(n+8):nth-of-type(-n+14){
+    background-color: lightblue;
+}
+p:nth-of-type(n+15):nth-of-type(-n+24){
+    background-color: lightyellow;
+}
+
+@media screen and (min-width: 400px) and (max-width: 800px ) {
+    body{
+        transform: rotateX(180deg);
+        
+}
+p{
+    transform: scale(1, -1)
+}
+}
