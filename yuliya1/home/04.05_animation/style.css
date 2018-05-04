@@ -1,0 +1,37 @@
+body {
+    background-size: 1000px 1000px;
+}
+
+.ball {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: red;
+    border: 5px solid yellow;
+    animation: ball-up-down 3s linear infinite,
+    ball_left 10s linear infinite;
+}
+
+@keyframes ball-up-down {
+    0% {
+        bottom: 100%;
+    }
+    50% {
+        bottom: 0;
+        background: orange;
+    }
+    100% {
+        bottom: 100%;
+    }
+}
+
+@keyframes ball_left {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+
+}
