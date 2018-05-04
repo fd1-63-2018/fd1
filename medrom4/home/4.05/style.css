@@ -1,0 +1,54 @@
+body { 
+    background-color: #F5F5DC;
+    margin: 0;
+    padding: 0;
+    width: 800px;
+    height: 400px;
+    position: absolute
+}
+
+.ballon {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #D2691E;
+    border-radius: 100%;
+    background: radial-gradient(at 26px 26px, #ca5500, #000000);
+    animation: prigaet-1 4s linear infinite, prigaet-2 12s linear infinite;
+}
+
+@keyframes prigaet-1 {
+    0% {
+        bottom: 100%;
+    }
+    25% {
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+    }
+    30% {
+        bottom: 0%;
+        width: 140px;
+        height: 70px;
+    }
+    35% {
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+    }
+    70% {
+        bottom: 100%;
+    }
+    100% {
+        bottom: 100%;
+    }
+}
+
+@keyframes prigaet-2 {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 100%;
+    }
+}
