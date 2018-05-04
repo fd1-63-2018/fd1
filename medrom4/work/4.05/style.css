@@ -64,7 +64,7 @@ body {
 
     div:nth-of-type(1) {
         height: 25vmin;
-    }
+    } 
 }
 
 @media (min-width:640px) and (max-width:1024px) {
