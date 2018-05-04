@@ -1,0 +1,29 @@
+.trans {
+    width: 20px;
+    float: left;
+}
+
+.r2 {
+    
+    transform: translate(20px);
+
+
+}
+
+.r4 {
+    
+
+    transform: translate(40px);
+
+}
+
+.l2 {
+    
+    transform: translate(-20px);
+}
+
+.l4 {
+    
+    transform: translate(-40px);
+}
+
