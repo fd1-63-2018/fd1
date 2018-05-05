@@ -8,7 +8,6 @@ body{
     }
 .head{
     margin-top:20px;
-    
     width:100%;
 }
 .head>div{
@@ -114,9 +113,7 @@ body{
 
 .footer{
     float: left;
-    
     width: 100%;
-    margin-top:px;
 }
 .footer>div:nth-of-type(1),
 .footer>div:nth-of-type(2){
@@ -126,6 +123,7 @@ body{
     width: 29.8%;
     margin-top:5px;
 }
+
 .footer>div:nth-of-type(2){
     margin-left: 2.37%
 }
@@ -168,26 +166,27 @@ label{
     .head>div{
        width: 100%!important;
        margin-bottom: 5px;
-
     }
     
     .asaid>div:nth-of-type(1){
         width: 100%;
         height: 50px;
         position:absolute;
-        top: 210px
+        top: 210px;
     }
+    
     label[for=menu]{
         display: block;
         height: 50px;
         text-align: center;
     }
+    
     label:nth-of-type(n+2),
     input[name=menu]{
         position: absolute;
         top: -5000px;
+        }
         
-    }
     #menu:checked~label:nth-of-type(n+2){
         position: static;
         display: block;
@@ -229,6 +228,7 @@ label{
         font-family: sans-serif;
         border:2px solid red;
     }
+    
     #reklama:checked~label[for=reklama]{
         display: none;
     }
@@ -241,9 +241,11 @@ label{
         position: relative;
         top: -657px
     }
+    
     .asaid>div:nth-of-type(1){
         height: 50px;
     }
+    
     .asaid>div:nth-of-type(2){
         height: 50px;
         margin-top:10px;
@@ -255,6 +257,7 @@ label{
     .main>div:nth-of-type(n+2):nth-of-type(-n+8){
         transform:translateX(-80%);
     }
+    
     .main>div:nth-of-type(1){
         transform:translateX(-14%);
     }
@@ -263,6 +266,7 @@ label{
      .main>div:nth-of-type(12){
         transform:translateX(-28.8%);
     }
+    
     .footer{
         transform:translateY(-490px);
     }
@@ -279,9 +283,11 @@ label{
         position: relative;
         top: -657px
     }
+    
     .asaid>div:nth-of-type(1){
         height: 50px;
     }
+    
     .asaid>div:nth-of-type(2){
         height: 50px;
         margin-top:10px;
@@ -290,9 +296,11 @@ label{
     .main{
         transform:translateY(125px);
     }
+    
     .main>div:nth-of-type(n+2):nth-of-type(-n+8){
         transform:translateX(-80%);
     }
+    
     .main>div:nth-of-type(1){
         transform:translateX(-14%);
     }
@@ -301,6 +309,7 @@ label{
      .main>div:nth-of-type(12){
         transform:translateX(-28.8%);
     }
+    
     .footer{
         transform:translateY(-490px);
     }
