@@ -1,0 +1,74 @@
+.ball {
+                width:100px;
+                height:100px;
+                border:1px solid black;
+                border-radius:50%;
+                background:radial-gradient(ellipse at 50% -60px,#000 15%,#fff 15%,#fff 30%,
+                #000 30%, #000 45%, #fff 45%,#fff 60%,#000 60%,#000 75%,#fff 75%,#fff 90%,
+                #000 90%,#000 100%);
+               position:absolute;
+               top:20px;
+               left:0px;
+               animation: move47;
+               animation-duration: 2s;
+               animation-iteration-count:infinite;
+               animation-direction:normal;
+               animation-timing-function:ease-out;
+            }
+            @keyframes move47{
+                0%   {left:0px; top:20px; transform:rotate(0deg);}
+                10%  {left:75px; top:110px; transform:rotate(360deg);}
+                20%  {left:160px; top:50px;transform:rotate(720deg);}
+                30% {left:225px; top:210px; transform:rotate(1080deg);}
+                40% {left:340px; top:150px;transform:rotate(1420deg);}
+                50% {left:385px; top:360px;transform:rotate(1740deg)}
+                60% {left:450px; top:330px;transform:rotate(2040deg)}
+                70% {left:525px; top:510px;transform:rotate(2140deg)}
+                80% {left:620px; top:450px;transform:rotate(2200deg)}
+                90% {left:650px; top:555px;transform:rotate(2250deg)}
+                95% {left:662px; top:530px;transform:rotate(2275deg)}
+                100% {left:675px; top:555px;transform:rotate(2300deg)}
+                        }
+                        @keyframes move48{
+                20%   {background-color: green;}
+                40%  {background-color: red;}
+                60%  {background-color: silver;}
+                80% {background-color: blue;}
+                100% {background-color: yellow;}
+                            
+                        }
+            body>div {
+                width:800px;
+                height:650px;
+                background:aqua;
+                outline:1px solid black;
+                animation: move48;
+               animation-duration: 2s;
+               animation-iteration-count:infinite;
+               animation-direction:normal;
+               animation-timing-function:linear;
+            }
+            div>div:nth-of-type(n+2){
+                width:150px;
+                height:400px;
+                
+                background:black;
+                float:left;
+                position:relative;
+            }
+            div>div:nth-of-type(2){
+                top:200px;
+                height:450px;
+            }
+            div>div:nth-of-type(3){
+                top:300px;
+                height:350px;
+            }
+            div>div:nth-of-type(4){
+                top:450px;
+                height:200px;
+            }
+            div>div:nth-of-type(5){
+                top:600px;
+                 height:50px;
+            }
