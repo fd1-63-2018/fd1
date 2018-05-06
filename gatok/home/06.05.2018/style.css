@@ -1,0 +1,25 @@
+body>div{
+    margin-top: 20px;
+    height: 600px;
+    position: relative;
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background:-webkit-radial-gradient(circle, green, yellow, blue);
+    position: absolute;
+    -webkit-animation: x-ball 3s linear infinite,
+     y-ball 20s linear infinite;
+
+}
+@keyframes x-ball{
+    0%{bottom: 80%}
+    50%{bottom: 0}
+    100%{bottom: 80%}
+}   
+@keyframes y-ball{ 
+    from{left: 0;}
+    to{left: 100%;}
+}
