@@ -10,12 +10,33 @@ div:nth-of-type(3n+4) {
     clear: left;
 }
 
-button {
-    clear: left;
-    display: block;
+div:nth-of-type(-n+3):hover ~ div:nth-of-type(5),
+div:nth-of-type(-n+3):hover ~ div:nth-of-type(7),
+div:nth-of-type(-n+3):hover ~ div:nth-of-type(14),
+div:nth-of-type(-n+3):hover ~ div:nth-of-type(13)
+{
+    transform: translateX(20px);
 }
 
-button:nth-of-type(2) {
-    padding: 0 46px;
-    margin-top: 12px;
+div:nth-of-type(-n+3):hover ~ div:nth-of-type(6),
+div:nth-of-type(-n+3):hover ~ div:nth-of-type(8),
+div:nth-of-type(-n+3):hover ~ div:nth-of-type(11),
+div:nth-of-type(-n+3):hover ~ div:nth-of-type(12)
+{
+    transform: translateX(-20px);
 }
+
+div:nth-of-type(-n+3):hover ~ div:nth-of-type(10),
+div:nth-of-type(-n+3):hover ~ div:nth-of-type(16)
+{
+    transform: translateX(40px);
+}
+
+div:nth-of-type(-n+3):hover ~ div:nth-of-type(15),
+div:nth-of-type(-n+3):hover ~ div:nth-of-type(18)
+{
+    transform: translateX(-40px);
+}
+
+div:nth-of-type(-n+3):hover ~ div {
+    color: green;

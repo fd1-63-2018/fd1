@@ -240,7 +240,7 @@ section.footer > div:last-child::after {
 
     aside > div:last-child {
         position: fixed;
-        top: 100px;
+        bottom: 0;
         height: 250px;
         left: 0;
         opacity: 0.8;
