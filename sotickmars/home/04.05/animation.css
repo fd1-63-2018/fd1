@@ -3,8 +3,8 @@ body{
 }
 
 div{
-    width: 50px;
-    height:50px;
+    width: 5vmin;
+    height:5vmin;
     border-radius: 50%;
 }
 
@@ -28,26 +28,26 @@ hr{
 
 @keyframes hor {
     0%{
-        transform: translateX(0vmin);
+        transform: translateX(0vw);
         background:red;
     }
     25%{
-        transform: translateX(50vmin);
+        transform: translateX(50vw);
         background:orange;
         
     }
     50%{
-        transform: translateX(100vmin);
+        transform: translateX(90vw);
         background:yellow;
         
     }
     75%{
-        transform: translateX(50vmin);
+        transform: translateX(50vw);
         background:green;
         
     }
     100%{
-        transform: translateX(0vmin);
+        transform: translateX(0vw);
         background:red;
         
     }
