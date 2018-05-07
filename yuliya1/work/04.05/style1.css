@@ -1,0 +1,168 @@
+body {
+    background: #00e6e6;
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    background-color: white;
+    margin: 2%;
+}
+
+@media(max-width:640px) {
+body, div {
+    margin-left: 0;
+    margin-right: 0;
+}
+    div:nth-of-type(1) {
+        height: 4%;
+        width: 95%;
+    }
+
+    div:nth-of-type(2) {
+        width: 95%;
+        height: 8%;
+    }
+
+    div:nth-of-type(3) {
+        width: 95%;
+        height: 16%;
+    }
+
+    div:nth-of-type(4) {
+        width: 95%;
+        height: 32%;
+    }
+
+    div:nth-of-type(5) {
+        width: 95%;
+        height: 64%;
+    }
+
+    div:nth-of-type(1),
+    div:nth-of-type(2),
+    div:nth-of-type(3),
+    div:nth-of-type(4),
+    div:nth-of-type(5) {
+        color: transparent;
+    }
+
+    div:nth-of-type(1):after {
+        content: "1";
+        color: black;
+    }
+
+    div:nth-of-type(2):after {
+        content: "2";
+        color: black;
+    }
+
+    div:nth-of-type(3) {
+        color: black;
+    }
+
+    div:nth-of-type(4):after {
+        content: "4";
+        color: black;
+    }
+
+    div:nth-of-type(5):after {
+        content: "5";
+        color: black;
+    }
+}
+
+@media(min-width:640px) and (max-width:1024px) {
+    div:nth-of-type(1) {
+        height: 4%;
+        width: 95%;
+        margin-top: 142px;
+    }
+
+    div:nth-of-type(2) {
+        width: 95%;
+        height: 8%;
+    }
+
+    div:nth-of-type(3) {
+        width: 29%;
+        height: 16%;
+        float: left;
+    }
+    div:nth-of-type(4) {
+        width: 29%;
+        height: 16%;
+        float: left;
+    }
+
+    div:nth-of-type(5) {
+        width: 29%;
+        height: 16%;
+        float: left;
+    }
+}
+
+@media(min-width:1024px) {
+    body {
+        margin-top: 190px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div:nth-of-type(1) {
+        width: 1%;
+    }
+
+    div:nth-of-type(2) {
+        width: 2%;
+    }
+
+    div:nth-of-type(3) {
+        width: 4%;
+    }
+
+    div:nth-of-type(4) {
+        width: 8%;
+    }
+
+    div:nth-of-type(5) {
+        width: 16%;
+    }
+
+    div:nth-of-type(1),
+    div:nth-of-type(2),
+    div:nth-of-type(3),
+    div:nth-of-type(4),
+    div:nth-of-type(5) {
+        height: 20%;
+        margin: 2%;
+        float: left;
+        background-color: white;
+        color: transparent;
+    }
+
+    div:nth-of-type(1):after {
+        content: "1";
+        color: black;
+    }
+
+    div:nth-of-type(2):after {
+        content: "2";
+        color: black;
+    }
+
+    div:nth-of-type(3) {
+        color: black;
+    }
+
+    div:nth-of-type(4):after {
+        content: "4";
+        color: black;
+    }
+
+    div:nth-of-type(5):after {
+        content: "5";
+        color: black;
+    }
+
+}
