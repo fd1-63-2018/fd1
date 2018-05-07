@@ -4,11 +4,11 @@
     background-color: #ffb000;
     border-radius: 100%;
     position: absolute;
-    animation: jump 3s linear infinite,
+    animation: up 5s linear infinite,
     left 12s linear infinite;
 }
 
-@keyframes jump {
+@keyframes up {
     0% {
         bottom: 100%;
     }
