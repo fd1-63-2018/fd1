@@ -1,0 +1,123 @@
+body{
+    margin:0;
+    height: 300px;
+    border:2px solid green;
+    background:lightblue;
+}
+
+div:nth-of-type(1){
+    width: 32%;
+    height: 260px;
+    background:#fff;
+    margin-right: 10%;
+    margin-top:20px;
+    float: right;
+}
+
+div:nth-of-type(2){
+    width: 16%;
+    height: 260px;
+    background:#fff;
+    margin-right: 4%;
+    margin-top:20px;
+    float: right;
+}
+div:nth-of-type(3){
+    width: 8%;
+    height: 260px;
+    background:#fff;
+    margin-right: 4%;
+    margin-top:20px;
+    float: right;
+}
+div:nth-of-type(4){
+    width: 4%;
+    height: 260px;
+    background:#fff;
+    margin-right: 4%;
+    margin-top:20px;
+    float: right;
+}
+
+div:nth-of-type(5){
+    width: 2%;
+    height: 260px;
+    background:#fff;
+   margin-right: 4%;
+    margin-top:20px;
+    float: right;
+}
+
+@media (max-width:640px){
+    body{
+        margin:0px;
+        border:none;
+    }
+    div:nth-of-type(5){
+        width: 100%;
+        margin:0;
+        position: relative;
+        height: 30px;
+        transform: translateY(-880px);
+    }
+    
+    div:nth-of-type(4){
+        width: 100%;
+        margin:0;
+        position: relative;
+        height: 60px;
+        transform: translateY(-780px);
+    }
+    div:nth-of-type(3){
+        width: 100%;
+        margin:0;
+        position: relative;
+        height: 120px;
+        transform: translateY(-590px);
+    }
+     div:nth-of-type(2){
+        width: 100%;
+        margin:0;
+        position: relative;
+        height: 240px;
+        transform: translateY(-220px);
+    
+    }
+    div:nth-of-type(1){
+        width: 100%;
+        margin:0;
+        position: relative;
+        height: 480px;
+        transform: translateY(530px);
+        margin-bottom: 20px
+    }
+}
+
+@media (min-width:640px) and (max-width:1024px){
+    body{
+        border:none;
+    }
+    div:nth-of-type(1){
+        width: 90%;
+        margin-left: 5%;
+        margin-right:5%;
+    }
+        div:nth-of-type(2){
+        width: 90%;
+        height: 130px;
+        margin-left: 5%;
+        margin-right:5%;
+    }
+    div:nth-of-type(3),
+    div:nth-of-type(4),
+    div:nth-of-type(5){
+        width: 28.5%;
+        margin-left:5%;
+        float: left;
+    }
+    div:nth-of-type(4),
+    div:nth-of-type(5){
+        margin-left:-1.8%;
+        
+    }
+}
