@@ -1,0 +1,30 @@
+.ball{
+    width: 10vw;
+    height: 10vw;
+    border:1px;
+    border-radius: 100vw;
+    background: radial-gradient(black, white);
+}
+@keyframes qwe{
+    0%{position: relative; top: 0px;}
+    10%{position: relative; top: 700px;}
+    20%{position: relative; top: 100px;}
+    30%{position: relative; top: 700px;}
+    40%{position: relative; top: 200px;}
+    50%{position: relative; top: 700px;}
+    60%{position: relative; top: 300px;}
+    70%{position: relative; top: 700px;}
+    80%{position: relative; top: 400px;}
+    90%{position: relative; top: 700px;}
+    100%{position: relative; top: 500px;}
+}    
+@keyframes ri{
+    from{position: relative; left: 0%;}
+    to{position: relative;left: 100%;}
+}
+
+    
+
+.dow{animation: qwe 5s linear, ri 5s linear;
+    
+}
