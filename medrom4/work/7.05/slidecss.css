@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.slide-one,
+.slide-two,
+.slide-three,
+.slide-four,
+.slide-five,
+input {
+    display: none;
+}
+
+section.slide-one,
+section.slide-two,
+section.slide-three,
+section.slide-four,
+section.slide-five {
+    position: relative;
+    width: 800px;
+    height: 400px;
+}
+
+.input_one:checked~div.slider__top>.slide-one,
+.input_two:checked~div.slider__top>.slide-two,
+.input_three:checked~div.slider__top>.slide-three,
+.input_four:checked~div.slider__top>.slide-four,
+.input_five:checked~div.slider__top>.slide-five {
+    display: block;
+}
+
+div.pins label.pins__one,
+div.pins label.pins__two,
+div.pins label.pins__three,
+div.pins label.pins__four,
+div.pins label.pins__five {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #696969;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 3px;
+    margin-left: 100px;
+}
+
+.pins>label:after,
+.input_one:checked~div.slider__top>.pins>label.pins__one,
+.input_two:checked~div.slider__top>.pins>label.pins__two,
+.input_three:checked~div.slider__top>.pins>label.pins__three,
+.input_four:checked~div.slider__top>.pins>label.pins__four,
+.input_five:checked~div.slider__top>.pins>label.pins__five {
+    background: black;
+}
+
+label.slide__prevSlide {
+    position: absolute;
+    display: inline-block;
+    width: 15px;
+    height: 100px;
+    top: 150px;
+    left: 20px;
+    background-color: #696969;
+}
+
+label.slide__nextSlide {
+    position: absolute;
+    display: inline-block;
+    width: 15px;
+    height: 100px;
+    top: 150px;
+    left: 765px;
+    background-color: #696969;
+}
+
+div.slider__top {
+    max-width: 100vmin;
+    min-height: 100vmin;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label.slide__prevSlide::after {
+    content: "<";
+    color: black;
+    font-weight: bold;
+    font-size: 26px;
+    position: absolute;
+    top: 35px;
+    left: 0px
+}
+
+label.slide__nextSlide::after {
+    content: ">";
+    color: black;
+    font-weight: bold;
+    font-size: 26px;
+    position: absolute;
+    top: 35px;
+    left: 0px;
+}
