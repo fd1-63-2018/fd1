@@ -1,0 +1,79 @@
+body {
+  margin: 50px;
+}
+
+.slide__prev {
+  width: 18px;
+  border: 10px solid blue;
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  float: left;
+  margin: 30px;
+}
+
+.slide__next {
+  width: 18px;
+  border: 10px solid blue;
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  float: right;
+  margin: 30px;
+
+
+}
+
+
+
+
+.input__one:checked~div .slide_one,
+.input__two:checked~div .slide_two,
+.input__three:checked~div .slide_three,
+.input__four:checked~div .slide_four,
+.input__five:checked~div .slide_five
+
+  {
+  display: block;
+
+}
+
+.slide_one,
+.slide_two,
+.slide_three,
+.slide_four,
+.slide_five,
+input {
+  display: none;
+}
+
+.slide_one,
+.slide_two,
+.slide_three,
+.slide_four,
+.slide_five {
+  float: left;
+}
+
+.pins label {
+  display: inline-block;
+  vertical-align: middle;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 10px;
+  position: relative;
+  right: 200px;
+  top: 100px;
+  margin: 4px;
+}
+
+
+
+.input__one:checked~div .pins .pins__one,
+.input__two:checked~div .pins .pins__two,
+.input__three:checked~div .pins .pins__three,
+.input__four:checked~div .pins .pins__four,
+.input__five:checked~div .pins .pins__five {
+  background: black;
+}
