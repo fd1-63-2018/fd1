@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+}
+
+input {
+    display: none;
+}
+
+.slide_one,
+.slide_two,
+.slide_three,
+.slide_four,
+.slide_five {
+    display: none;
+    position: relative;
+}
+
+.slide_prev {
+    width: 20px;
+    border-top: 20px solid transparent;
+    border-right: 40px solid red;
+    border-bottom: 20px solid transparent;
+    display: inline-block;
+    position: absolute;
+    top: 140px;
+    left: -10px;
+}
+
+.slide_next {
+    display: inline-block;
+    width: 20px;
+    border: 20px solid transparent;
+    border-left: 40px solid red;
+    position: absolute;
+    top: 140px;
+    left: 400px;
+}
+
+.input_1:checked~div .slide_one,
+.input_2:checked~div .slide_two,
+.input_3:checked~div .slide_three,
+.input_4:checked~div .slide_four,
+.input_5:checked~div .slide_five {
+    display: block;
+}
+
+.pins label {
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    padding: 5px 5px;
+    margin: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.input_1:checked~div .pins .pins_one,
+.input_2:checked~div .pins .pins_two,
+.input_3:checked~div .pins .pins_three,
+.input_4:checked~div .pins .pins_four,
+.input_5:checked~div .pins .pins_five {
+    background: black;
+}
