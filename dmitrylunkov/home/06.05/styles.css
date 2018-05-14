@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(25, 127, 229);
+}
+
+.container {
+    position: relative;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    top: 100px;
+    background: #fff;
+}
+
+.ball {
+    position: absolute;
+    background-image: radial-gradient(circle at 30% 30%, #fff, #1d4fd8);
+    top: 450px;
+    height: 50px;
+    width: 50px;
+    background-color: darkgrey;
+    border-radius: 50%;
+    animation: vertical_move 4s linear infinite, horizontal_move 12s linear alternate infinite;
+}
+
+@keyframes vertical_move {
+    
+    0% {
+        top: 450px;
+    }
+    
+    10% {
+        top: 300px;
+    }
+    
+    20% {
+        top: 200px;
+    }
+    
+    30% {
+        top: 150px;
+    }
+    
+    40% {
+        top: 125px;
+    }
+    
+    45% {
+        top: 112px;
+    }
+    
+    50% {
+        top: 107px;
+    }
+    
+    55% {
+        top: 112px;
+    }
+    
+    60% {
+        top: 125px;
+    }
+    
+    70% {
+        top: 150px;
+    }
+    
+    80% {
+        top: 200px;
+    }
+    
+    90% {
+        top: 300px;
+    }
+    
+    100% {
+        top: 450px;
+    }
+}
+
+@keyframes horizontal_move {
+    
+    0% {
+        left: 0;
+    }
+    
+    100% {
+        left: 850px;
+    }
+}
