@@ -1,0 +1,61 @@
+          .slide {
+          display:none;
+        }
+          .input_one:checked ~ .slider>.slide_Cos,
+          .input_two:checked ~ .slider>.slide_RoseRed,
+          .input_three:checked ~ .slider>.slide_RoseWhite,
+          .input_four:checked ~ .slider>.slide_Sky,
+          .input_five:checked ~ .slider>.slide_Nature{
+            display:block;
+            text-align:center;
+            user-select:none;
+          }
+          .slider>.slide_Cos>.prevSlide,
+          .slider>.slide_RoseRed>.prevSlide,
+          .slider>.slide_RoseWhite>.prevSlide,
+          .slider>.slide_Sky>.prevSlide,
+          .slider>.slide_Nature>.prevSlide{
+            width: 0;
+            height: 0;
+            border: 40px solid transparent; 
+            border-left-color: steelblue;  
+           border-right: 0;
+           float:right;
+          }
+          .slider>.slide_Cos>.nextSlide,
+          .slider>.slide_RoseRed>.nextSlide,
+          .slider>.slide_RoseWhite>.nextSlide,
+          .slider>.slide_Sky>.nextSlide,
+          .slider>.slide_Nature>.nextSlide{
+            width: 0;
+            height: 0;
+            border: 40px solid transparent; 
+            border-right-color: gold;  
+            border-left: 0;
+           float:left;
+          }
+          .pins{
+            width:100%;
+            height:20px;
+            text-align:center;
+            padding: 0px 44%;
+          }
+          .pins>label {
+            display:block;
+            width: 0;
+            height: 0;
+            border:5px solid silver;
+            border-radius: 40px; 
+            float:left;
+            margin-left:1%;
+          }
+          .input_one:checked ~ .slider>.pins>.pins__label_one,
+          .input_two:checked ~ .slider>.pins>.pins__label_two,
+          .input_three:checked ~ .slider>.pins>.pins__label_three,
+          .input_four:checked ~ .slider>.pins>.pins__label_four,
+         .input_five:checked ~ .slider>.pins>.pins__label_five{
+            border:5px solid red;
+          }
+           input {
+            display:none;
+          }
