@@ -9,33 +9,37 @@
 .slide-three,
 .slide-four,
 .slide-five,
-input {
+.input-one,
+.input-two,
+.input-three,
+.input-four,
+.input-five {
     display: none;
 }
 
-section.slide-one,
-section.slide-two,
-section.slide-three,
-section.slide-four,
-section.slide-five {
+.slide-one,
+.slide-two,
+.slide-three,
+.slide-four,
+.slide-five {
     position: relative;
     width: 800px;
     height: 400px;
 }
 
-.input-one:checked~div.slider>.slide-one,
-.input-two:checked~div.slider>.slide-two,
-.input-three:checked~div.slider>.slide-three,
-.input-four:checked~div.slider>.slide-four,
-.input-five:checked~div.slider>.slide-five {
+.input-one:checked~.slider>.slide-one,
+.input-two:checked~.slider>.slide-two,
+.input-three:checked~.slider>.slide-three,
+.input-four:checked~.slider>.slide-four,
+.input-five:checked~.slider>.slide-five {
     display: block;
 }
 
-div.pins label.pins__one,
-div.pins label.pins__two,
-div.pins label.pins__three,
-div.pins label.pins__four,
-div.pins label.pins__five {
+.pins .pins__one,
+.pins .pins__two,
+.pins .pins__three,
+.pins .pins__four,
+.pins .pins__five {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -46,16 +50,20 @@ div.pins label.pins__five {
     margin-left: 100px;
 }
 
-.pins>label:after,
-.input-one:checked~div.slider>.pins>label.pins__one,
-.input-two:checked~div.slider>.pins>label.pins__two,
-.input-three:checked~div.slider>.pins>label.pins__three,
-.input-four:checked~div.slider>.pins>label.pins__four,
-.input-five:checked~div.slider>.pins>label.pins__five {
+.pins>.pins__one:after,
+.pins>.pins__two:after,
+.pins>.pins__three:after,
+.pins>.pins__four:after,
+.pins>.pins__five:after,
+.input-one:checked~.slider>.pins>.pins__one,
+.input-two:checked~.slider>.pins>.pins__two,
+.input-three:checked~.slider>.pins>.pins__three,
+.input-four:checked~.slider>.pins>.pins__four,
+.input-five:checked~.slider>.pins>.pins__five {
     background: black;
 }
 
-label.slide__prevSlide {
+.slide__prevSlide {
     position: absolute;
     display: inline-block;
     width: 15px;
@@ -65,7 +73,7 @@ label.slide__prevSlide {
     background-color: #696969;
 }
 
-label.slide__nextSlide {
+.slide__nextSlide {
     position: absolute;
     display: inline-block;
     width: 15px;
@@ -75,14 +83,14 @@ label.slide__nextSlide {
     background-color: #696969;
 }
 
-div.slider {
+.slider {
     max-width: 130vmin;
     min-height: 100vmin;
     margin-left: auto;
     margin-right: auto;
 }
 
-label.slide__prevSlide::after {
+.slide__prevSlide::after {
     content: "<";
     color: black;
     font-weight: bold;
@@ -92,7 +100,7 @@ label.slide__prevSlide::after {
     left: 0px
 }
 
-label.slide__nextSlide::after {
+.slide__nextSlide::after {
     content: ">";
     color: black;
     font-weight: bold;
