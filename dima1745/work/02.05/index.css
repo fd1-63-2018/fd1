@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100vmin;
+    min-height: 100vmin;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.one {
+    display: inline-block;
+    width: 11vmin;
+    height: 8vmin;
+    margin: 1vmin;
+}
+
+.two {
+    display: inline-block;
+    width: 25vmin;
+    height: 8vmin;
+    margin: 1vmin;
+}
+
+.three {
+    display: inline-block;
+    margin: 1vmin;
+    width: 45vmin;
+    height: 8vmin;
+}
+
+.line {
+    width: 89vmin;
+    border: 1px solid grey;
+    margin: 1vmin;
+    display: inline-block;
+}
+
+.one,
+.two,
+.three,
+.four,
+.seven {
+    background: grey;
+    color: white;
+    vertical-align: text-top;
+    padding-left: 1vmin;
+    padding-top: 1vmin;
+}
+
+.four {
+    display: inline-block;
+    width: 16vmin;
+    height: 27vmin;
+    margin: 1vmin;
+}
+
+.empty2 {
+    width: 16vmin;
+    height: 26vmin;
+    margin: 1vmin;
+}
+
+.seven {
+    width: 16vmin;
+    height: 10vmin;
+    margin: 1vmin;
+}
+
+.five {
+    width: 69vmin;
+    height: 16vmin;
+    margin: 1vmin;
+}
+
+.aside {
+    float: left;
+}
+
+.main {
+    display: inline-block;
+    width: 73vmin;
+}
+
+.six {
+    display: inline-block;
+    width: 11vmin;
+    height: 13vmin;
+    margin: 1vmin;
+}
+
+.five,
+.six,
+.eight,
+.nine {
+    background: silver;
+    color: white;
+    vertical-align: text-top;
+    padding-left: 1vmin;
+    padding-top: 1vmin;
+}
+
+.eight,
+.nine {
+    float: left;
+    width: 33vmin;
+    height: 16vmin;
+    margin: 1vmin;
+}
+
+.ten,
+.eleven,
+.twelve,
+.thirteen {
+    background: gray;
+    color: white;
+    vertical-align: text-top;
+    padding-left: 1vmin;
+    padding-top: 1vmin;
+    margin: 1vmin;
+}
+
+.ten,
+.eleven {
+    float: left;
+    width: 26vmin;
+    height: 14vmin;
+}
+
+.twelve,
+.thirteen {
+    float: left;
+    width: 30vmin;
+    height: 5vmin;
+}
+
+.twelve:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+@media (max-width:640px) {
+    div {
+        float: left;
+        clear: both;
+    }
+    .two,
+    .ten,
+    .eleven,
+    .twelve,
+    .empty2,
+    .empty {
+        display: none;
+    }
+    div:nth-child(n) {
+        width: 100vmax;
+    }
+    li {
+        display: none;
+    }
+    #p1:checked~li {
+        display: block;
+    }
+    span {
+        font-size: 3em;
+    }
+    input[type=checkbox] {
+        display: none;
+    }
+}

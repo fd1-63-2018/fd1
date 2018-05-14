@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60px;
+    top: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container > div {
+    float: left;
+    padding: 6px;
+    transition: all 1s;
+}
+
+.container > div:nth-of-type(3n+4) {
+    clear: left;
+}
+
+.container:hover > div:nth-of-type(5),
+.container:hover > div:nth-of-type(7),
+.container:hover > div:nth-of-type(14),
+.container:hover > div:nth-of-type(13)
+{
+    transform: translateX(20px);
+}
+
+.container:hover > div:nth-of-type(6),
+.container:hover > div:nth-of-type(8),
+.container:hover > div:nth-of-type(11),
+.container:hover > div:nth-of-type(12)
+{
+    transform: translateX(-20px);
+}
+
+.container:hover > div:nth-of-type(10),
+.container:hover > div:nth-of-type(16)
+{
+    transform: translateX(40px);
+}
+
+.container:hover > div:nth-of-type(15),
+.container:hover > div:nth-of-type(18)
+{
+    transform: translateX(-40px);
+}
+
+.container:hover > div {
+    color: green;
+}

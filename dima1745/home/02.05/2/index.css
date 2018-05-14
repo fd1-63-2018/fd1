@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-size: 6em;
+}
+
+div {
+    float: left;
+    transition: 1s;
+}
+
+div:nth-of-type(3n) {
+    float: none;
+}
+
+body:hover div:nth-of-type(6),
+body:hover div:nth-of-type(8),
+body:hover div:nth-of-type(11),
+body:hover div:nth-of-type(12) {
+    transform: translateX(-0.5em);
+    color: gold;
+}
+
+body:hover div:nth-of-type(5), 
+body:hover div:nth-of-type(7),
+body:hover div:nth-of-type(14),
+body:hover div:nth-of-type(13) {
+    transform: translateX(0.5em);
+    color: gold;
+}
+
+body:hover div:nth-of-type(10),
+body:hover div:nth-of-type(16) {
+    transform: translateX(1em);
+    color: gold;
+}
+
+body:hover div:nth-of-type(15),
+body:hover div:nth-of-type(18) {
+    transform: translateX(-1em);
+    color: gold;
+}

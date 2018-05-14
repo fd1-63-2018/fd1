@@ -1,0 +1,341 @@
+body {
+    margin: 0;
+}
+
+.VsiaTable {
+    margin: 20px;
+    
+}
+ 
+.hapka {
+    width: 100%;
+}
+
+.hapka>div {
+    background: gray;
+    float: left;
+    height: 90px;
+    margin-right: 2.36%;
+}
+
+.hapka>._1 {
+    width: 12.15%;
+}
+
+.hapka>._2 {
+    width: 27.83%;
+}
+
+.hapka>._3 {
+    width: 52.3%;
+
+}
+
+.hapka>.liniya {
+    height: 2px;
+    width: calc(97%);
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rightmiddle {
+    height: calc(110px + 285px + 225px);
+    width: 18%;
+    float: left;
+}
+
+.rightmiddle>div:nth-of-type(n):nth-of-type(-n+2) {
+    background: gray;
+    width: 100%;
+}
+
+.rightmiddle>div:nth-of-type(1) {
+    height: 285px;
+}
+
+.rightmiddle>div:nth-of-type(2) {
+    height: 110px;
+    margin-top: 225px;
+}
+
+.gooood {
+    float: right;
+    height: 658px;
+    width: 75.83%;
+    margin-right: 2.38%;
+}
+
+.gooood>div {
+    background: lightgray;
+}
+
+.gooood>._5 {
+    width: 100%;
+    height: 150px;
+}
+
+.gooood>div:nth-of-type(n+2):nth-of-type(-n+10) {
+    width: 17.2%;
+    height: 127px;
+    float: left;
+    margin-right: 3.2%;
+    margin-top: 20px;
+}
+
+.gooood>div:nth-of-type(6) {
+    margin-right: -3.2%!important;
+}
+
+.gooood>div:nth-of-type(8) {
+    float: none;
+
+}
+
+.gooood>._8 {
+    width: 48.5%;
+    height: 155px;
+    float: left;
+    margin-top: 20px;
+}
+
+.gooood>div:nth-of-type(9),
+.gooood>div:nth-of-type(10) {
+    background: none;
+}
+
+.gooood>._9 {
+    width: 48.5%;
+    height: 155px;
+    float: left;
+    margin-left: 3%;
+    margin-top: 20px;
+}
+
+div.liniya_2 {
+    height: 2px;
+    width: 129.5%;
+    margin-top: 490px;
+    margin-left: -29%;
+    background-color: gray;
+}
+
+.bottom {
+    float: left;
+    width: 100%;
+}
+
+.bottom>div._10,
+.bottom>div._11 {
+    float: left;
+    background: gray;
+    height: 100px;
+    width: 29.8%;
+    margin-top: 5px;
+}
+
+.bottom>div._11 {
+    margin-left: 2.37%
+}
+
+.bottom>div._12,
+.bottom>div._13 {
+    float: left;
+    background: gray;
+    height: 37px;
+    width: 33.5%;
+    margin-left: 2.37%;
+    margin-top: 5px;
+}
+
+.bottom>div._13 {
+    margin-top: 27px;
+}
+
+input,
+label {
+    display: none;
+
+}
+
+@media screen and (min-width:320px) and (max-width:640px) {
+    .VsiaTable {
+        margin: 0px;
+        padding: 0;
+    }
+
+    div._2,
+    div._10,
+    div._11,
+    div._12,
+    .rightmiddle>div:nth-of-type(2),
+    input[name=zakrit] {
+        display: none;
+    }
+
+    .hapka>div {
+        width: 98%!important;
+        margin-bottom: 5px;
+        margin-left: 6px;
+    }
+
+    .rightmiddle>div:nth-of-type(1) {
+        width: 98%;
+        height: 50px;
+        position: absolute;
+        top: 210px;
+        margin-left: 6px;
+    }
+
+    label[for=menu] {
+        display: block;
+        height: 50px;
+        text-align: center;
+        font-size: 250%;
+        text-align: right;
+        margin-right: 25px
+        
+    }
+
+    label:nth-of-type(n+2),
+    input[name=menu] {
+        position: absolute;
+        top: -5000px;
+    }
+
+    #menu:checked~label:nth-of-type(n+2) {
+        position: static;
+        display: block;
+        height: 40px;
+        background: lightgreen;
+        border: 1px solid green;
+        transition: 1s;
+        top: 500px;
+    }
+    
+    div._6n {
+        display: none;    
+    }
+
+    .gooood {
+        width: 100%;
+    }
+
+    .gooood>div {
+        width: 98%!important;
+        margin-left: 20px;
+    }
+    
+    .bottom>div {
+        width: 98%!important;
+        transform: translate(-12px, 240px);
+    }
+    
+    label[for=zakrit]:nth-of-type(2) {
+        display: block;
+        height: 20px;
+        width: 20px;
+        background: blue;
+        top: 170px;
+        width: 96%;
+        height: 120px;
+        border-color: black;
+    }
+    
+    label[for=zakrit] {
+        position: fixed;
+        top: 150px;
+        display: block;
+        height: 20px;
+        width: 20px;
+        transform: translateY(-40px);
+        text-align: center;
+        font-family: sans-serif;
+        border: 2px solid black;
+    }
+
+    #zakrit:checked~label[for=zakrit] {
+        display: none;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1200px) {
+
+    div.rightmiddle {
+        width: 97.5%;
+        position: relative;
+        top: -657px;
+    }
+
+    .rightmiddle>div:nth-of-type(1) {
+        height: 50px;
+    }
+
+    .rightmiddle>div:nth-of-type(2) {
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .gooood {
+        transform: translateY(125px);
+    }
+    .gooood>div:nth-of-type(n+2):nth-of-type(-n+8) {
+        transform: translateX(-80%);
+    }
+
+    .gooood>div:nth-of-type(1) {
+        transform: translateX(-14%);
+    }
+
+    .gooood>div:nth-of-type(11),
+    .gooood>div:nth-of-type(12) {
+        transform: translateX(-28.8%);
+    }
+
+    .bottom {
+        transform: translateY(-490px);
+    }
+}
+
+@media (min-width:1200px) {
+    body {
+        margin-left: 50%;
+        transform: translateX(-50%)
+    }
+
+    .rightmiddle{
+        width: 97.5%;
+        position: relative;
+        top: -657px
+    }
+
+    .rightmiddle>div:nth-of-type(1) {
+        height: 50px;
+    }
+
+    .rightmiddle>div:nth-of-type(2) {
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .gooood {
+        transform: translateY(125px);
+    }
+
+    .gooood>div:nth-of-type(n+2):nth-of-type(-n+8) {
+        transform: translateX(-80%);
+    }
+
+    .gooood>div:nth-of-type(1) {
+        transform: translateX(-14%);
+    }
+
+    .gooood>div:nth-of-type(11),
+    .gooood>div:nth-of-type(12) {
+        transform: translateX(-28.8%);
+    }
+
+    .bottom {
+        transform: translateY(-490px);
+    }
+}
