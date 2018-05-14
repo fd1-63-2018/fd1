@@ -1,0 +1,66 @@
+.hidden-input {
+    display: none;
+}
+
+.slide__img {
+    width: 200px;
+}
+
+.slide__arrow {
+    position: absolute;
+    border: 20px solid transparent;
+    width: 0px;
+    height: 0px;
+    top: 90px;
+    display: block;
+}
+
+.slide__arrow_next {
+    left: 180px;
+    border-left: 20px solid red;
+}
+
+.slide__arrow_prev {
+    left: -20px;
+    border-right: 20px solid red;
+}
+
+.slide {
+    position: relative;
+    display: none;
+}
+
+.hidden-input_one:checked ~ .slider>.slide_one,
+.hidden-input_two:checked ~ .slider>.slide_two,
+.hidden-input_three:checked ~ .slider>.slide_three,
+.hidden-input_four:checked ~ .slider>.slide_four,
+.hidden-input_five:checked ~ .slider>.slide_five {
+    display: block;
+}
+
+.slider {
+    position: relative;
+}
+
+.pins {
+    position: absolute;
+    bottom: 10px;
+    left: 65px;
+}
+
+.pins__label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: red;
+    cursor: pointer;
+}
+
+.hidden-input_one:checked ~ .slider  .pins__label_one,
+.hidden-input_two:checked ~ .slider .pins__label_two,
+.hidden-input_three:checked ~ .slider .pins__label_three,
+.hidden-input_four:checked ~ .slider .pins__label_four,
+.hidden-input_five:checked ~ .slider .pins__label_five {
+    background-color: blue;
+}
