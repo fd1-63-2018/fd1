@@ -1,0 +1,359 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    min-width: 390px;
+}
+
+h2 {
+    margin-top: 0;
+}
+.menu-input, input[name=pages] {
+    display: none;
+}
+
+.menu-button, .menu-open {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: transform 1s linear, color 0.3s linear;
+    text-align: center;
+    line-height: 100px;
+}
+.menu-button {
+    z-index:400;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background: radial-gradient(circle at 35% 15%, #EECFBA, #C5DDE8);
+}
+.menu-open {
+    z-index: 500;
+}
+.menu-open::before {
+    content: 'Menu';
+}
+.menu-cover {
+    position: fixed;
+    width: 390px;
+    height: 390px;
+    transition: transform 1s linear, right 0.4s ease-in, top 0.4s ease-in, right 0.4s ease-in;
+    right: calc(-280px / 2);
+    top:  calc(-280px / 2);
+    z-index: 200;
+}
+
+.menu-cover::after {
+    display: block;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 195px;
+    width: 390px;
+    height: 390px;
+    transform: scale(0.25);
+    transition: transform 0.4s ease-out;
+    font-size: 4em;
+}
+.menu-cover::before {
+    display: block;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 195px;
+    width: 390px;
+    height: 390px;
+    transform: scale(0.25);
+    transition: transform 0.4s ease-out;
+    background: radial-gradient(circle at center center, transparent 20%, white 35%, transparent 50%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-size: 4em;
+}
+
+.menu {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: transform 0.5s ease-out, border-radius 0.3s ease, border-color  0.5s ease-in, box-shadow 0.5s linear;
+    color: transparent;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    box-shadow: 0 0 0 transparent, 0 0 0 transparent;
+}
+.menu-input:checked ~ .menu-cover {
+    right: 0;
+    top: 0;
+}
+
+.menu-input:checked ~ .menu-cover::before {
+    transform: scale(1);
+}
+
+input.menu-input#menuButton:not(:checked) ~ .menu-cover .menu[for] { 
+    box-shadow: 0 0 0 transparent, 0 0 0 transparent;
+}
+
+.menu-input:checked ~ .menu-cover .menu {
+    border-radius: 0 0 50% 50%;
+    color: initial;
+}
+
+.menu-input:checked ~ .menu-cover .menu-button {
+    color: transparent;
+}
+
+.menu-button::before, .menu-button::after {
+    display: block;
+    content: '';
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: gray;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    color: black;
+    font-size: 1em;
+}
+.menu-input:checked ~ .menu-cover .menu-button::before {
+    animation: cross-fade-in-before 1s linear both normal;
+}
+
+.menu-input:checked ~ .menu-cover .menu-button::after {
+    animation: cross-fade-in-after 1s linear both normal 0.5s;
+}
+
+.section {
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+    border-radius: 50px;
+    text-shadow: 1px 1px white; 
+    font-size: 1.5em;
+    background: #606dbc;
+    box-shadow: 0px 0px 57px 0px #061258 inset;
+    overflow: auto;
+}
+
+.section:nth-of-type(1) {
+}
+.section:nth-of-type(2) {
+}
+.section:nth-of-type(3) {
+}
+.section:nth-of-type(4) {
+}
+.section:nth-of-type(5) {
+}
+.section:nth-of-type(6) {
+}
+
+.menu-cover label:not(.menu-button)::before {
+    display: block;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.menu-cover label:nth-of-type(1)::before {
+    content: "Счетчики в CSS";
+}
+.menu-cover label:nth-of-type(2)::before {
+    content: "БЭМ слайдер";
+}
+.menu-cover label:nth-of-type(3)::before {
+    content: "6 рамок у div";
+}
+.menu-cover label:nth-of-type(4)::before {
+    content: "Круглая граница";
+}
+.menu-cover label:nth-of-type(5)::before {
+    content: "Блоки-кривульки";
+}
+.menu-cover label:nth-of-type(6)::before {
+    content: "Еще немного";
+}
+
+.section-cover {
+    overflow: auto;
+    position: absolute;
+    height: 600%;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+
+@keyframes cross-fade-in-before {
+    0% {
+        opacity: 0;
+        width: 6px;
+    }
+    10% {
+        opacity: 1;
+        width: 70px;
+        transform: rotate(0);
+    }
+    30% {
+        transform: rotate(-45deg);
+        width: 20px;
+    }
+    100% {
+        opacity: 1;
+        width: 20px;
+        transform: rotate(-45deg);
+    }
+}
+
+@keyframes cross-fade-in-after {
+    0% {
+        opacity: 0;
+        width: 6px;
+    }
+    10% {
+        opacity: 1;
+        width: 70px;
+        transform: rotate(0);
+    }
+    30% {
+        transform: rotate(45deg);
+        width: 20px;
+    }
+    100% {
+        opacity: 1;
+        width: 20px;
+        transform: rotate(45deg);
+    }
+}
+
+
+.menu-input:checked ~ .menu-cover .menu:nth-of-type(1) {
+    transform: rotate(60deg) translateY(140px);
+}
+.menu-input:checked ~ .menu-cover .menu:nth-of-type(2) {
+    transform: rotate(calc(2 * 60deg)) translateY(140px) ;
+}
+.menu-input:checked ~ .menu-cover .menu:nth-of-type(3) {
+    transform: rotate(calc(3 * 60deg)) translateY(140px);
+}
+.menu-input:checked ~ .menu-cover .menu:nth-of-type(4) {
+    transform: rotate(calc(4 * 60deg)) translateY(140px);
+}
+.menu-input:checked ~ .menu-cover .menu:nth-of-type(5) {
+    transform: rotate(calc(5 * 60deg)) translateY(140px);
+}
+.menu-input:checked ~ .menu-cover .menu:nth-of-type(6) {
+    transform: rotate(calc(6 * 60deg)) translateY(140px);
+}
+.menu-input:checked ~ .menu-cover .menu-open::before {
+    color: transparent;
+}
+
+input[name=pages]:checked:nth-of-type(1) ~ .menu-cover .menu-button, input[name=pages]:checked:nth-of-type(1) ~ .menu-cover .menu-open {
+    transform: rotate(60deg);
+}
+
+input[name=pages]:checked:nth-of-type(2) ~ .menu-cover .menu-button, input[name=pages]:checked:nth-of-type(2) ~ .menu-cover .menu-open {
+    transform: rotate(calc(2 * 60deg));
+}
+input[name=pages]:checked:nth-of-type(2) ~ .section-cover {
+    transform: translateY(-100vh);
+}
+
+input[name=pages]:checked:nth-of-type(3) ~ .menu-cover .menu-button, input[name=pages]:checked:nth-of-type(3) ~ .menu-cover .menu-open {
+    transform: rotate(calc(3 * 60deg));
+}
+input[name=pages]:checked:nth-of-type(3) ~ .section-cover {
+    transform: translateY(calc(-100vh * 2));
+}
+
+input[name=pages]:checked:nth-of-type(4) ~ .menu-cover .menu-button, input[name=pages]:checked:nth-of-type(4) ~ .menu-cover .menu-open {
+    transform: rotate(calc(4 * 60deg));
+}
+input[name=pages]:checked:nth-of-type(4) ~ .section-cover {
+    transform: translateY(calc(-100vh * 3));
+}
+
+
+input[name=pages]:checked:nth-of-type(5) ~ .menu-cover .menu-button, input[name=pages]:checked:nth-of-type(5) ~ .menu-cover .menu-open {
+    transform: rotate(calc(5 * 60deg));
+}
+input[name=pages]:checked:nth-of-type(5) ~ .section-cover {
+    transform: translateY(calc(-100vh * 4));
+}
+
+input[name=pages]:checked:nth-of-type(6) ~ .menu-cover .menu-button, input[name=pages]:checked:nth-of-type(6) ~ .menu-cover .menu-open {
+    transform: rotate(calc(6 * 60deg));
+}
+input[name=pages]:checked:nth-of-type(6) ~ .section-cover {
+    transform: translateY(calc(-100vh * 5)) translateX(370px);
+    width: calc(100vw - 370px);
+}
+
+
+input[name=pages]:checked:nth-of-type(1)~.menu-cover {
+    transform: rotate(-60deg);
+}
+input[name=pages]:checked:nth-of-type(1)~.menu-cover>.menu:nth-of-type(1),
+input[name=pages]:checked:nth-of-type(2)~.menu-cover>.menu:nth-of-type(2),
+input[name=pages]:checked:nth-of-type(3)~.menu-cover>.menu:nth-of-type(3),
+input[name=pages]:checked:nth-of-type(4)~.menu-cover>.menu:nth-of-type(4),
+input[name=pages]:checked:nth-of-type(5)~.menu-cover>.menu:nth-of-type(5),
+input[name=pages]:checked:nth-of-type(6)~.menu-cover>.menu:nth-of-type(6) {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+input[name=pages]:checked:nth-of-type(2)~.menu-cover {
+    transform: rotate(calc(2 * -60deg));
+}
+
+
+input[name=pages]:checked:nth-of-type(3)~.menu-cover {
+    transform: rotate(calc(3 * -60deg));
+}
+
+input[name=pages]:checked:nth-of-type(4)~.menu-cover {
+    transform: rotate(calc(4 * -60deg));
+}
+
+input[name=pages]:checked:nth-of-type(5)~.menu-cover {
+    transform: rotate(calc(5 * -60deg));
+}
+
+input[name=pages]:checked:nth-of-type(6)~.menu-cover {
+    transform: rotate(calc(6 * -60deg));
+    right: calc(100vw - 370px);
+}
+
+.content {
+    padding: 20px;
+    padding-right: 110px;
+}
+
+.red {
+    color: red;
+}
+
+.warning {
+    font-size: 2em;
+    font-weight: bold;
+}
