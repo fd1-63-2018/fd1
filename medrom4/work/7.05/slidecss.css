@@ -23,11 +23,11 @@ section.slide-five {
     height: 400px;
 }
 
-.input_one:checked~div.slider__top>.slide-one,
-.input_two:checked~div.slider__top>.slide-two,
-.input_three:checked~div.slider__top>.slide-three,
-.input_four:checked~div.slider__top>.slide-four,
-.input_five:checked~div.slider__top>.slide-five {
+.input-one:checked~div.slider>.slide-one,
+.input-two:checked~div.slider>.slide-two,
+.input-three:checked~div.slider>.slide-three,
+.input-four:checked~div.slider>.slide-four,
+.input-five:checked~div.slider>.slide-five {
     display: block;
 }
 
@@ -47,11 +47,11 @@ div.pins label.pins__five {
 }
 
 .pins>label:after,
-.input_one:checked~div.slider__top>.pins>label.pins__one,
-.input_two:checked~div.slider__top>.pins>label.pins__two,
-.input_three:checked~div.slider__top>.pins>label.pins__three,
-.input_four:checked~div.slider__top>.pins>label.pins__four,
-.input_five:checked~div.slider__top>.pins>label.pins__five {
+.input-one:checked~div.slider>.pins>label.pins__one,
+.input-two:checked~div.slider>.pins>label.pins__two,
+.input-three:checked~div.slider>.pins>label.pins__three,
+.input-four:checked~div.slider>.pins>label.pins__four,
+.input-five:checked~div.slider>.pins>label.pins__five {
     background: black;
 }
 
@@ -75,8 +75,8 @@ label.slide__nextSlide {
     background-color: #696969;
 }
 
-div.slider__top {
-    max-width: 100vmin;
+div.slider {
+    max-width: 130vmin;
     min-height: 100vmin;
     margin-left: auto;
     margin-right: auto;
