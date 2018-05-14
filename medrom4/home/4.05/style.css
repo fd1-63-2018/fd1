@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F5F5DC;
+    width: 1000px;
+    height: 300px;
+    position: relative;
+}
+
+.ballon {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 400px;
+    background-color: #D2691E;
+    border-radius: 100%;
+    background: radial-gradient(at 26px 26px, #ca5500, #000000);
+    animation: prigaet-1 4s linear infinite, prigaet-2 12s linear alternate infinite;
+}
+
+@keyframes prigaet-1 {
+    0% {
+        top: 300px;
+    }
+
+    10% {
+        top: 240px;
+    }
+
+    20% {
+        top: 180px;
+    }
+
+    30% {
+        top: 120px;
+    }
+    
+    35% {
+        top: 80px;    
+    }
+
+    40% {
+        top: 60px;
+    }
+
+    50% {
+        top: 50px;
+    }
+
+    60% {
+        top: 60px;
+    }
+    
+    65% {
+        top: 80px;    
+    }
+
+    70% {
+        top: 120px;
+    }
+
+    80% {
+        top: 180px;
+    }
+
+    90% {
+        top: 240px;
+    }
+
+    100% {
+        top: 300px;
+    }
+}
+
+@keyframes prigaet-2 {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 100%;
+    }
+}
