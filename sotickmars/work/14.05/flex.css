@@ -219,9 +219,9 @@ label{
         width: 100%;
     }
     
-    .li{
+    .article>.ul>.li{
         margin-top: 10px;
-        margin-left: 0px;
+        margin-left: -0%;
         flex-basis:40px;
 }
     
