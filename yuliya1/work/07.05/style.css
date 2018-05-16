@@ -6,16 +6,16 @@ input {
     display: none;
 }
 
-.slide_one,
-.slide_two,
-.slide_three,
-.slide_four,
-.slide_five {
+.slider_one,
+.slider_two,
+.slider_three,
+.slider_four,
+.slider_five {
     display: none;
     position: relative;
 }
 
-.slide_prev {
+.slider_prev {
     width: 20px;
     border-top: 20px solid transparent;
     border-right: 40px solid red;
@@ -26,7 +26,7 @@ input {
     left: -10px;
 }
 
-.slide_next {
+.slider_next {
     display: inline-block;
     width: 20px;
     border: 20px solid transparent;
@@ -36,11 +36,11 @@ input {
     left: 400px;
 }
 
-.input_1:checked~div .slide_one,
-.input_2:checked~div .slide_two,
-.input_3:checked~div .slide_three,
-.input_4:checked~div .slide_four,
-.input_5:checked~div .slide_five {
+.input_1:checked~div .slider_one,
+.input_2:checked~div .slider_two,
+.input_3:checked~div .slider_three,
+.input_4:checked~div .slider_four,
+.input_5:checked~div .slider_five {
     display: block;
 }
 
