@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.slide-one,
+.slide-two,
+.slide-three,
+.slide-four,
+.slide-five,
+.input-one,
+.input-two,
+.input-three,
+.input-four,
+.input-five {
+    display: none;
+}
+
+.slide-one,
+.slide-two,
+.slide-three,
+.slide-four,
+.slide-five {
+    position: relative;
+    width: 800px;
+    height: 400px;
+}
+
+.input-one:checked~.slider>.slide-one,
+.input-two:checked~.slider>.slide-two,
+.input-three:checked~.slider>.slide-three,
+.input-four:checked~.slider>.slide-four,
+.input-five:checked~.slider>.slide-five {
+    display: block;
+}
+
+.pins .pins__one,
+.pins .pins__two,
+.pins .pins__three,
+.pins .pins__four,
+.pins .pins__five {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #696969;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 3px;
+    margin-left: 100px;
+}
+
+.pins>.pins__one:after,
+.pins>.pins__two:after,
+.pins>.pins__three:after,
+.pins>.pins__four:after,
+.pins>.pins__five:after,
+.input-one:checked~.slider>.pins>.pins__one,
+.input-two:checked~.slider>.pins>.pins__two,
+.input-three:checked~.slider>.pins>.pins__three,
+.input-four:checked~.slider>.pins>.pins__four,
+.input-five:checked~.slider>.pins>.pins__five {
+    background: black;
+}
+
+.slide__prevSlide {
+    position: absolute;
+    display: inline-block;
+    width: 15px;
+    height: 100px;
+    top: 150px;
+    left: 20px;
+    background-color: #696969;
+}
+
+.slide__nextSlide {
+    position: absolute;
+    display: inline-block;
+    width: 15px;
+    height: 100px;
+    top: 150px;
+    left: 765px;
+    background-color: #696969;
+}
+
+.slider {
+    max-width: 130vmin;
+    min-height: 100vmin;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slide__prevSlide::after {
+    content: "<";
+    color: black;
+    font-weight: bold;
+    font-size: 26px;
+    position: absolute;
+    top: 35px;
+    left: 0px
+}
+
+.slide__nextSlide::after {
+    content: ">";
+    color: black;
+    font-weight: bold;
+    font-size: 26px;
+    position: absolute;
+    top: 35px;
+    left: 0px;
+}
