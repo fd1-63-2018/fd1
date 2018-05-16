@@ -1,0 +1,17 @@
+/*
+примеси с аргументами
+*/
+.border-radius(@radius) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	-ms-border-radius: @radius;
+	border-radius: @radius;
+}
+
+.box-1 { 
+	.border-radius(10px); 
+}
+
+.box-2 { 
+	.border-radius(5px); 
+}

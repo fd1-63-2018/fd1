@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/*
+миксины/примеси
+*/
+
+@mixin table-base {
+	th {
+		text-align: center;
+		font-weight: bold;
+	}
+	td, th {
+		padding: 2px
+	}
+}
+ 
+#data {
+	@include table-base;
+}
