@@ -260,8 +260,10 @@ label{
     label[for=reklama]{
         height: 120px;
         width: 100%;
-        position: fixed;
+        position:fixed;
         background:red;
+        top: 83vh;
+        
     }
     #reklama:checked~label[for=reklama]{
         display: none;
@@ -273,6 +275,7 @@ label{
         height: 20px;
         width: 20px;
         border:2px solid red;
+        top: 80vh;
     }
 }
 
