@@ -1,0 +1,71 @@
+img{
+   width:450px;
+   margin-left:50px;
+   user-select:none;
+}
+section{
+   height:350px;
+   width:350px;
+}
+section,
+input[type=radio]{
+   display:none;
+}
+
+.input__slide_img1:checked~.div__slider>.section__slide_one,
+.input__slide_img2:checked~.div__slider>.section__slide_two,
+.input__slide_img3:checked~.div__slider>.section__slide_three,
+.input__slide_img4:checked~.div__slider>.section__slide_four, 
+.input__slide_img5:checked~.div__slider>.section__slide_five
+{
+   display:block;
+   transition: color 0.7s ease-in 0.3s;
+   
+}
+
+
+.slide_prev{
+   height:4px;
+   width:4px;
+   border:20px solid green;
+   border-bottom:20px solid #fff;
+   border-top:20px solid #fff;
+   border-left:20px solid #fff;
+   position:absolute;
+   top:200px;
+}
+
+.slide_next{
+   height:4px;
+   width:4px;
+   border:20px solid green;
+   border-top:20px solid #fff;
+   border-bottom:20px solid #fff;
+   border-right:20px solid #fff;
+   position:absolute;
+   left:520px;
+   top:200px;
+}
+
+.div__pins>label{
+   height:30px;
+   width:30px;
+   border:1px solid green;
+   border-radius:50%;
+   float:left;
+   margin:10px;
+   margin-top:140px;
+   margin-left:60px;
+   cursor: pointer;
+}
+
+.input__slide_img1:checked~div .div__pins .pins_one,
+.input__slide_img2:checked~div .div__pins .pins_two,
+.input__slide_img3:checked~div .div__pins .pins_three,
+.input__slide_img4:checked~div .div__pins .pins_four,
+.input__slide_img5:checked~div .div__pins .pins_five{
+   display:block;
+   background:green; transition: all 0.5s
+}
+  
+

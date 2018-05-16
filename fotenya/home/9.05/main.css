@@ -1,0 +1,93 @@
+.box {
+  animation: name duration delay count direction play-state timing fill-mode;
+}
+ .ball {
+  margin:20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: radial-gradient(at top left, white, violet, lightblue, blue);
+  position:relative;
+    }
+  @keyframes ball { 
+    0%{background-position:0% 0%}
+    50%{background-position:100% 100%}
+    100%{background-position:0% 0%}
+}
+.box>div{
+      display: block;
+    animation:hor 5s linear infinite;
+    animation-fill-mode: forwards;
+    animation-direction:reverse;
+}
+
+.box{
+    animation:ver 0.6s ease-in infinite;
+    animation-direction: alternate;
+}
+
+hr{
+    margin-top: 250px;
+    height: 5px;background-color: indigo;
+    animation:linear infinite;
+   
+    }
+@keyframes ball{from {width:10px;} to {width:800px;}
+  
+}
+
+@keyframes hor {
+    0%{
+        transform: translateX(0vmin);
+        background:blue;
+    }
+    25%{
+        transform: translateX(50vmin);
+        background:violet;
+        
+  }
+    50%{
+        transform: translateX(100vmin);
+        background:lightblue;
+        
+    }
+    75%{
+        transform: translateX(50vmin);
+        background:green;
+        
+    }
+    100%{
+        transform: translateX(0vmin);
+        background:yellow;
+        
+    }
+}
+@keyframes ver {
+    0%{
+        transform: translateY(25px);
+        
+    }
+  100%{
+        transform: translateY(250px);
+    }
+    
+}
+
+@keyframes hr{
+    0%{
+        background:blue;
+    }
+    25%{
+        background:green;
+    }
+  50%{
+      background:violet;
+    }
+    75%{
+        background:red;
+    }
+    100%{
+        background:yellow;
+    }
+}
+
