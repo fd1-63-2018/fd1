@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/*
+миксины/примеси
+*/
+#data th {
+  text-align: center;
+  font-weight: bold; }
+#data td, #data th {
+  padding: 2px; }

@@ -1,0 +1,16 @@
+/*
+Наследование (extend не существуют - используем миксины)
+*/
+.error {
+  border: 1px #f00;
+  background: #fdd;
+}
+.error.intrusion {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.badError {
+  border: 1px #f00;
+  background: #fdd;
+  border-width: 3px;
+}

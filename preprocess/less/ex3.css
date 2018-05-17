@@ -1,0 +1,19 @@
+/*
+миксины/примеси
+*/
+.th {
+  text-align: center;
+  font-weight: bold;
+}
+.td,
+.th {
+  padding: 2px;
+}
+#data td {
+  padding: 2px;
+}
+#data th {
+  text-align: center;
+  font-weight: bold;
+  padding: 2px;
+}
