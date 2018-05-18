@@ -71,21 +71,22 @@ label.nextSlide{
 
 #one:checked~#slider>.pins>label[for=one]{
    display:block;
-   background:lightgreen;
+   background:lightgreen;transition: all 0.5s
 }
 #two:checked~#slider>.pins>label[for=two]{
    display:block;
-   background:lightgreen;
+   background:lightgreen;transition: all 0.5s
 }
 #three:checked~#slider>.pins>label[for=three]{
    display:block;
-   background:lightgreen;
+   background:lightgreen;transition: all 0.5s
 }
 #four:checked~#slider>.pins>label[for=four]{
    display:block;
-   background:lightgreen;
+   background:lightgreen;transition: all 0.5s;
 }
 #five:checked~#slider>.pins>label[for=five]{
    display:block;
    background:lightgreen;
+   transition: all 0.5s
 }
