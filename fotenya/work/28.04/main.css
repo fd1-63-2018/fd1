@@ -1,64 +1,64 @@
-* {
- margin: 0px;
- padding: 0px;
+*{
+margin: 0px;
+padding: 0px;
 }
 p {display: block;
-    clear: both;
-    padding: 10px;
-    color: blue;
-    font-style: italic;
+   clear: both;
+   padding: 10px;
+   color: blue;
+   font-style: italic;
 }
 
 p:nth-of-type(7n+1) {
-    color: black;
-    font-size: 24px;
-    font-weight: bold;
+   color: black;
+   font-size: 24px;
+   font-weight: bold;
 }
 
 p:nth-of-type(7n+2) {
-    color: green;
+   color: green;
 }
 
 p:nth-of-type(7n+3) {
-    color: red;
+   color: red;
 
 }
 
 p:nth-of-type(7n+4) {
-    color: blue;
-    text-decoration: underline;
-    font-style: normal;
+   color: blue;
+   text-decoration: underline;
+   font-style: normal;
 }
 
 p:nth-of-type(n+1):nth-of-type(-n+7) {
-    width: 30%;
-    height: 100%;
-        float: left; clear: both;
+   width: 30%;
+   height: 100%;
+       float: left; clear: both;
 }
 p:nth-of-type(n+8):nth-of-type(-n+14) {
-    margin-left: 33%;
-    margin-right: 33%;
- height: 100%; width: 30%;top: 10px;clear: right;
-    
+   margin-left: 33%;
+   margin-right: 33%;
+height: 100%; width: 30%;top: 10px;clear: right;
+   
 }
 
 p:nth-of-type(n+15):nth-of-type(-n+19) {
-    width: 30%; position: absolute;
-    height: 100%;
-    margin-left:65%;
-    }
+   width: 30%; position: absolute;
+   height: 100%;
+   margin-left:65%;
+   }
 p:nth-of-type(n+15){top: 0px;
 }
 p:nth-of-type(n+16){top: 70px;
-    
+   
 }
 p:nth-of-type(n+17){top: 130px;
-    
+   
 }
 p:nth-of-type(n+18){top: 190px;
 }
 p:nth-of-type(n+19){top: 225px;
-    
+   
 }
 p:nth-of-type(n+11){margin-top: 20px;
 }
@@ -66,22 +66,22 @@ p:nth-of-type(n+12){margin-top: 0px;
 }
 @media (min-width: 400px) and (max-width: 800px) {
 a:before {
-  content: "400> && <800";
-  margin: 50px;
+ content: "400> && <800";
+ margin: 50px;
+}
  }
-  } 
 
 @media (max-width: 400px){
-    a:before {
-  content: "<400";
-  margin: 50px;
+   a:before {
+ content: "<400";
+ margin: 50px;
 
- }
+}
 }
 @media (min-width: 800px){
-    a:before {
-  content: ">800";
-  margin: 50px;
+   a:before {
+ content: ">800";
+ margin: 50px;
 
- }
+}
 }
