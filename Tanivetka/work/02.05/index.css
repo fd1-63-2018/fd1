@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100vmin;
+    min-height: 100vmin;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.one {
+    display: inline-block;
+    width: 11vmin;
+    height: 8vmin;
+    margin: 1vmin;
+}
+
+.two {
+    display: inline-block;
+    width: 25vmin;
+    height: 8vmin;
+    margin: 1vmin;
+}
+
+.three {
+    display: inline-block;
+    margin: 1vmin;
+    width: 45vmin;
+    height: 8vmin;
+}
+
+.line {
+    width: 89vmin;
+    border: 1px solid grey;
+    margin: 1vmin;
+    display: inline-block;
+}
+
+.one,
+.two,
+.three,
+.four,
+.seven {
+    background: grey;
+    color: white;
+    vertical-align: text-top;
+    padding-left: 1vmin;
+    padding-top: 1vmin;
+}
+
+.four {
+    display: inline-block;
+    width: 16vmin;
+    height: 27vmin;
+    margin: 1vmin;
+}
+
+.empty2 {
+    width: 16vmin;
+    height: 26vmin;
+    margin: 1vmin;
+}
+
+.seven {
+    width: 16vmin;
+    height: 10vmin;
+    margin: 1vmin;
+}
+
+.five {
+    width: 69vmin;
+    height: 16vmin;
+    margin: 1vmin;
+}
+
+.aside {
+    float: left;
+}
+
+.main {
+    display: inline-block;
+    width: 73vmin;
+}
+
+.six {
+    display: inline-block;
+    width: 11vmin;
+    height: 13vmin;
+    margin: 1vmin;
+}
+
+.five,
+.six,
+.eight,
+.nine {
+    background: silver;
+    color: white;
+    vertical-align: text-top;
+    padding-left: 1vmin;
+    padding-top: 1vmin;
+}
+
+.eight,
+.nine {
+    float: left;
+    width: 33vmin;
+    height: 16vmin;
+    margin: 1vmin;
+}
+
+.ten,
+.eleven,
+.twelve,
+.thirteen {
+    background: gray;
+    color: white;
+    vertical-align: text-top;
+    padding-left: 1vmin;
+    padding-top: 1vmin;
+    margin: 1vmin;
+}
+
+.ten,
+.eleven {
+    float: left;
+    width: 26vmin;
+    height: 14vmin;
+}
+
+.twelve,
+.thirteen {
+    float: left;
+    width: 30vmin;
+    height: 5vmin;
+}
+
+.twelve:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+input {
+    display: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+@media (max-width: 640px) {
+    .two,
+    .ten,
+    .eleven,
+    .twelve,
+    .empty,
+    .empty2 {
+        display: none;
+    }
+    div {
+        float: left;
+        clear: both;
+    }
+    .container {
+        margin: 0;
+        width: 100vw;
+    }
+    div:nth-child(n) {
+        width: 100vw;
+    }
+
+    /* выпадающее меню */
+    #menu:checked~li {
+        display: block;
+    }
+
+    li {
+        display: none;
+    }
+    span {
+        font-size: 2em;
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+    span:hover {
+        color: green;
+        transform: scale(2, 2);
+    }
+
+    div.four {
+        height: auto;
+        padding: 0;
+    }
+
+    /* рекламный блок */
+    div.seven {
+        display: block;
+        position: fixed;
+        bottom: 50px;
+        width: 80%;
+        height: 20%;
+        margin-left: 10%;
+    }
+
+    /* кнопка закрытия блока */
+    label[for=close] {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-image: url(small.png);
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    label[for=close]:hover {
+        transform: scale(1.5, 1.5);
+    }
+
+    /* закрытие блока */
+    #close:checked+div {
+        display: none;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 1024px) {
+    label[for=menu] {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .empty2 {
+        display: none;
+    }
+
+    input,
+    span {
+        display: none;
+    }
+
+    li {
+        display: inline;
+    }
+
+    .aside {
+        display: block;
+    }
+}

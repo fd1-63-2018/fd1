@@ -1,0 +1,79 @@
+body {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+}
+
+slider {
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+    position: absolute;
+}
+
+slide {
+    width: 800px;
+    height: 600px;
+}
+
+input {
+    display: none;
+}
+
+.pins>label {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    position: relative;
+    /* относительное позиционирование */
+    bottom: 50px;
+    /* сдвиг вверх */
+    left: 300px;
+    /* сдвиг вправо */
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.input__one:checked~#slider>.pins>label:nth-of-type(1),
+.input__two:checked~#slider>.pins>label:nth-of-type(2),
+.input__three:checked~#slider>.pins>label:nth-of-type(3),
+.input__four:checked~#slider>.pins>label:nth-of-type(4),
+.input__five:checked~#slider>.pins>label:nth-of-type(5) {
+    background: black;
+}
+
+/* скрыли все слайды */
+
+.slide {
+    display: none;
+}
+
+/* когда # чекнут, то элемент, вложенный в слайдер под номером (),
+отображать как блочный */
+
+#one:checked~#slider>.slide:nth-child(1),
+#two:checked~#slider>.slide:nth-child(2),
+#three:checked~#slider>.slide:nth-child(3),
+#four:checked~#slider>.slide:nth-child(4),
+#five:checked~#slider>.slide:nth-child(5) {
+    display: block;
+}
+
+.nextSlide {
+    border: 20px solid transparent;
+    border-left: 20px solid green;
+    margin: 10px;
+    position: absolute;
+    bottom: 280px;
+    left: 740px;
+
+}
+
+.prevSlide {
+    border: 20px solid transparent;
+    border-right: 20px solid green;
+    margin: 10px;
+    position: absolute;
+    bottom: 280px;
+}
