@@ -29,7 +29,7 @@ if (personAge >= 31 && personAge < 135) {
     textMessage = "Поздравляем!!! Вы можете быть президентом.";
 }
 
-if (personAge > 135) {
+if (personAge >= 135) {
     textMessage = "Столько не живут.";
 }
     
