@@ -1,0 +1,14 @@
+/* цвет */
+/* отступ */
+/* размер текста */
+.content {
+  border: 1px solid #3bbfce;
+  /* синий бордюр */
+  color: #217882;
+  /* затемнение цвета на 20% */
+}
+.border {
+  padding: 8px;
+  margin: 8px;
+  border-color: #3bbfce;
+}
