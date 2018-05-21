@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" href="main.css" type="text/css"/>
+        <script>
+        function TryParseInt(str,defaultValue) 
+        {
+     var retValue = defaultValue;
+     if(str !== null) {
+         if(str.length > 0) {
+             if (!isNaN(str)) {
+                 retValue = parseInt(str);
+             }
+         }
+     }
+     return retValue;
+}
+
+function CheckAge()
+{
+var age1;
+var message;
+
+age1 = document.getElementById('age').value;
+
+var b = TryParseInt(age1, 0); 
+if(b == 0 )
+{
+alert('Нужно вводить только числовые значения');
+return;
+}
+
+
+if(Math.sign(age1) <= 0 )
+{
+alert('Нельзя вводить отрицательные значения');
+return;
+}
+
+
+
+if(age1 < 18)
+{
+message = "Вы не можете голосовать на выборах";
+}
+else if (age1 >=18 && age1 < 35) 
+{
+message = "Вы можете быть депутатом, но не можете быть президентом";
+}
+else if (age1 >=35 && age1 <=135)
+{
+message = "Вы можете быть президентом";
+}
+else if (age1 > 135)
+{
+message = "Столько не живут";
+}
+
+alert(message);
+}
+</script>
+    </head>
+    <body>
+<input type="text" value="" id="age">
+<input type="button" value="Проверить возраст" onclick="CheckAge();">
+    </body>
+</html>
