@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <meta charset='utf-8'>
+<script>
+function CheckAge()
+{
+var age1;
+var message;
+
+age1 = document.getElementById('edge').value;
+
+if(!isNaN(age1) && age1 > 0)
+{
+for(var i = 1; i < 18; i++)
+{
+switch (age1)
+{
+case String(i):
+alert("Вы не можете голосовать на выборах");
+break;
+}
+}
+for(var i = 18; i < 35; i++)
+{
+switch (age1)
+{
+case String(i):
+alert("Вы можете стать депутатом");
+break;
+}
+}
+
+for(var i = 35; i < 135; i++)
+{
+switch (age1)
+{
+case String(i):
+alert("Вы можете быть президентом");
+break;
+}
+}
+for(var i = 135; i < 1000; i++)
+{
+switch (age1)
+{
+case String(i):
+alert("Столько не живут");
+break;
+}
+}
+
+}
+else
+{
+alert("Введите корректное значение");
+document.getElementById('edge').value = '';
+}
+
+
+
+}
+</script>
+
+</head>
+
+<body>
+<table>
+<tr>
+<td>
+<center>
+
+<input type="text" value="" id="edge"><br>
+<input type="button" value="Проверить возраст" onclick="javascript:CheckAge();">
+
+</center>
+</td>
+</tr>
+</table>
+</body>
+</html>
