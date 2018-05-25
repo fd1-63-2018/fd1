@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 150vmin;
+    margin: 5% auto;
+}
+
+.sl__slide img {
+   margin: 10px auto;
+}
