@@ -2,7 +2,7 @@ var personAge = prompt("Введите Ваш возраст");
 var textMessage;
 
 
-while(isNaN(personAge) || personAge < 0 || personAge == null) {
+while(isNaN(personAge) || personAge < 0 || personAge == null || personAge >= 135) {
     alert("Вы не ввели данные или ввели некорректные данные");
     personAge = prompt("Введите Ваш возраст");
 } 
@@ -21,11 +21,8 @@ switch(true) {
         break;
     case personAge >= 31 && personAge < 135:
         textMessage = "Вы имеете право голосовать, баллотироваться в депутаты Национального собрания и президенты";
-        break;
-    case personAge >= 135:
-        textMessage = "Столько не живут";    
-
-}
+    
+       }
 
 document.getElementById("resultMessage").innerHTML = textMessage;
 
