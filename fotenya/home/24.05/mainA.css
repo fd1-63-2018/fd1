@@ -1,0 +1,54 @@
+body{
+	background:#e7e7e6 url(images/bg.jpg) repeat-x;
+	font-family:Verdana, Geneva, sans-serif; font-size:12px;
+}
+#wrapper{
+	width:1000px;
+	margin:0 auto;
+}
+#logo{
+	background:url(images/logo.png) no-repeat;
+	height:50px;
+	width:350px;
+	float:left;
+	margin:52px 0 0 18px;
+}
+body{
+	background:#e7e7e6 url(images/bg.jpg) repeat-x;
+	font-family:Verdana, Geneva, sans-serif; font-size:12px;
+}
+#wrapper{
+	width:1000px;
+	margin:0 auto;
+}
+#logo{
+	background:url(images/logo.png) no-repeat;
+	height:50px;
+	width:350px;
+	float:left;
+	margin:52px 0 0 18px;
+}
+#slider_wrap{
+	float:left;
+	height:428px;
+	margin-top:50px;
+}
+#slider_bg{
+	background:url(images/sliderBg.jpg) no-repeat;
+	width:960px;
+	height:367px;
+	margin:20px 20px 0 20px;
+	float:left;
+}
+#wow_slider{
+	width:935px;
+	height:388px;
+	margin:-10px 10px;
+}
+#shadow{
+	background:url(images/downShadow.png) no-repeat;
+	width:952px;
+	height:96px;
+	float:left;
+	margin:-10px 0 0 20px;
+}
