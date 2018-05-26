@@ -1,21 +1,36 @@
-function Palindrome_Go(palindrom) {
-    var strLen = palindrom.length;
-    var result = "";
-    for (var i = 0; i < strLen; i++) {
-        if (palindrom[i] === palindrom[strLen - 1 - i]) { //Сравниваем все элементы от начала строки со всеми элементами с конца строки
-            result = "yes";
-        }
-        else {
-            result = "no";
-            return result;
-        }
-    }
-    return result;
+var str = prompt("Введите предпологаемый палиндром:");
+
+str.split(",").join("") //Убираем все элементы, которые могут быть в строке, предложении
+    .split("!").join("")
+    .split("?").join("")
+    .split(".").join("")
+    .split(":").join("")
+    .split("-").join("")
+    .split(";").join("")
+    .split(" ").join("")
+    .split("_").join("")
+    .split("-").join("")
+    .split("=").join("")
+    .split("%").join("")
+    .split("#").join("")
+    .split("@").join("")
+    .split("*").join("")
+    .split("(").join("")
+    .split(")").join("")
+    .split("[").join("")
+    .split("[").join("")
+    .split("{").join("")
+    .split("}").join("")
+    .split("<").join("")
+    .split(">").join("")
+    .split("\"").join("")
+    .split("'").join("");
+
+str = str.toLowerCase().split("");
+
+if (str.join("") === str.reverse().join("")) {
+    alert("Congratulations у Вас палиндром!!");
 }
-
-test = Palindrome_Go("арозаупаланалапуазора");
-test2 = Palindrome_Go("аргентинаманитнегра");
-
-console.log(test);
-console.log(test2);
-document.write("result: " + "palindrom№1 - " + test + " palindrom№2 - " + test2);
+else {
+    alert("Увы, но нет, это не палиндром.")
+}
